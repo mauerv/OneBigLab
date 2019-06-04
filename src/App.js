@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <p>One Big Lab TM</p>
+        <nav className="navbar navbar-dark bg-primary">
+				  <a className="navbar-brand" href="#">OneBigLab</a>
+				</nav>
     </div>
   );
 }
