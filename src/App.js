@@ -36,8 +36,10 @@ function App() {
 						tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. 
 					</Feature>
 					<div className='row border-top border-bottom pt-4 pb-3'>
-						<h3 className='col-12 pl-0'>Featured DAOs</h3>
-						<a className="btn btn-primary" href="#" role="button">Moloch DAO</a>
+						<h3 className='col-12'>Featured DAOs</h3>
+						<div className='col-12'>
+							<a className="btn btn-primary" href="#" role="button">Moloch DAO</a>
+						</div>
 					</div>
 				</div>
 			</div>
