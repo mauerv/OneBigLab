@@ -6,6 +6,7 @@ import Feature from './Feature'
 import { Link } from 'react-router-dom'
 
 import * as ROUTES from '../constants/routes'
+import daos from '../data/daos'
 
 export default () => (
 	<div>
@@ -16,7 +17,6 @@ export default () => (
 			buttonLink={ROUTES.DAOS}
 		/>
 		<div className='container'>
-
 			<div className='border-top border-bottom pt-4 pb-3'>
 				<h3>What is a DAO</h3>
 				<p>
@@ -34,9 +34,9 @@ export default () => (
 			<div className='row border-top border-bottom pt-4 pb-3'>
 				<h3 className='col-12'>Featured DAOs</h3>
 				<div className='col-12'>
-					<Link to={ROUTES.MOLOCH} className='btn btn-primary'>Moloch</Link>
-					<Link to={ROUTES.HUMANITYDAO} className='btn btn-primary ml-3'>Humanity DAO</Link>
-					<Link to={ROUTES.MAKERDAO} className='btn btn-primary ml-3'>MakerDAO</Link>
+					{daos.map(dao => (
+						<Link to={`${ROUTES.DAOS}/${dao.id}`} className='btn btn-primary mr-1'>{dao.title}</Link>
+					))}
 				</div>
 			</div>
 		</div>

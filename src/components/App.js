@@ -10,11 +10,7 @@ import Landing from './Landing'
 import CreateInfo from './CreateInfo'
 import News from './News'
 import Daos from './Daos/'
-import Moloch from './Daos/Moloch'
-import HumanityDAO from './Daos/HumanityDAO'
-import DashDAO from './Daos/DashDAO'
-import MakerDAO from './Daos/MakerDAO'
-
+import Dao from './Daos/Dao'
 import * as ROUTES from '../constants/routes'
 
 function App() {
@@ -24,13 +20,10 @@ function App() {
     		<Navbar />
 	    	<div className='content'>
 					<Route exact path={ROUTES.HOME} component={Landing} />
-					<Route exact path={ROUTES.DAOS} component={Daos} />
-					<Route path={ROUTES.MOLOCH} component={Moloch} />
-					<Route path={ROUTES.DASH} component={DashDAO} />
-					<Route path={ROUTES.HUMANITYDAO} component={HumanityDAO} />
-					<Route path={ROUTES.MAKERDAO} component={MakerDAO} />
 					<Route path={ROUTES.CREATE_INFO} component={CreateInfo} />
-					<Route path={ROUTES.NEWS} component={News} />
+					<Route path={ROUTES.NEWS} component={News} />					
+					<Route exact path={ROUTES.DAOS} component={Daos} />
+					<Route path={ROUTES.DAO} component={Dao} />
 				</div>
 				<Footer />
 	    </div>

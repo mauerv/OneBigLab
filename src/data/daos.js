@@ -1,5 +1,6 @@
-export default {
-	moloch: {
+export default [
+	{
+		id: 0,
 		title: 'MolochDAO',
 		description: 'A community DAO focused on funding Ethereum development, in the name of Moloch the God of Coordination Failure.',
 		website: `https://molochdao.com/`,
@@ -18,9 +19,7 @@ export default {
 				description: 'Contains all the funds for the DAO'
 			}			
 		],
-		code: {
-			github: `https://github.com/MolochVentures`
-		},
+		github: `https://github.com/MolochVentures`,
 		community: {
 			twitter: `https://twitter.com/MolochDAO`
 		},
@@ -28,8 +27,9 @@ export default {
 			whitepaper: ''
 		}
 	},
-	humanityDao: {
-		title: 'Humanity DAO',
+	{
+		id: 1,
+		title: 'HumanityDAO',
 		description: 'Unique identity on Ethereum. Building the foundation for voting, Universal Basic Income, and more.',
 		website: `https://humanitydao.org/`,
 		contractProof: {
@@ -67,9 +67,7 @@ export default {
 				description: 'Does Stuff'
 			}					
 		],
-		code: {
-			github: `https://github.com/marbleprotocol/humanity`
-		},
+		github: `https://github.com/marbleprotocol/humanity`,
 		community: {
 			twitter: `https://twitter.com/HumanityDAO`
 		},
@@ -77,7 +75,8 @@ export default {
 			whitepaper: ''
 		}
 	},
-	makerDao: {
+	{
+		id: 2,
 		title: 'MakerDAO',
 		description: 'Maker is a Decentralized Autonomous Organization that creates and insures the dai stablecoin on the Ethereum blockchain',
 		website: `https://makerdao.com/`,
@@ -91,17 +90,19 @@ export default {
 				description: 'MKR token contract'
 			},
 		],
-		code: {
-			github: `https://github.com/makerdao`
-		},
+		github: `https://github.com/makerdao`,
 		community: {
 			twitter: `https://twitter.com/MakerDAO`
 		},
 		documents: {
 			whitepaper: ''
 		}
-	},
-	exampleDao: {
+	},	
+]
+
+/*
+	{
+		id: 1,
 		title: '',
 		description: '',
 		website: ``,
@@ -125,4 +126,4 @@ export default {
 			whitepaper: ''
 		}
 	}
-}
+*/
