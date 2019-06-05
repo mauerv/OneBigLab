@@ -20,6 +20,7 @@ export default [
 		],
 		github: `https://github.com/MolochVentures`,
 		twitter: `MolochDAO`,
+		medium: 'molochdao',
 		documents: {
 			whitepaper: ''
 		}
@@ -65,6 +66,7 @@ export default [
 		],
 		github: `https://github.com/marbleprotocol/humanity`,
 		twitter: `HumanityDAO`,
+		medium: 'marbleorg',
 		documents: {
 			whitepaper: ''
 		}
@@ -85,6 +87,7 @@ export default [
 		],
 		github: `https://github.com/makerdao`,
 		twitter: `MakerDAO`,
+		medium: 'makerdao',
 		documents: {
 			whitepaper: ''
 		}
@@ -195,6 +198,7 @@ export default [
 		],
 		github: `https://github.com/somish/NexusMutual`,
 		twitter: `nexusmutual`,
+		medium: 'nexus-mutual',
 		documents: {
 			whitepaper: ''
 		}

@@ -40,15 +40,15 @@ export default () => (
 			<MDBRow className='border-top border-bottom pt-4 pb-3'>
 				<MDBCol className='col-12'><h3>Featured DAOs</h3></MDBCol>
 				{daos.map(dao => (
-					<MDBCol sm='6' md='3' className='col-12 text-center mb-3'>
-            <MDBView hover zoom>
-							<Link to={`${ROUTES.DAOS}/${dao.id}`}>
+					<MDBCol sm='6' md='3' className='col-10 offset-1 offset-sm-0 text-center mb-3'>
+            <Link to={`${ROUTES.DAOS}/${dao.id}`}>
+	            <MDBView hover zoom>
 								<img src={dao.image} className='img-thumbnail' />
-							</Link>
-              <MDBMask className="flex-center" overlay="stylish-strong">
-                <h4 className="white-text font-weight-bolder">{dao.title}</h4>
-              </MDBMask>
-            </MDBView>
+	              <MDBMask className="flex-center" overlay="stylish-strong">
+	                <h4 className="white-text font-weight-bolder">{dao.title}</h4>
+	              </MDBMask>
+	            </MDBView>
+						</Link>
           </MDBCol>
 				))}
 			</MDBRow>
