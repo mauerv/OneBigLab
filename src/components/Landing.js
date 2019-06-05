@@ -28,7 +28,7 @@ export default () => (
 			</div>
 			<div className='border-top border-bottom pt-4 pb-3'>
 				<h3>How to start one?</h3>
-				<p>These days there are multiple frameworks, platforms or code you can fork in order to start your own DAO. It can have its own blockchain, or live as a smart contract on top of a platform like <a href='https://ethereum.org/'>Ethereum</a> or <a href='https://www.rsk.co/'>Rootstock</a>.</p>
+				<p>These days there are multiple frameworks, platforms or code you can fork in order to start your own DAO. It can have its own blockchain, or live as a smart contract on top of a platform like <a href='https://ethereum.org/' target='_blank'>Ethereum</a> or <a href='https://www.rsk.co/' target='_blank'>Rootstock</a>.</p>
 				<Link to={ROUTES.CREATE_INFO} className='btn btn-primary'>Start a DAO</Link>
 			</div>
 			<div className='row border-top border-bottom pt-4 pb-3'>

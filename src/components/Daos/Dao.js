@@ -19,7 +19,7 @@ export default ({ match }) => {
 				<h3>Contracts</h3>
 				<div>
 					<h5>Contract Proof</h5>
-					<p className='wrap-url'>{dao.contractProof.twitter}</p>
+					<p className='wrap-url'>{dao.contractProof}</p>
 				</div>
 				{dao.contracts.map(contract => (
 					<div key={contract.address}> 	

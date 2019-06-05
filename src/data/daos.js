@@ -4,25 +4,21 @@ export default [
 		title: 'MolochDAO',
 		description: 'A community DAO focused on funding Ethereum development, in the name of Moloch the God of Coordination Failure.',
 		website: `https://molochdao.com/`,
-		contractProof: {
-			twitter: `https://twitter.com/MolochDAO/status/1121203264316268544`
-		},
+		contractProof: `https://twitter.com/MolochDAO/status/1121203264316268544`,
 		contracts: [
 			{
 				name: 'Moloch',
-				address: `https://etherscan.io/address/0x1fd169a4f5c59acf79d0fd5d91d1201ef1bce9f1`,
+				address: `0x1fd169a4f5c59acf79d0fd5d91d1201ef1bce9f1`,
 				description: 'The main contract for the DAO'
 			},
 			{
 				name: 'GuildBank',
-				address: `https://etherscan.io/address/0x211a94468ba1e379236b45ca42dc63ee93139c7e`,
+				address: `0x211a94468ba1e379236b45ca42dc63ee93139c7e`,
 				description: 'Contains all the funds for the DAO'
 			}			
 		],
 		github: `https://github.com/MolochVentures`,
-		community: {
-			twitter: `https://twitter.com/MolochDAO`
-		},
+		twitter: `MolochDAO`,
 		documents: {
 			whitepaper: ''
 		}
@@ -32,9 +28,7 @@ export default [
 		title: 'HumanityDAO',
 		description: 'Unique identity on Ethereum. Building the foundation for voting, Universal Basic Income, and more.',
 		website: `https://humanitydao.org/`,
-		contractProof: {
-			twitter: `https://twitter.com/HumanityDAO/status/1128407578503860226`
-		},
+		contractProof: `https://twitter.com/HumanityDAO/status/1128407578503860226`,
 		contracts: [
 			{
 				name: 'Humanity (ERC20)',
@@ -68,9 +62,7 @@ export default [
 			}					
 		],
 		github: `https://github.com/marbleprotocol/humanity`,
-		community: {
-			twitter: `https://twitter.com/HumanityDAO`
-		},
+		twitter: `HumanityDAO`,
 		documents: {
 			whitepaper: ''
 		}
@@ -80,9 +72,7 @@ export default [
 		title: 'MakerDAO',
 		description: 'Maker is a Decentralized Autonomous Organization that creates and insures the dai stablecoin on the Ethereum blockchain',
 		website: `https://makerdao.com/`,
-		contractProof: {
-			twitter: ``
-		},
+		contractProof: ``,
 		contracts: [
 			{
 				name: 'Maker',
@@ -91,13 +81,120 @@ export default [
 			},
 		],
 		github: `https://github.com/makerdao`,
-		community: {
-			twitter: `https://twitter.com/MakerDAO`
-		},
+		twitter: `MakerDAO`,
 		documents: {
 			whitepaper: ''
 		}
-	},	
+	},
+	{
+		id: 3,
+		title: 'NexusMutual',
+		description: 'Nexus Mutual is building a decentralised alternative to insurance. We’re using blockchain technology to build a mutual (a risk sharing pool) to return the power of insurance to the people. The platform will be built on the Ethereum public chain. It will allow anyone to become a member and buy cover. It replaces the idea of a traditional insurance company, because it is wholly owned by the members. The model encourages engagement as members will get economic incentives for participating in Risk Assessment, Claims Assessment and Governance.',
+		website: `https://nexusmutual.gitbook.io/docs/`,
+		contractProof: `https://nexusmutual.gitbook.io/docs/docs#deployed-contract-information-deployed-23-may-2019`,
+		contracts: [
+			{
+				name: 'claimData',
+				address: `0xdc2d359f59f6a26162972c3bd0cfbfd8c9ef43af`,
+				description: ''
+			},
+			{
+				name: 'claim1',
+				address: `0x58676340f458b36997608672be6548c92ce50714`,
+				description: ''
+			},
+			{
+				name: 'claimsReward',
+				address: `0xebdd9752be578c03491ff1083c0f738aa8687d48`,
+				description: ''
+			},
+			{
+				name: 'dai',
+				address: `0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359`,
+				description: ''
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			},
+			{
+				name: 'Governance',
+				address: `0x4A5C681dDC32acC6ccA51ac17e9d461e6be87900`,
+				description: ''
+			},
+			{
+				name: 'mcr',
+				address: `0xccb40a11aa8c5dfafaa9de9311fe7bd47d0bade7`,
+				description: ''
+			},
+			{
+				name: 'memberRoles',
+				address: `0x055CC48f7968FD8640EF140610dd4038e1b03926`,
+				description: ''
+			},
+			{
+				name: 'NXMaster',
+				address: `0x08c3a887865684f30351a0ba6d683aa9b539829a`,
+				description: ''
+			},
+			{
+				name: 'NXMtoken',
+				address: `0xd7c49cee7e9188cca6ad8ff264c1da2e69d4cf3b`,
+				description: ''
+			},
+			{
+				name: 'pool1',
+				address: `0xfd61352232157815cf7b71045557192bf0ce1884`,
+				description: ''
+			},
+			{
+				name: 'pool2',
+				address: `0x7cbe5682be6b648cc1100c76d4f6c96997f753d6`,
+				description: ''
+			},
+			{
+				name: 'ProposalCategory',
+				address: `0x888eA6Ab349c854936b98586CE6a17E98BF254b2`,
+				description: ''
+			},
+			{
+				name: 'poolData',
+				address: `0x25916c331797ba10601e1f05a1da0b425302f5a2`,
+				description: ''
+			},
+			{
+				name: 'quotationData',
+				address: `0x1776651f58a17a50098d31ba3c3cd259c1903f7a`,
+				description: ''
+			},
+			{
+				name: 'quotation',
+				address: `0x9dae0663f252d05314b7352403fa9c16f16f25ee`,
+				description: ''
+			},
+			{
+				name: 'tokenController',
+				address: `0x5407381b6c251cFd498ccD4A1d877739CB7960B8`,
+				description: ''
+			},
+			{
+				name: 'tokenData',
+				address: `0xe20b3ae826cdb43676e418f7c3b84b75b5697a40`,
+				description: ''
+			},
+			{
+				name: 'tokenFunction',
+				address: `0xdf50a17bf58dea5039b73683a51c4026f3c7224e`,
+				description: ''
+			},
+		],
+		github: `https://github.com/somish/NexusMutual`,
+		twitter: `nexusmutual`,
+		documents: {
+			whitepaper: ''
+		}
+	}	
 ]
 
 /*
@@ -116,9 +213,7 @@ export default [
 				description: ''
 			},
 		],
-		code: {
-			github: ``
-		},
+		github: ``,
 		community: {
 			twitter: ``
 		},
