@@ -42,7 +42,7 @@ export default () => (
 				<MDBCol className='col-12'>
 					<MDBRow className='flex-wrap'>
 						{daos.map(dao => (
-							<MDBCol sm='6' md='3' className='text-center'>
+							<MDBCol sm='6' md='3' className='text-center col-10 offset-1 offset-sm-0'>
 		            <MDBView hover zoom>
 									<Link to={`${ROUTES.DAOS}/${dao.id}`}>
 										<img src={dao.image} className='img-thumbnail' />
