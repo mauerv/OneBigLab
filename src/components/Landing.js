@@ -36,6 +36,7 @@ export default () => (
 				<div className='col-12'>
 					<Link to={ROUTES.MOLOCH} className='btn btn-primary'>Moloch</Link>
 					<Link to={ROUTES.HUMANITYDAO} className='btn btn-primary ml-3'>Humanity DAO</Link>
+					<Link to={ROUTES.MAKERDAO} className='btn btn-primary ml-3'>MakerDAO</Link>
 				</div>
 			</div>
 		</div>

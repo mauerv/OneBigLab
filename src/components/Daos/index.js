@@ -14,7 +14,7 @@ export default () => (
 			<Link to={ROUTES.HUMANITYDAO} className='list-group-item list-group-item-action'>HumanityDao</Link>
 		</ul>		
 		<ul className='list-group'>
-			<Link to={ROUTES.DASH} className='list-group-item list-group-item-action'>DashDao</Link>
-		</ul>		
+			<Link to={ROUTES.MAKERDAO} className='list-group-item list-group-item-action'>MakerDao</Link>
+		</ul>			
 	</div>
 )

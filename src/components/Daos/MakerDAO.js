@@ -1,0 +1,38 @@
+import React from 'react'
+import data from '../../data/daos'
+
+const makerDao = data.makerDao
+
+export default () => (
+	<div className='container'>
+		<div className='border-bottom border-dark'>
+			<h1>{makerDao.title}</h1>
+			<p>{makerDao.description}</p>
+		</div>
+		<div className='mt-2 mb-2 border-bottom border-dark'>
+			<h3>Website</h3>
+			<p>{makerDao.website}</p>
+		</div>
+		<div className='mt-2 mb-2 border-bottom border-dark'>	
+			<h3>Contracts</h3>
+			{makerDao.contractProof.twitter && (
+				<div>
+					<h5>Contract Proof</h5>
+					<p className='wrap-url'>{makerDao.contractProof.twitter}</p>
+				</div>
+			)}
+			{makerDao.contracts.map(contract => (
+				<div key={contract.address}>	
+					<h5>{contract.name}</h5>
+					<p className='wrap-url'>{contract.address}</p>
+					<p>{contract.description}</p>
+				</div>
+			))}
+		</div>
+		<div className='mt-2 mb-2 border-bottom border-dark'>
+			<h3>Code</h3>
+			<h5>Github</h5>
+			<p>{makerDao.code.github}</p>
+		</div>
+	</div>
+)

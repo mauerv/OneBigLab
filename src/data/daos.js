@@ -77,7 +77,31 @@ export default {
 			whitepaper: ''
 		}
 	},
-	dashDao: {
+	makerDao: {
+		title: 'MakerDAO',
+		description: 'Maker is a Decentralized Autonomous Organization that creates and insures the dai stablecoin on the Ethereum blockchain',
+		website: `https://makerdao.com/`,
+		contractProof: {
+			twitter: ``
+		},
+		contracts: [
+			{
+				name: 'Maker',
+				address: `https://etherscan.io/token/0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2?a=0x69076e44a9c70a67d5b79d95795aba299083c275`,
+				description: 'MKR token contract'
+			},
+		],
+		code: {
+			github: `https://github.com/makerdao`
+		},
+		community: {
+			twitter: `https://twitter.com/MakerDAO`
+		},
+		documents: {
+			whitepaper: ''
+		}
+	},
+	exampleDao: {
 		title: '',
 		description: '',
 		website: ``,
