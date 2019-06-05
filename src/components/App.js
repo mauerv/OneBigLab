@@ -15,10 +15,10 @@ function App() {
   return (
   	<Router>
 	    <div className='App'>
+    		<Navbar />
 	    	<div className='content'>
-	    		<Navbar />
-						<Route exact path={ROUTES.HOME} component={Landing} />
-						<Route path={ROUTES.MOLOCH} component={Moloch} />
+					<Route exact path={ROUTES.HOME} component={Landing} />
+					<Route path={ROUTES.MOLOCH} component={Moloch} />
 				</div>
 				<Footer />
 	    </div>

@@ -2,5 +2,8 @@
 @import 'bootstrap/scss/bootstrap.scss';
 
 .content {
-	margin-bottom: 80px;
+	margin: 40px auto 100px auto;
+}
+.wrap-url {
+	word-wrap: break-word;
 }

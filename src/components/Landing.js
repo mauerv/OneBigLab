@@ -3,6 +3,10 @@ import React from 'react'
 import Hero from './Hero'
 import Feature from './Feature'
 
+import { Link } from 'react-router-dom'
+
+import * as ROUTES from '../constants/routes'
+
 export default () => (
 	<div>
 		<Hero 
@@ -33,7 +37,7 @@ export default () => (
 			<div className='row border-top border-bottom pt-4 pb-3'>
 				<h3 className='col-12'>Featured DAOs</h3>
 				<div className='col-12'>
-					<a className="btn btn-primary" href="#" role="button">Moloch DAO</a>
+					<Link to={ROUTES.MOLOCH} className='btn btn-primary'>Moloch</Link>
 				</div>
 			</div>
 		</div>
