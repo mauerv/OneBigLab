@@ -13,7 +13,7 @@ export default () => (
 			title='The Home For DAOs'
 			subtitle='Blocktech allows for the creation of DAOs, we are building a place where you can learn all about them. Data, stats, mission, etc.'
 			buttonText='Explore DAOs'
-			buttonLink='#'
+			buttonLink={ROUTES.DAOS}
 		/>
 		<div className='container'>
 			<Feature
