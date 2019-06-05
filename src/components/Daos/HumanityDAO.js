@@ -1,36 +1,36 @@
 import React from 'react'
+import data from '../../data'
+
+const humanityDao = data.humanityDao
 
 export default () => (
 	<div className='container'>
 		<div className='border-bottom border-dark'>
-			<h1>MolochDAO</h1>
-			<p>
-				A community DAO focused on funding Ethereum development, in the name of Moloch the God of Coordination Failure. 
-			</p>
+			<h1>{humanityDao.title}</h1>
+			<p>{humanityDao.description}</p>
 		</div>
 		<div className='mt-2 mb-2 border-bottom border-dark'>
 			<h3>Website</h3>
-			<p>https://molochdao.com/</p>
+			<p>{humanityDao.website}</p>
 		</div>
 		<div className='mt-2 mb-2 border-bottom border-dark'>	
 			<h3>Contracts</h3>
 			<div>
 				<h5>Contract Proof</h5>
-				<p className='wrap-url'>https://twitter.com/MolochDAO/status/1121203264316268544</p>
+				<p className='wrap-url'>{humanityDao.contractProof.twitter}</p>
 			</div>
-			<div>	
-				<h5>Moloch</h5>
-				<p className='wrap-url'>https://etherscan.io/address/0x1fd169a4f5c59acf79d0fd5d91d1201ef1bce9f1</p>
-			</div>
-			<div>
-				<h5>GuildBank</h5>
-				<p className='wrap-url'>https://etherscan.io/address/0x211a94468ba1e379236b45ca42dc63ee93139c7e</p>
-			</div>
+			{humanityDao.contracts.map(contract => (
+				<div>	
+					<h5>{contract.name}</h5>
+					<p className='wrap-url'>{contract.address}</p>
+					<p>{contract.description}</p>
+				</div>
+			))}
 		</div>
 		<div className='mt-2 mb-2 border-bottom border-dark'>
 			<h3>Code</h3>
 			<h5>Github</h5>
-			<p>https://github.com/MolochVentures</p>
+			<p>{humanityDao.code.github}</p>
 		</div>
 	</div>
 )

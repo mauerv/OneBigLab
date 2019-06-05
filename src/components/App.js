@@ -10,6 +10,8 @@ import Landing from './Landing'
 import Moloch from './Daos/Moloch'
 import HumanityDAO from './Daos/HumanityDAO'
 import Daos from './Daos/'
+import CreateInfo from './CreateInfo'
+import News from './News'
 
 import * as ROUTES from '../constants/routes'
 
@@ -23,6 +25,8 @@ function App() {
 					<Route exact path={ROUTES.DAOS} component={Daos} />
 					<Route path={ROUTES.MOLOCH} component={Moloch} />
 					<Route path={ROUTES.HUMANITYDAO} component={HumanityDAO} />
+					<Route path={ROUTES.CREATE_INFO} component={CreateInfo} />
+					<Route path={ROUTES.NEWS} component={News} />
 				</div>
 				<Footer />
 	    </div>
