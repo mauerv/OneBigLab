@@ -10,8 +10,8 @@ import * as ROUTES from '../constants/routes'
 export default () => (
 	<div>
 		<Hero 
-			title='The Home For DAOs'
-			subtitle='Blocktech allows for the creation of DAOs, we are building a place where you can learn all about them. Data, stats, mission, etc.'
+			title='Global DAO Directory'
+			subtitle='Home for all things DAO. Your governance dashboard.'
 			buttonText='Explore DAOs'
 			buttonLink={ROUTES.DAOS}
 		/>
@@ -20,23 +20,16 @@ export default () => (
 			<div className='border-top border-bottom pt-4 pb-3'>
 				<h3>What is a DAO</h3>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, 
-					vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. 
-					Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.
-					Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in 
-					tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. 
+					A decentralized autonomous organization (DAO), sometimes labeled a decentralized autonomous 
+					corporation (DAC), is an organization represented by rules encoded as a computer program that is transparent, 
+					controlled by shareholders and not influenced by a central government. 
+					A DAO's financial transaction record and program rules are maintained on a blockchain.
 				</p>
 			</div>
 			<div className='border-top border-bottom pt-4 pb-3'>
-				<h3>Can I start one?</h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, 
-					vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. 
-					Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.
-					Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in 
-					tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. 					
-				</p>
-				<Link to={ROUTES.CREATE_INFO} className='btn btn-primary'>Start One</Link>
+				<h3>How to start one?</h3>
+				<p>These days there are multiple frameworks, platforms or code you can fork in order to start your own DAO. It can have its own blockchain, or live as a smart contract on top of a platform like <a href='https://ethereum.org/'>Ethereum</a> or <a href='https://www.rsk.co/'>Rootstock</a>.</p>
+				<Link to={ROUTES.CREATE_INFO} className='btn btn-primary'>Start a DAO</Link>
 			</div>
 			<div className='row border-top border-bottom pt-4 pb-3'>
 				<h3 className='col-12'>Featured DAOs</h3>

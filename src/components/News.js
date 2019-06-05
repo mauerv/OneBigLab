@@ -1,15 +1,19 @@
 import React from 'react'
 
+import newsList from '../data/news'
+
 export default () => (
-	<div>
+	<div className='container'>
 		<ul className='list-group'>
-			<a 
-				href='https://hackernoon.com/the-state-of-the-daos-b7cba318460b' 
-				className='list-group-item list-group-item-action'
-				target='_blank'
-			>
-				The State Of The DAOs
-			</a>
+			{newsList.map(news => (
+				<a 
+					href={news.url} 
+					className='list-group-item list-group-item-action'
+					target='_blank'
+				>
+					{news.title}
+				</a>				
+			))}
 		</ul>
 	</div>
 )

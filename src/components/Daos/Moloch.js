@@ -1,5 +1,5 @@
 import React from 'react'
-import data from '../../data'
+import data from '../../data/daos'
 
 const moloch = data.moloch
 
@@ -20,7 +20,7 @@ export default () => (
 				<p className='wrap-url'>{moloch.contractProof.twitter}</p>
 			</div>
 			{moloch.contracts.map(contract => (
-				<div>	
+				<div key={contract.address}>	
 					<h5>{contract.name}</h5>
 					<p className='wrap-url'>{contract.address}</p>
 					<p>{contract.description}</p>

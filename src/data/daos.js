@@ -76,5 +76,29 @@ export default {
 		documents: {
 			whitepaper: ''
 		}
+	},
+	dashDao: {
+		title: '',
+		description: '',
+		website: ``,
+		contractProof: {
+			twitter: ``
+		},
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ''
+			},
+		],
+		code: {
+			github: ``
+		},
+		community: {
+			twitter: ``
+		},
+		documents: {
+			whitepaper: ''
+		}
 	}
 }
