@@ -2,6 +2,7 @@ export default [
 	{
 		id: 0,
 		title: 'MolochDAO',
+		image: 'moloch.png',
 		description: 'A community DAO focused on funding Ethereum development, in the name of Moloch the God of Coordination Failure.',
 		website: `https://molochdao.com/`,
 		contractProof: `https://twitter.com/MolochDAO/status/1121203264316268544`,
@@ -26,6 +27,7 @@ export default [
 	{
 		id: 1,
 		title: 'HumanityDAO',
+		image: 'humanity.png',
 		description: 'Unique identity on Ethereum. Building the foundation for voting, Universal Basic Income, and more.',
 		website: `https://humanitydao.org/`,
 		contractProof: `https://twitter.com/HumanityDAO/status/1128407578503860226`,
@@ -70,6 +72,7 @@ export default [
 	{
 		id: 2,
 		title: 'MakerDAO',
+		image: 'maker.jpg',
 		description: 'Maker is a Decentralized Autonomous Organization that creates and insures the dai stablecoin on the Ethereum blockchain',
 		website: `https://makerdao.com/`,
 		contractProof: ``,
@@ -89,6 +92,7 @@ export default [
 	{
 		id: 3,
 		title: 'NexusMutual',
+		image: 'nexus_mutual.jpg',
 		description: 'Nexus Mutual is building a decentralised alternative to insurance. We’re using blockchain technology to build a mutual (a risk sharing pool) to return the power of insurance to the people. The platform will be built on the Ethereum public chain. It will allow anyone to become a member and buy cover. It replaces the idea of a traditional insurance company, because it is wholly owned by the members. The model encourages engagement as members will get economic incentives for participating in Risk Assessment, Claims Assessment and Governance.',
 		website: `https://nexusmutual.gitbook.io/docs/`,
 		contractProof: `https://nexusmutual.gitbook.io/docs/docs#deployed-contract-information-deployed-23-may-2019`,

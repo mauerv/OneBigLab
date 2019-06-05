@@ -31,11 +31,18 @@ export default () => (
 				<p>These days there are multiple frameworks, platforms or code you can fork in order to start your own DAO. It can have its own blockchain, or live as a smart contract on top of a platform like <a href='https://ethereum.org/' target='_blank'>Ethereum</a> or <a href='https://www.rsk.co/' target='_blank'>Rootstock</a>.</p>
 				<Link to={ROUTES.CREATE_INFO} className='btn btn-primary'>Start a DAO</Link>
 			</div>
-			<div className='row border-top border-bottom pt-4 pb-3'>
-				<h3 className='col-12'>Featured DAOs</h3>
-				<div className='col-12'>
+			<div className='border-top border-bottom pt-4 pb-3'>
+				<h3>Featured DAOs</h3>
+				<div className='row d-flex flex-wrap'>
 					{daos.map(dao => (
-						<Link to={`${ROUTES.DAOS}/${dao.id}`} className='btn btn-primary mr-1'>{dao.title}</Link>
+						<div className='col-6 col-md-3 text-center'>
+							<div className='grow mb-3'>
+								<Link to={`${ROUTES.DAOS}/${dao.id}`} className=' mr-1'>
+									<img src={dao.image} className='img-thumbnail' />
+								</Link>
+							</div>
+							<p className='font-weight-bold'>{dao.title}</p>
+						</div>
 					))}
 				</div>
 			</div>
