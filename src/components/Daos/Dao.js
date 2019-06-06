@@ -24,15 +24,15 @@ export default ({ match }) => {
 					<a href={dao.github} target='__blank' className='mr-3 ml-3'>
 						<i className="fab fa-github fa-2x" aria-hidden="true"></i>
 					</a>
-					<a href={dao.twitter} target='__blank' className='mr-3 ml-3'>
+					<a href={`https://medium.com/${dao.medium}`} target='__blank' className='mr-3 ml-3'>
 						<i className="fab fa-medium fa-2x" aria-hidden="true"></i>
 					</a>
-					<a href={dao.twitter} target='__blank' className='mr-3 ml-3'>
+					<a href={`https://twitter.com/${dao.twitter}`} target='__blank' className='mr-3 ml-3'>
 						<i className="fab fa-twitter fa-2x" aria-hidden="true"></i>
 					</a>
 				</MDBCol>
 			</MDBRow>
-			<MDBRow className='mt-2 mb-2 border-bottom border-dark pb-3 pt-3 justify-content-center'>
+			<MDBRow className='mt-2 mb-2 pb-3 pt-3 justify-content-center'>
 				<div className='col-12 mb-2 text-md-center'>
 					<h3>Contracts</h3>
 				</div>
@@ -45,7 +45,8 @@ export default ({ match }) => {
 				))}
 				{dao.contractProof && (
 					<div className='col-12 mt-4'>
-						<h3>Contract Proof</h3>
+						<hr />
+						<h3 className='mt-4'>Contract Proof</h3>
 						<a href={dao.contractProof} className='wrap-url'>{dao.contractProof}</a>
 					</div>
 				)}				

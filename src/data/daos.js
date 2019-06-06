@@ -31,7 +31,7 @@ export default [
 		image: 'humanity.png',
 		description: 'Unique identity on Ethereum. Building the foundation for voting, Universal Basic Income, and more.',
 		website: `https://humanitydao.org/`,
-		contractProof: `https://twitter.com/HumanityDAO/status/1128407578503860226`,
+		contractProof: `https://github.com/marbleprotocol/humanity`,
 		contracts: [
 			{
 				name: 'Humanity (ERC20)',
@@ -197,31 +197,82 @@ export default [
 		documents: {
 			whitepaper: ''
 		}
-	}	
+	},
+	{
+		id: 4,
+		title: 'Kleros',
+		image: 'kleros.jpg',
+		description: 'A decentralized autonomous organization that delivers fast, affordable and transparent justice for all.',
+		website: `https://kleros.io/`,
+		contractProof: ``, 
+		token: `https://etherscan.io/token/0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d`,
+		contracts: [
+			{
+				name: 'Kleros',
+				address: `0x211f01e59b425253c0a0e9a7bf612605b42ce82c`,
+				description: ''
+			},
+			{
+				name: 'Kleros Liquid',
+				address: `0x988b3a538b618c7a603e1c11ab82cd16dbe28069`,
+				description: ''
+			},
+			{
+				name: 'Kleros Liquid Extra Views',
+				address: `0xda47f3252bb03c5c7950d7bb2fd32637fc5ad943`,
+				description: ''
+			},
+			{
+				name: 'Pinakion Address',
+				address: `0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d`,
+				description: ''
+			},
+			{
+				name: 'Policy Exchange',
+				address: `0x03a9458d77dd705829fa758c64dbe770385295cc`,
+				description: ''
+			},
+			{
+				name: 'Uniswap Exchange',
+				address: `0xF506828B166de88cA2EDb2A98D960aBba0D2402A`,
+				description: ''
+			}									
+		],
+		github: `https://github.com/kleros`,
+		twitter: `Kleros_io`,
+		medium: 'kleros',
+		blog: `https://blog.kleros.io/`,
+		documents: {
+			whitepaper: `https://kleros.io/assets/whitepaper.pdf`
+		}
+	},
 ]
 
 /*
 	{
-		id: 1,
+		id: 0,
 		title: '',
+		image: '',
 		description: '',
 		website: ``,
-		contractProof: {
-			twitter: ``
-		},
+		contractProof: ``,
 		contracts: [
 			{
 				name: '',
 				address: ``,
 				description: ''
 			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}			
 		],
 		github: ``,
-		community: {
-			twitter: ``
-		},
+		twitter: ``,
+		medium: '',
 		documents: {
 			whitepaper: ''
 		}
-	}
+	},
 */
