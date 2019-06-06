@@ -33,28 +33,23 @@ export default ({ match }) => {
 				</MDBCol>
 			</MDBRow>
 			<MDBRow className='mt-2 mb-2 border-bottom border-dark pb-3 pt-3 justify-content-center'>
-				<div className='col-12 mb-2'>
+				<div className='col-12 mb-2 text-md-center'>
 					<h3>Contracts</h3>
 				</div>
 				{dao.contracts.map(contract => (
-					<div key={contract.address} className='col-12'> 	
+					<div key={contract.address} className='col-12 col-md-5 col-lg-3 mb-2 mr-2 mr-lg-4 pt-2 pb-2 border border-light rounded-lg'> 	
 						<h5 className='text-primary'>{contract.name}</h5>
 						<p className='wrap-url'>{contract.address}</p>
 						<p>{contract.description}</p>
 					</div>
 				))}
 				{dao.contractProof && (
-					<div className='col-12'>
+					<div className='col-12 mt-4'>
 						<h3>Contract Proof</h3>
 						<a href={dao.contractProof} className='wrap-url'>{dao.contractProof}</a>
 					</div>
 				)}				
 			</MDBRow>
-			<div className='mt-2 mb-2 border-bottom border-dark'>
-				<h3>Code</h3>
-				<h5>Github</h5>
-				<p>{dao.github}</p>
-			</div>
 		</MDBContainer>
 	)
 }

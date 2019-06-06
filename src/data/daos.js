@@ -121,11 +121,6 @@ export default [
 				description: ''
 			},
 			{
-				name: '',
-				address: ``,
-				description: ''
-			},
-			{
 				name: 'Governance',
 				address: `0x4A5C681dDC32acC6ccA51ac17e9d461e6be87900`,
 				description: ''
