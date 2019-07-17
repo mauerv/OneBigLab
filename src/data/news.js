@@ -5,7 +5,7 @@ export default [
 	},
 	{
 		title: 'How to use Alchemy Earth',
-		subtitle: 'DAOstack’s first user interface for governance'
+		subtitle: 'DAOstack’s first user interface for governance',
 		url: `	https://medium.com/daostack/how-to-use-alchemy-earth-d6df01acb0fc
 `
 	}

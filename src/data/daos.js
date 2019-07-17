@@ -16,7 +16,7 @@ export default [
 				name: 'GuildBank',
 				address: `0x211a94468ba1e379236b45ca42dc63ee93139c7e`,
 				description: 'Contains all the funds for the DAO'
-			}			
+			}
 		],
 		github: `https://github.com/MolochVentures`,
 		twitter: `MolochDAO`,
@@ -62,7 +62,7 @@ export default [
 				name: 'UniversalBasicIncome',
 				address: `0x762d141b8d9600bde64138762e6fb38efc56dcba`,
 				description: 'Does Stuff'
-			}					
+			}
 		],
 		github: `https://github.com/marbleprotocol/humanity`,
 		twitter: `HumanityDAO`,
@@ -204,7 +204,7 @@ export default [
 		image: 'kleros.jpg',
 		description: 'A decentralized autonomous organization that delivers fast, affordable and transparent justice for all.',
 		website: `https://kleros.io/`,
-		contractProof: ``, 
+		contractProof: ``,
 		token: `https://etherscan.io/token/0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d`,
 		contracts: [
 			{
@@ -236,7 +236,7 @@ export default [
 				name: 'Uniswap Exchange',
 				address: `0xF506828B166de88cA2EDb2A98D960aBba0D2402A`,
 				description: ''
-			}									
+			}
 		],
 		github: `https://github.com/kleros`,
 		twitter: `Kleros_io`,
@@ -244,6 +244,32 @@ export default [
 		blog: `https://blog.kleros.io/`,
 		documents: {
 			whitepaper: `https://kleros.io/assets/whitepaper.pdf`
+		}
+	},
+	{
+		id: 5,
+		title: 'Metacartel',
+		image: 'metacartel.png',
+		description: 'Accelerating the success of Ethereum’s dapp ecosystem by funding experiments on the application layer. We are the infamous el cartel de la meta ~',
+		website: `https://www.metacartel.org/`,
+		contractProof: `https://twitter.com/meta_cartel/status/1151137914950017024`,
+		contracts: [
+			{
+				name: 'DAO contract',
+				address: `0x0372f3696fa7dc99801f435fd6737e57818239f2`,
+				description: 'The main contract for the DAO'
+			},
+			{
+				name: 'DAO Bank contract',
+				address: `0x93d2a6369d57fdf8d1c3db22a5eb4623e26a24ae`,
+				description: `Contains the DAO's funds.`
+			}
+		],
+		github: `https://github.com/metacartel`,
+		twitter: `meta_cartel`,
+		medium: 'metacartel',
+		documents: {
+			whitepaper: ''
 		}
 	},
 ]
@@ -266,7 +292,7 @@ export default [
 				name: '',
 				address: ``,
 				description: ''
-			}			
+			}
 		],
 		github: ``,
 		twitter: ``,
@@ -275,4 +301,5 @@ export default [
 			whitepaper: ''
 		}
 	},
+	https://nature2.ooo/
 */
