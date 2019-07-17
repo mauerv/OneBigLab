@@ -284,11 +284,6 @@ export default [
 				name: 'DAO contract',
 				address: `0x240D1B4ab4463fEb22EcB3bdC43F4BD316513728`,
 				description: 'The main contract for the DAO'
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
 			}
 		],
 		github: ``,
