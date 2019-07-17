@@ -22,7 +22,7 @@ export default [
 		twitter: `MolochDAO`,
 		medium: 'molochdao',
 		documents: {
-			whitepaper: ''
+			whitepaper: 'https://github.com/MolochVentures/Whitepaper/blob/master/Whitepaper.pdf'
 		}
 	},
 	{
@@ -89,7 +89,7 @@ export default [
 		twitter: `MakerDAO`,
 		medium: 'makerdao',
 		documents: {
-			whitepaper: ''
+			whitepaper: 'https://makerdao.com/whitepaper/'
 		}
 	},
 	{
@@ -195,7 +195,7 @@ export default [
 		twitter: `nexusmutual`,
 		medium: 'nexus-mutual',
 		documents: {
-			whitepaper: ''
+			whitepaper: 'https://www.nexusmutual.io/assets/docs/nmx_white_paperv2_3.pdf'
 		}
 	},
 	{
@@ -268,6 +268,74 @@ export default [
 		github: `https://github.com/metacartel`,
 		twitter: `meta_cartel`,
 		medium: 'metacartel',
+		documents: {
+			whitepaper: ''
+		}
+	},
+	{
+		id: 6,
+		title: 'YangDAO',
+		image: 'yangdao.jpg',
+		description: `A place where members secure the collective bag 💰 to fund initiatives to foster Andrew Yang's presidential campaign.`,
+		website: `https://www.yangdao.org/`,
+		contractProof: `https://twitter.com/YangDAOofficial/status/1148721427836575744`,
+		contracts: [
+			{
+				name: 'DAO contract',
+				address: `0x240D1B4ab4463fEb22EcB3bdC43F4BD316513728`,
+				description: 'The main contract for the DAO'
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		github: ``,
+		twitter: `yangdaoofficial`,
+		medium: 'yangdao',
+		documents: {
+			whitepaper: ''
+		}
+	},
+	{
+		id: 7,
+		title: 'dxDAO',
+		image: 'dxdao.png',
+		description: 'The dxDAO is a next-generation decentralized autonomous organization (DAO) for community governance of software protocols. Its specific usecase is managing the DutchX decentralized exchange protocol.',
+		website: `https://dxdao.daostack.io/`,
+		contractProof: `https://github.com/gnosis/dx-daostack`,
+		contracts: [
+			{
+				name: 'Avatar',
+				address: `0x519b70055af55A007110B4Ff99b0eA33071c720a`,
+				description: 'Main address for the DAO. Ethereum identity'
+			},
+			{
+				name: 'Token',
+				address: `0x643b14F6EA235668278DA5974930105852F2B7C4`,
+				description: `dxDAO's own token`
+			},
+			{
+				name: 'Reputation',
+				address: `0x7a927A93F221976AAE26d5D077477307170f0b7c`,
+				description: 'Voting power for dxDAO proposals	'
+			},
+			{
+				name: 'Controller',
+				address: `0x9f828AC3baA9003e8a4e0b24bcaE7b027B6740b0`,
+				description: 'dxDAO controller	'
+			},
+			{
+				name: 'Genesis Protocol',
+				address: `0x332B8C9734b4097dE50f302F7D9F273FFdB45B84`,
+				description: 'Holographic Consensus voting machine for voting on proposals	'
+			}
+		],
+		github: ``,
+		twitter: ``,
+		medium: '',
+		telegramGroup: 'https://t.me/dxDAO',
 		documents: {
 			whitepaper: ''
 		}
