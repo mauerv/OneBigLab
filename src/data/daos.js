@@ -335,6 +335,27 @@ export default [
 			whitepaper: ''
 		}
 	},
+	{
+		id: 0,
+		title: 'Genesis',
+		image: 'genesis.jpg',
+		description: `Genesis is an independent, global community of people working together to build and promote Decentralized Autonomous Organizations (DAOs). It is the first of a growing number of DAOs built on the DAO stack.`,
+		website: `https://daostack.io/genesis`,
+		contractProof: ``,
+		contracts: [
+			{
+				name: 'Token',
+				address: `0x543ff227f64aa17ea132bf9886cab5db55dcaddf`,
+				description: `Genesis DAO's own token`
+			}
+		],
+		github: ``,
+		twitter: ``,
+		medium: '',
+		documents: {
+			whitepaper: 'https://daostack.io/wp/DAOstack-White-Paper-en.pdf'
+		}
+	},
 ]
 
 /*
@@ -349,7 +370,7 @@ export default [
 			{
 				name: '',
 				address: ``,
-				description: ''
+				description: ``
 			},
 			{
 				name: '',
@@ -364,5 +385,4 @@ export default [
 			whitepaper: ''
 		}
 	},
-	https://nature2.ooo/
 */
