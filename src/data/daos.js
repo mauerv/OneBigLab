@@ -336,8 +336,8 @@ export default [
 		}
 	},
 	{
-		id: 0,
-		title: 'Genesis',
+		id: 8,
+		title: 'GenesisDAO',
 		image: 'genesis.jpg',
 		description: `Genesis is an independent, global community of people working together to build and promote Decentralized Autonomous Organizations (DAOs). It is the first of a growing number of DAOs built on the DAO stack.`,
 		website: `https://daostack.io/genesis`,
@@ -354,6 +354,98 @@ export default [
 		medium: '',
 		documents: {
 			whitepaper: 'https://daostack.io/wp/DAOstack-White-Paper-en.pdf'
+		}
+	},
+	{
+		id: 9,
+		title: 'PolkaDAO',
+		image: 'polkadot.jpg',
+		description: ' PolkaDAO is a user-led platform for the Polkadot community, offering funding for projects and ideas that would otherwise not get built.',
+		website: `https://alchemy.daostack.io/dao/0x440583455bcd85ab2bd429c015d3aabcae135f0a`,
+		contractProof: ``,
+		contracts: [
+			{
+				name: 'Avatar',
+				address: `0x440583455bcd85ab2bd429c015d3aabcae135f0a`,
+				description: `The main PolkaDAO contract.`
+			}
+		],
+		articles: [
+			{
+				title: `Announcing PolkaDAO: Fund Your Project!`,
+				url: `https://polkadot.network/announcing-polkadao-fund-your-project/`
+			}
+		],
+		github: ``,
+		twitter: ``,
+		medium: '',
+		discord: 'https://discordapp.com/invite/EuqreF4?source=post_page---------------------------',
+		documents: {
+			whitepaper: ''
+		}
+	},
+	{
+		id: 10,
+		title: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		github: ``,
+		twitter: ``,
+		medium: '',
+		documents: {
+			whitepaper: ''
+		}
+	},
+	{
+		id: 11,
+		title: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		github: ``,
+		twitter: ``,
+		medium: '',
+		documents: {
+			whitepaper: ''
 		}
 	},
 ]
@@ -376,6 +468,12 @@ export default [
 				name: '',
 				address: ``,
 				description: ''
+			}
+		],
+		articles: [
+			{
+				title: ``,
+				url: ``
 			}
 		],
 		github: ``,

@@ -23,6 +23,14 @@ export default [
 	{
 		title: 'How to onboard yourself to a DAO',
 		url: `https://medium.com/bitfwd/how-to-onboard-yourself-to-a-dao-5bc4859d7768`
+	},
+	{
+		title: 'Prediction markets for content curation DAOs',
+		url: `https://ethresear.ch/t/prediction-markets-for-content-curation-daos/1312/11`
+	},
+	{
+		title: '',
+		url: ``
 	}
 ]
 
