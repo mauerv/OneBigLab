@@ -592,6 +592,93 @@ export default [
 			whitepaper: ''
 		}
 	},
+	{
+		id: 17,
+		title: 'Psychedelic Society DAO',
+		image: 'psychedelic_society.png',
+		description: 'A DAO to manage part of the membership donations of the Psychedelic Society.',
+		website: `https://psychedelicsociety.org.uk/`,
+		contractProof: ``,
+		contracts: [
+			{
+				name: 'Avatar',
+				address: `0x70c36947837b43665ed5ea85c112aa0f72cf9fb3`,
+				description: `The main Psychedelic Society DAO contract`
+			}
+		],
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		github: ``,
+		twitter: `PsychedelicsUK`,
+		medium: '',
+		documents: {
+			whitepaper: ''
+		}
+	},
+	{
+		id: 18,
+		title: 'CementDAO',
+		image: 'cement.jpg',
+		description: 'CementDAO brings together the stablecoin community to create one unified stablecoin ecosystem. Stable cryptocurrencies are needed for mass adoption. There are over 150+ different stablecoins, each with their own user base, leading to a fragmented ecosystem. CementDAO unifies the ecosystem by bringing these users together.',
+		website: `https://www.cementdao.com/`,
+		contractProof: ``,
+		contracts: [
+			{
+				name: 'Avatar',
+				address: `0x33658686cbefe289b55814d0b3f3d45de6c50fd9`,
+				description: `The main CementDAO contract`
+			}
+		],
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		github: ``,
+		twitter: `CementDAO`,
+		medium: 'cementdao',
+		telegram: 'https://t.me/cementdao',
+		documents: {
+			whitepaper: ''
+		}
+	},
+	{
+		id: 19,
+		title: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		github: ``,
+		twitter: ``,
+		medium: '',
+		documents: {
+			whitepaper: ''
+		}
+	},
 ]
 
 /*
