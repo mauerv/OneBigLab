@@ -396,11 +396,6 @@ export default [
 				name: 'Avatar',
 				address: `0x0b93ba560283350d4216f29dc57e15df38d0eace`,
 				description: `The main CuraDAO contract`
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
 			}
 		],
 		articles: [
@@ -478,18 +473,7 @@ export default [
 		description: 'The PragueDAO is the first example of a DAO powered by DAOstack used to govern a physical space, and aspires to be the incubator of choice for decentralized tech startups in Prague.',
 		website: `https://praguedao.com/`,
 		contractProof: ``,
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
+		contracts: [],
 		articles: [
 			{
 				title: `Indroducing The PragueDAO`,
@@ -511,13 +495,7 @@ export default [
 		description: 'Social Evolution’s Quest Society is a self-governing benefit society for leaders in the decentralist movement.',
 		website: `http://socialevolution.io/`,
 		contractProof: ``,
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			}
-		],
+		contracts: [],
 		articles: [
 			{
 				title: ``,
@@ -566,18 +544,7 @@ export default [
 		description: 'dHack is a new type of hackathon: one that honors the values of decentralization, boosts the collective engagement of all stakeholders, and leverages the wisdom of the crowd. This decentralized hackathon (dHack) —is focused on funding continuity, allowing participating teams to continue work on their hackathon projects. The decision-making process will be stakeholder driven, incorporating sponsors, participants, worldwide spectators and community members to reach consensus as to which projects should receive such funding in continuity.',
 		website: `https://www.dhack.io/`,
 		contractProof: ``,
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
+		contracts: [],
 		articles: [
 			{
 				title: `Introducing dHack — A Decentralized Hackathon.`,
