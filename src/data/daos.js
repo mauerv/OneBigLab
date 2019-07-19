@@ -507,20 +507,15 @@ export default [
 	{
 		id: 14,
 		title: 'Quest Society',
-		image: '',
-		description: '',
-		website: ``,
+		image: 'socialevolution.jpg',
+		description: 'Social Evolution’s Quest Society is a self-governing benefit society for leaders in the decentralist movement.',
+		website: `http://socialevolution.io/`,
 		contractProof: ``,
 		contracts: [
 			{
 				name: '',
 				address: ``,
 				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
 			}
 		],
 		articles: [
@@ -530,8 +525,8 @@ export default [
 			}
 		],
 		github: ``,
-		twitter: ``,
-		medium: '',
+		twitter: `socialevol`,
+		medium: 'social-evolution',
 		documents: {
 			whitepaper: 'https://drive.google.com/file/d/1u9gogbXcnAtivST_y7qhJFTL3cd1ZfOf/view?source=post_page---------------------------'
 		}
@@ -567,9 +562,9 @@ export default [
 	{
 		id: 16,
 		title: 'dHack',
-		image: '',
-		description: '',
-		website: ``,
+		image: 'dhack.jpg',
+		description: 'dHack is a new type of hackathon: one that honors the values of decentralization, boosts the collective engagement of all stakeholders, and leverages the wisdom of the crowd. This decentralized hackathon (dHack) —is focused on funding continuity, allowing participating teams to continue work on their hackathon projects. The decision-making process will be stakeholder driven, incorporating sponsors, participants, worldwide spectators and community members to reach consensus as to which projects should receive such funding in continuity.',
+		website: `https://www.dhack.io/`,
 		contractProof: ``,
 		contracts: [
 			{
@@ -590,7 +585,7 @@ export default [
 			}
 		],
 		github: ``,
-		twitter: ``,
+		twitter: `dHack0`,
 		medium: '',
 		telegram: 'https://t.me/dHack0',
 		documents: {
