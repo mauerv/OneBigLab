@@ -386,7 +386,127 @@ export default [
 	},
 	{
 		id: 10,
-		title: '',
+		title: 'CuraDAO',
+		image: 'curadao.png',
+		description: 'Introducing, CuraDAO, the first ever DAO in the Caribbean. Cura referring to the beautiful island of Curaçao and DAO stands for, Decentralized Autonomous Organization. The project will be run as a pilot for the duration of 6 months, mainly to test out what this new form of organization could mean for Curaçao.',
+		website: `https://alchemy.daostack.io/dao/0x0b93ba560283350d4216f29dc57e15df38d0eace`,
+		contractProof: ``,
+		contracts: [
+			{
+				name: 'Avatar',
+				address: `0x0b93ba560283350d4216f29dc57e15df38d0eace`,
+				description: `The main CuraDAO contract`
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		github: ``,
+		twitter: `Cura_DAO`,
+		medium: 'caribbean-blockchain-network',
+		documents: {
+			whitepaper: ''
+		}
+	},
+	{
+		id: 11,
+		title: 'efxDAO',
+		image: 'ethfinex.jpg',
+		description: 'A collaboration between Ethfinex and DAOstack to create an experimental funding DAO. Using the Alchemy interface and governance protocol, the efxDAO has been allocated a trial budget of $5,000 and initially tasked with making meritocratic funding decisions for Ethfinex Trustless and Nectar initiatives.',
+		website: `https://alchemy.daostack.io/dao/0x3324b516df92e78463d8b0616dd146cf6c58b0b9`,
+		contractProof: ``,
+		contracts: [
+			{
+				name: 'Avatar',
+				address: `0x3324b516df92e78463d8b0616dd146cf6c58b0b9`,
+				description: `The main efxDAO contract`
+			}
+		],
+		articles: [
+			{
+				title: `Ethfinex Launches Funding DAO`,
+				url: `https://blog.ethfinex.com/ethfinex-launches-funding-dao/`
+			}
+		],
+		github: ``,
+		twitter: ``,
+		medium: '',
+		documents: {
+			whitepaper: ''
+		}
+	},
+	{
+		id: 12,
+		title: 'Liberland DAO',
+		image: 'liberland.jpg',
+		description: '',
+		website: `https://liberland.org/en/`,
+		contractProof: ``,
+		contracts: [
+			{
+				name: 'Avatar',
+				address: `0x5c309e9b2134d931b7337abcfbe2a50ff31292f7`,
+				description: `Main Liberland DAO contract`
+			}
+		],
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		github: ``,
+		twitter: ``,
+		discord: 'https://discordapp.com/invite/2tKVhss',
+		medium: '',
+		documents: {
+			whitepaper: ''
+		}
+	},
+	{
+		id: 13,
+		title: 'Prague DAO',
+		image: 'praguedao.jpg',
+		description: 'The PragueDAO is the first example of a DAO powered by DAOstack used to govern a physical space, and aspires to be the incubator of choice for decentralized tech startups in Prague.',
+		website: `https://praguedao.com/`,
+		contractProof: ``,
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		articles: [
+			{
+				title: `Indroducing The PragueDAO`,
+				url: `https://medium.com/daostack/introducing-the-praguedao-9930e6b3801`
+			}
+		],
+		github: ``,
+		twitter: `praguedao`,
+		discord: 'https://discordapp.com/invite/qXCxwSH',
+		medium: '',
+		documents: {
+			whitepaper: ''
+		}
+	},
+	{
+		id: 14,
+		title: 'Quest Society',
 		image: '',
 		description: '',
 		website: ``,
@@ -413,12 +533,40 @@ export default [
 		twitter: ``,
 		medium: '',
 		documents: {
+			whitepaper: 'https://drive.google.com/file/d/1u9gogbXcnAtivST_y7qhJFTL3cd1ZfOf/view?source=post_page---------------------------'
+		}
+	},
+	{
+		id: 15,
+		title: 'KyberDAO Exp #2',
+		image: 'kybernetwork.jpg',
+		description: 'The second experiment from Kyber Network to run a DAO to help manage the protocol. It runs using Blockstack.',
+		website: `https://alchemy.daostack.io/dao/0x6bee9b81e434f7afce72a43a4016719315069539`,
+		contractProof: `https://twitter.com/KyberNetwork/status/1142068655758270465`,
+		contracts: [
+			{
+				name: 'Avatar',
+				address: `0x6bee9b81e434f7afce72a43a4016719315069539`,
+				description: `Main KyberDAO contract`
+			}
+		],
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		github: ``,
+		twitter: ``,
+		medium: '',
+		telegram: 'https://t.me/joinchat/GS0ljBLOtCv_FlzFHYuPHg',
+		documents: {
 			whitepaper: ''
 		}
 	},
 	{
-		id: 11,
-		title: '',
+		id: 16,
+		title: 'dHack',
 		image: '',
 		description: '',
 		website: ``,
@@ -437,13 +585,14 @@ export default [
 		],
 		articles: [
 			{
-				title: ``,
-				url: ``
+				title: `Introducing dHack — A Decentralized Hackathon.`,
+				url: `https://medium.com/daostack/introducing-dhack-a-decentralized-hackathon-e013f76821ca`
 			}
 		],
 		github: ``,
 		twitter: ``,
 		medium: '',
+		telegram: 'https://t.me/dHack0',
 		documents: {
 			whitepaper: ''
 		}
