@@ -649,32 +649,28 @@ export default [
 	},
 	{
 		id: 19,
-		title: '',
-		image: '',
-		description: '',
+		title: 'dOrg',
+		image: 'dorg.jpg',
+		description: 'dOrg is a cooperative of freelancers building tools for distributed organizations',
 		website: ``,
 		contractProof: ``,
 		contracts: [
 			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
+				name: 'Avatar',
+				address: `0xbe1a98d3452f6da6e0984589e545d4fc25af7526`,
+				description: `The main contract for dOrg DAO.`
 			}
 		],
 		articles: [
 			{
-				title: ``,
-				url: ``
+				title: `dOrg Founders Have Created the First Limited Liability DAO`,
+				url: `https://www.coindesk.com/dorg-founders-have-created-the-first-limited-liability-dao`
 			}
 		],
-		github: ``,
-		twitter: ``,
+		github: `https://github.com/dOrgTech`,
+		twitter: `dOrg_tech`,
 		medium: '',
+		discord: 'https://discordapp.com/invite/Z5R4CcS',
 		documents: {
 			whitepaper: ''
 		}
