@@ -2,9 +2,12 @@ export default [
 	{
 		id: 0,
 		title: 'MolochDAO',
+		subtitle: 'A community DAO focused on funding Ethereum dev',
 		image: 'moloch.png',
 		description: 'A community DAO focused on funding Ethereum development, in the name of Moloch the God of Coordination Failure.',
 		website: `https://molochdao.com/`,
+		blockchain: 'Ethereum',
+		framework: 'Moloch Based',
 		contractProof: `https://twitter.com/MolochDAO/status/1121203264316268544`,
 		contracts: [
 			{
@@ -28,7 +31,10 @@ export default [
 	{
 		id: 1,
 		title: 'HumanityDAO',
+		subtitle: 'Humanity is a global identity network.',
 		image: 'humanity.png',
+		blockchain: 'Ethereum',
+		framework: 'Custom',
 		description: 'Unique identity on Ethereum. Building the foundation for voting, Universal Basic Income, and more.',
 		website: `https://humanitydao.org/`,
 		contractProof: `https://github.com/marbleprotocol/humanity`,
@@ -74,10 +80,13 @@ export default [
 	{
 		id: 2,
 		title: 'MakerDAO',
+		subtitle: 'Transparent and sustainable finance',
 		image: 'maker.jpg',
 		description: 'Maker is a Decentralized Autonomous Organization that creates and insures the dai stablecoin on the Ethereum blockchain',
 		website: `https://makerdao.com/`,
 		contractProof: ``,
+		blockchain: 'Ethereum',
+		framework: 'Custom',
 		contracts: [
 			{
 				name: 'Maker',
@@ -95,7 +104,10 @@ export default [
 	{
 		id: 3,
 		title: 'NexusMutual',
+		subtitle: 'A people-powered alternative to insurance',
 		image: 'nexus_mutual.jpg',
+		blockchain: 'Ethereum',
+		framework: 'Custom',
 		description: 'Nexus Mutual is building a decentralised alternative to insurance. We’re using blockchain technology to build a mutual (a risk sharing pool) to return the power of insurance to the people. The platform will be built on the Ethereum public chain. It will allow anyone to become a member and buy cover. It replaces the idea of a traditional insurance company, because it is wholly owned by the members. The model encourages engagement as members will get economic incentives for participating in Risk Assessment, Claims Assessment and Governance.',
 		website: `https://nexusmutual.gitbook.io/docs/`,
 		contractProof: `https://nexusmutual.gitbook.io/docs/docs#deployed-contract-information-deployed-23-may-2019`,
@@ -201,7 +213,10 @@ export default [
 	{
 		id: 4,
 		title: 'Kleros',
+		subtitle: 'The Blockchain Dispute Resolution Layer',
 		image: 'kleros.jpg',
+		blockchain: 'Ethereum',
+		framework: 'Custom',
 		description: 'A decentralized autonomous organization that delivers fast, affordable and transparent justice for all.',
 		website: `https://kleros.io/`,
 		contractProof: ``,
@@ -249,7 +264,10 @@ export default [
 	{
 		id: 5,
 		title: 'Metacartel',
+		subtitle: 'Accelerating the success of Ethereum’s dapp ecosystem',
 		image: 'metacartel.png',
+		blockchain: 'Ethereum',
+		framework: 'Moloch Based',
 		description: 'Accelerating the success of Ethereum’s dapp ecosystem by funding experiments on the application layer. We are the infamous el cartel de la meta ~',
 		website: `https://www.metacartel.org/`,
 		contractProof: `https://twitter.com/meta_cartel/status/1151137914950017024`,
@@ -275,7 +293,10 @@ export default [
 	{
 		id: 6,
 		title: 'YangDAO',
+		subtitle: `DAO to help Andrew Yang's 2020 election campaign`,
 		image: 'yangdao.jpg',
+		blockchain: 'Ethereum',
+		framework: 'Moloch Based',
 		description: `A place where members secure the collective bag 💰 to fund initiatives to foster Andrew Yang's presidential campaign.`,
 		website: `https://www.yangdao.org/`,
 		contractProof: `https://twitter.com/YangDAOofficial/status/1148721427836575744`,
@@ -296,7 +317,10 @@ export default [
 	{
 		id: 7,
 		title: 'dxDAO',
+		subtitle: 'Managing DutchX exchange protocol',
 		image: 'dxdao.png',
+		blockchain: 'Ethereum',
+		framework: 'DAOStack',
 		description: 'The dxDAO is a next-generation decentralized autonomous organization (DAO) for community governance of software protocols. Its specific usecase is managing the DutchX decentralized exchange protocol.',
 		website: `https://dxdao.daostack.io/`,
 		contractProof: `https://github.com/gnosis/dx-daostack`,
@@ -338,7 +362,10 @@ export default [
 	{
 		id: 8,
 		title: 'GenesisDAO',
+		subtitle: `DAOstack's native DAO`,
 		image: 'genesis.jpg',
+		blockchain: 'Ethereum',
+		framework: 'DAOStack',
 		description: `Genesis is an independent, global community of people working together to build and promote Decentralized Autonomous Organizations (DAOs). It is the first of a growing number of DAOs built on the DAO stack.`,
 		website: `https://daostack.io/genesis`,
 		contractProof: ``,
@@ -359,7 +386,10 @@ export default [
 	{
 		id: 9,
 		title: 'PolkaDAO',
+		subtitle: 'Funding community projects in Polkadot',
 		image: 'polkadot.jpg',
+		blockchain: 'Ethereum',
+		framework: 'DAOStack',
 		description: ' PolkaDAO is a user-led platform for the Polkadot community, offering funding for projects and ideas that would otherwise not get built.',
 		website: `https://alchemy.daostack.io/dao/0x440583455bcd85ab2bd429c015d3aabcae135f0a`,
 		contractProof: ``,
@@ -387,7 +417,10 @@ export default [
 	{
 		id: 10,
 		title: 'CuraDAO',
+		subtitle: 'Community DAO in Curaçao.',
 		image: 'curadao.png',
+		blockchain: 'Ethereum',
+		framework: 'DAOStack',
 		description: 'Introducing, CuraDAO, the first ever DAO in the Caribbean. Cura referring to the beautiful island of Curaçao and DAO stands for, Decentralized Autonomous Organization. The project will be run as a pilot for the duration of 6 months, mainly to test out what this new form of organization could mean for Curaçao.',
 		website: `https://alchemy.daostack.io/dao/0x0b93ba560283350d4216f29dc57e15df38d0eace`,
 		contractProof: ``,
@@ -414,7 +447,10 @@ export default [
 	{
 		id: 11,
 		title: 'efxDAO',
+		subtitle: 'Meritocratic funding for Ethfinex community',
 		image: 'ethfinex.jpg',
+		blockchain: 'Ethereum',
+		framework: 'DAOStack',
 		description: 'A collaboration between Ethfinex and DAOstack to create an experimental funding DAO. Using the Alchemy interface and governance protocol, the efxDAO has been allocated a trial budget of $5,000 and initially tasked with making meritocratic funding decisions for Ethfinex Trustless and Nectar initiatives.',
 		website: `https://alchemy.daostack.io/dao/0x3324b516df92e78463d8b0616dd146cf6c58b0b9`,
 		contractProof: ``,
@@ -441,7 +477,10 @@ export default [
 	{
 		id: 12,
 		title: 'Liberland DAO',
+		subtitle: 'Decentralized Autonomous Government',
 		image: 'liberland.jpg',
+		blockchain: 'Ethereum',
+		framework: 'DAOStack',
 		description: '',
 		website: `https://liberland.org/en/`,
 		contractProof: ``,
@@ -469,7 +508,10 @@ export default [
 	{
 		id: 13,
 		title: 'Prague DAO',
+		subtitle: 'The first incubator governed by the community',
 		image: 'praguedao.jpg',
+		blockchain: 'Ethereum',
+		framework: 'DAOStack',
 		description: 'The PragueDAO is the first example of a DAO powered by DAOstack used to govern a physical space, and aspires to be the incubator of choice for decentralized tech startups in Prague.',
 		website: `https://praguedao.com/`,
 		contractProof: ``,
@@ -491,7 +533,10 @@ export default [
 	{
 		id: 14,
 		title: 'Quest Society',
+		subtitle: 'Creating the mutual benefit societies of the future',
 		image: 'socialevolution.jpg',
+		blockchain: 'Ethereum',
+		framework: 'DAOStack',
 		description: 'Social Evolution’s Quest Society is a self-governing benefit society for leaders in the decentralist movement.',
 		website: `http://socialevolution.io/`,
 		contractProof: ``,
@@ -512,7 +557,10 @@ export default [
 	{
 		id: 15,
 		title: 'KyberDAO Exp #2',
+		subtitle: 'Kyber Protocol DAO',
 		image: 'kybernetwork.jpg',
+		blockchain: 'Ethereum',
+		framework: 'DAOStack',
 		description: 'The second experiment from Kyber Network to run a DAO to help manage the protocol. It runs using Blockstack.',
 		website: `https://alchemy.daostack.io/dao/0x6bee9b81e434f7afce72a43a4016719315069539`,
 		contractProof: `https://twitter.com/KyberNetwork/status/1142068655758270465`,
@@ -540,7 +588,10 @@ export default [
 	{
 		id: 16,
 		title: 'dHack',
+		subtitle: 'Decentralized Hackathon',
 		image: 'dhack.jpg',
+		blockchain: 'Ethereum',
+		framework: 'DAOStack',
 		description: 'dHack is a new type of hackathon: one that honors the values of decentralization, boosts the collective engagement of all stakeholders, and leverages the wisdom of the crowd. This decentralized hackathon (dHack) —is focused on funding continuity, allowing participating teams to continue work on their hackathon projects. The decision-making process will be stakeholder driven, incorporating sponsors, participants, worldwide spectators and community members to reach consensus as to which projects should receive such funding in continuity.',
 		website: `https://www.dhack.io/`,
 		contractProof: ``,
@@ -562,7 +613,10 @@ export default [
 	{
 		id: 17,
 		title: 'Psychedelic Society DAO',
+		subtitle: 'Creating a more joyful world through psychedelics',
 		image: 'psychedelic_society.png',
+		blockchain: 'Ethereum',
+		framework: 'DAOStack',
 		description: 'A DAO to manage part of the membership donations of the Psychedelic Society.',
 		website: `https://psychedelicsociety.org.uk/`,
 		contractProof: ``,
@@ -589,7 +643,10 @@ export default [
 	{
 		id: 18,
 		title: 'CementDAO',
+		subtitle: 'Unifying Stablecoins',
 		image: 'cement.jpg',
+		blockchain: 'Ethereum',
+		framework: 'DAOStack',
 		description: 'CementDAO brings together the stablecoin community to create one unified stablecoin ecosystem. Stable cryptocurrencies are needed for mass adoption. There are over 150+ different stablecoins, each with their own user base, leading to a fragmented ecosystem. CementDAO unifies the ecosystem by bringing these users together.',
 		website: `https://www.cementdao.com/`,
 		contractProof: ``,
@@ -617,7 +674,10 @@ export default [
 	{
 		id: 19,
 		title: 'dOrg',
+		subtitle: 'Enabling Decentralized Organizations',
 		image: 'dorg.jpg',
+		blockchain: 'Ethereum',
+		framework: 'DAOStack',
 		description: 'dOrg is a cooperative of freelancers building tools for distributed organizations',
 		website: ``,
 		contractProof: ``,
@@ -652,6 +712,7 @@ export default [
 		description: '',
 		website: ``,
 		contractProof: ``,
+		blockchain: '',
 		contracts: [
 			{
 				name: '',
@@ -673,6 +734,8 @@ export default [
 		github: ``,
 		twitter: ``,
 		medium: '',
+		telegram: '',
+		discord: '',
 		documents: {
 			whitepaper: ''
 		}
