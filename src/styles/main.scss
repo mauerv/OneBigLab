@@ -7,3 +7,13 @@
 .small-thumbnail {
 	width: 100px;
 }
+
+.btn.tag {
+	box-shadow: none;
+	font-size: 12px;
+	padding: 7px 15px;
+}
+.btn.tag:hover {
+	cursor: default;
+	box-shadow: none;
+}

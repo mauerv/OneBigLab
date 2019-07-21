@@ -7,7 +7,7 @@ export default [
 		description: 'A community DAO focused on funding Ethereum development, in the name of Moloch the God of Coordination Failure.',
 		website: `https://molochdao.com/`,
 		blockchain: 'Ethereum',
-		framework: 'Moloch Based',
+		framework: 'Custom',
 		contractProof: `https://twitter.com/MolochDAO/status/1121203264316268544`,
 		contracts: [
 			{
@@ -267,7 +267,7 @@ export default [
 		subtitle: 'Accelerating the success of Ethereum’s dapp ecosystem',
 		image: 'metacartel.png',
 		blockchain: 'Ethereum',
-		framework: 'Moloch Based',
+		framework: 'Moloch Fork',
 		description: 'Accelerating the success of Ethereum’s dapp ecosystem by funding experiments on the application layer. We are the infamous el cartel de la meta ~',
 		website: `https://www.metacartel.org/`,
 		contractProof: `https://twitter.com/meta_cartel/status/1151137914950017024`,
@@ -296,7 +296,7 @@ export default [
 		subtitle: `DAO to help Andrew Yang's 2020 election campaign`,
 		image: 'yangdao.jpg',
 		blockchain: 'Ethereum',
-		framework: 'Moloch Based',
+		framework: 'Moloch Fork',
 		description: `A place where members secure the collective bag 💰 to fund initiatives to foster Andrew Yang's presidential campaign.`,
 		website: `https://www.yangdao.org/`,
 		contractProof: `https://twitter.com/YangDAOofficial/status/1148721427836575744`,
