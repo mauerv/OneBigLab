@@ -11,9 +11,9 @@ import daos from '../data/daos'
 
 export default () => (
 	<div>
-		<Hero 
-			title='Global DAO Directory'
-			subtitle='Home for all things DAO. Your governance dashboard.'
+		<Hero
+			title='DAO Browser'
+			subtitle='Your governance dashboard. Home for all things DAO. '
 			buttonText='Explore DAOs'
 			buttonLink={ROUTES.DAOS}
 		/>
@@ -25,9 +25,9 @@ export default () => (
 				</MDBCol>
 				<MDBCol className='col-12'>
 					<p>
-						A decentralized autonomous organization (DAO), sometimes labeled a decentralized autonomous 
-						corporation (DAC), is an organization represented by rules encoded as a computer program that is transparent, 
-						controlled by shareholders and not influenced by a central government. 
+						A decentralized autonomous organization (DAO), sometimes labeled a decentralized autonomous
+						corporation (DAC), is an organization represented by rules encoded as a computer program that is transparent,
+						controlled by shareholders and not influenced by a central government.
 						A DAO's financial transaction record and program rules are maintained on a blockchain.
 					</p>
 				</MDBCol>

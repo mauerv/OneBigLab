@@ -3,6 +3,7 @@ export default [
 		id: 0,
 		title: 'MolochDAO',
 		subtitle: 'A community DAO focused on funding Ethereum dev',
+		status: 'active',
 		image: 'moloch.png',
 		description: 'A community DAO focused on funding Ethereum development, in the name of Moloch the God of Coordination Failure.',
 		website: `https://molochdao.com/`,
@@ -32,6 +33,7 @@ export default [
 		id: 1,
 		title: 'HumanityDAO',
 		subtitle: 'Humanity is a global identity network.',
+		status: 'active',
 		image: 'humanity.png',
 		blockchain: 'Ethereum',
 		framework: 'Custom',
@@ -81,6 +83,7 @@ export default [
 		id: 2,
 		title: 'MakerDAO',
 		subtitle: 'Transparent and sustainable finance',
+		status: 'active',
 		image: 'maker.jpg',
 		description: 'Maker is a Decentralized Autonomous Organization that creates and insures the dai stablecoin on the Ethereum blockchain',
 		website: `https://makerdao.com/`,
@@ -105,6 +108,7 @@ export default [
 		id: 3,
 		title: 'NexusMutual',
 		subtitle: 'A people-powered alternative to insurance',
+		status: 'active',
 		image: 'nexus_mutual.jpg',
 		blockchain: 'Ethereum',
 		framework: 'Custom',
@@ -214,6 +218,7 @@ export default [
 		id: 4,
 		title: 'Kleros',
 		subtitle: 'The Blockchain Dispute Resolution Layer',
+		status: 'active',
 		image: 'kleros.jpg',
 		blockchain: 'Ethereum',
 		framework: 'Custom',
@@ -264,11 +269,12 @@ export default [
 	{
 		id: 5,
 		title: 'Metacartel',
-		subtitle: 'Accelerating the success of Ethereum’s dapp ecosystem',
+		subtitle: 'Ethereum’s grassroot dapp alliance',
+		status: 'active',
 		image: 'metacartel.png',
 		blockchain: 'Ethereum',
 		framework: 'Moloch Fork',
-		description: 'Accelerating the success of Ethereum’s dapp ecosystem by funding experiments on the application layer. We are the infamous el cartel de la meta ~',
+		description: 'MetaCartel DAO is a not for profit grants DAO that aims to fund and support projects that are looking to advance usability, UX or further experiment with new Web 3.0 use cases.',
 		website: `https://www.metacartel.org/`,
 		contractProof: `https://twitter.com/meta_cartel/status/1151137914950017024`,
 		contracts: [
@@ -286,6 +292,7 @@ export default [
 		github: `https://github.com/metacartel`,
 		twitter: `meta_cartel`,
 		medium: 'metacartel',
+		forum: 'https://forum.metacartel.org/',
 		documents: {
 			whitepaper: ''
 		}
@@ -294,6 +301,7 @@ export default [
 		id: 6,
 		title: 'YangDAO',
 		subtitle: `DAO to help Andrew Yang's 2020 election campaign`,
+		status: 'active',
 		image: 'yangdao.jpg',
 		blockchain: 'Ethereum',
 		framework: 'Moloch Fork',
@@ -318,6 +326,7 @@ export default [
 		id: 7,
 		title: 'dxDAO',
 		subtitle: 'Managing DutchX exchange protocol',
+		status: 'active',
 		image: 'dxdao.png',
 		blockchain: 'Ethereum',
 		framework: 'DAOStack',
@@ -363,6 +372,7 @@ export default [
 		id: 8,
 		title: 'GenesisDAO',
 		subtitle: `DAOstack's native DAO`,
+		status: 'active',
 		image: 'genesis.jpg',
 		blockchain: 'Ethereum',
 		framework: 'DAOStack',
@@ -387,6 +397,7 @@ export default [
 		id: 9,
 		title: 'PolkaDAO',
 		subtitle: 'Funding community projects in Polkadot',
+		status: 'active',
 		image: 'polkadot.jpg',
 		blockchain: 'Ethereum',
 		framework: 'DAOStack',
@@ -418,6 +429,7 @@ export default [
 		id: 10,
 		title: 'CuraDAO',
 		subtitle: 'Community DAO in Curaçao.',
+		status: 'active',
 		image: 'curadao.png',
 		blockchain: 'Ethereum',
 		framework: 'DAOStack',
@@ -448,6 +460,7 @@ export default [
 		id: 11,
 		title: 'efxDAO',
 		subtitle: 'Meritocratic funding for Ethfinex community',
+		status: 'active',
 		image: 'ethfinex.jpg',
 		blockchain: 'Ethereum',
 		framework: 'DAOStack',
@@ -478,6 +491,7 @@ export default [
 		id: 12,
 		title: 'Liberland DAO',
 		subtitle: 'Decentralized Autonomous Government',
+		status: 'active',
 		image: 'liberland.jpg',
 		blockchain: 'Ethereum',
 		framework: 'DAOStack',
@@ -509,6 +523,7 @@ export default [
 		id: 13,
 		title: 'Prague DAO',
 		subtitle: 'The first incubator governed by the community',
+		status: 'active',
 		image: 'praguedao.jpg',
 		blockchain: 'Ethereum',
 		framework: 'DAOStack',
@@ -534,6 +549,7 @@ export default [
 		id: 14,
 		title: 'Quest Society',
 		subtitle: 'Creating the mutual benefit societies of the future',
+		status: 'active',
 		image: 'socialevolution.jpg',
 		blockchain: 'Ethereum',
 		framework: 'DAOStack',
@@ -558,6 +574,7 @@ export default [
 		id: 15,
 		title: 'KyberDAO Exp #2',
 		subtitle: 'Kyber Protocol DAO',
+		status: 'active',
 		image: 'kybernetwork.jpg',
 		blockchain: 'Ethereum',
 		framework: 'DAOStack',
@@ -589,6 +606,7 @@ export default [
 		id: 16,
 		title: 'dHack',
 		subtitle: 'Decentralized Hackathon',
+		status: 'active',
 		image: 'dhack.jpg',
 		blockchain: 'Ethereum',
 		framework: 'DAOStack',
@@ -614,6 +632,7 @@ export default [
 		id: 17,
 		title: 'Psychedelic Society DAO',
 		subtitle: 'Creating a more joyful world through psychedelics',
+		status: 'active',
 		image: 'psychedelic_society.png',
 		blockchain: 'Ethereum',
 		framework: 'DAOStack',
@@ -644,6 +663,7 @@ export default [
 		id: 18,
 		title: 'CementDAO',
 		subtitle: 'Unifying Stablecoins',
+		status: 'active',
 		image: 'cement.jpg',
 		blockchain: 'Ethereum',
 		framework: 'DAOStack',
@@ -675,6 +695,7 @@ export default [
 		id: 19,
 		title: 'dOrg',
 		subtitle: 'Enabling Decentralized Organizations',
+		status: 'active',
 		image: 'dorg.jpg',
 		blockchain: 'Ethereum',
 		framework: 'DAOStack',
@@ -702,17 +723,169 @@ export default [
 			whitepaper: ''
 		}
 	},
-]
-
-/*
 	{
-		id: 0,
+		id: 20,
+		title: 'DigixDAO',
+		subtitle: '',
+		status: 'active',
+		image: 'digixdao.png',
+		description: 'DigixDAO aims to be a self-organising community on the Ethereum blockchain that actively involves its token holders in decision making and shaping the direction of the asset tokenisation business.',
+		website: `https://digix.global/dgd/`,
+		contractProof: ``,
+		blockchain: 'Ethereum',
+		framework: 'Custom',
+		contracts: [
+			{
+				name: 'Token',
+				address: `0xe0b7927c4af23765cb51314a0e0521a9645f0e2a`,
+				description: `The DGD token`
+			}
+		],
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		github: `https://github.com/digixglobal`,
+		twitter: `DigixDAO`,
+		medium: 'digix',
+		telegram: 'https://t.me/digixofficial',
+		reddit: 'digix',
+		youtube: 'https://www.youtube.com/digixglobal',
+		discord: 'https://discordapp.com/invite/CCDBJJC',
+		forum: '',
+		documents: {
+			whitepaper: 'http://cryptochainuni.com/wp-content/uploads/Overview-of-DigixGlobal-DigixDAO.pdf'
+		}
+	},
+	{
+		id: 21,
+		title: 'RECDAO',
+		subtitle: 'Reddit Ethereum Community DAO',
+		status: 'active',
+		status: 'inactive',
+		image: 'placeholder.jpg',
+		description: `RECDAO is an effort to develop Ethereum based tools for improving how we use Reddit. One of those tools, the RECDAO Curator, has been in experimental operation on r/ethtrader for the past few weeks. It's purpose is to explore the use of prediction markets to curate content.`,
+		website: `http://curator.recdao.org/`,
+		contractProof: ``,
+		blockchain: 'Ethereum',
+		framework: 'Custom',
+		contracts: [],
+		articles: [
+			{
+				title: `RECDAO Curator explained`,
+				url: `https://www.reddit.com/r/ethtrader/comments/89o4ju/recdao_curator_explained/`
+			},
+			{
+				title: `RecDAO: When decentralisation isn't the answer`,
+				url: `https://flatoutcrypto.com/home/recdao`
+			},
+			{
+				title: `Prediction markets for content curation DAOs`,
+				url: `https://ethresear.ch/t/prediction-markets-for-content-curation-daos/1312`
+			}
+		],
+		github: `https://github.com/recdao`,
+		twitter: ``,
+		medium: '',
+		telegram: '',
+		youtube: '',
+		discord: '',
+		reddit: 'recdao',
+		forum: '',
+		documents: {
+			whitepaper: ''
+		}
+	},
+	{
+		id: 22,
+		title: 'KittyDAO',
+		subtitle: '',
+		status: 'active',
+		image: 'cryptokitties.jpg',
+		description: '',
+		website: ``,
+		contractProof: `https://twitter.com/pet3rpan_/status/1149073342852243456`,
+		blockchain: 'Ethereum',
+		framework: 'Moloch Fork',
+		contracts: [
+			{
+				name: 'KittyDAO',
+				address: `0x669286d447e3c18c9d1ec2cc24bdebda381b95ff`,
+				description: `Main KittyDAO contract`
+			}
+		],
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		github: ``,
+		twitter: ``,
+		medium: '',
+		telegram: '',
+		discord: '',
+		youtube: '',
+		reddit: '',
+		forum: '',
+		documents: {
+			whitepaper: ''
+		}
+	},
+	{
+		id: 23,
+		title: 'KyodoDAO',
+		subtitle: '',
+		status: 'prelaunch',
+		image: 'decent_fund.jpg',
+		description: `Kyodo is Ethereum blockchain based web app, the cross-platform incentive tool for building the crypto economy for DAO based on Impression revenue model. We build Kyodo to run Decent.Fund. As an organizational structure, it's defined as Adhocracy. As governance, it has two models Democracy and Meritocracy.`,
+		website: `http://decent.fund/`,
+		contractProof: ``,
+		blockchain: 'Ethereum',
+		framework: 'Colony',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		articles: [
+			{
+				title: `Kyodo — “You decide your own level of involvement”`,
+				url: `https://medium.com/decentfund/kyodo-you-decide-your-own-level-of-involvement-385515ef03a7`
+			}
+		],
+		github: ``,
+		twitter: ``,
+		medium: 'decentfund',
+		telegram: '',
+		youtube: '',
+		discord: '',
+		reddit: '',
+		forum: '',
+		documents: {
+			whitepaper: ''
+		}
+	},
+	{
+		id: 24,
 		title: '',
+		subtitle: '',
+		status: '',
 		image: '',
 		description: '',
 		website: ``,
 		contractProof: ``,
 		blockchain: '',
+		framework: '',
 		contracts: [
 			{
 				name: '',
@@ -735,7 +908,95 @@ export default [
 		twitter: ``,
 		medium: '',
 		telegram: '',
+		youtube: '',
 		discord: '',
+		reddit: '',
+		forum: '',
+		documents: {
+			whitepaper: ''
+		}
+	},
+	{
+		id: 25,
+		title: '',
+		subtitle: '',
+		status: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		github: ``,
+		twitter: ``,
+		medium: '',
+		telegram: '',
+		youtube: '',
+		discord: '',
+		reddit: '',
+		forum: '',
+		documents: {
+			whitepaper: ''
+		}
+	},
+]
+
+/*
+	{
+		id: 0,
+		title: '',
+		subtitle: '',
+		status: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		github: ``,
+		twitter: ``,
+		medium: '',
+		telegram: '',
+		youtube: '',
+		discord: '',
+		reddit: '',
+		forum: '',
 		documents: {
 			whitepaper: ''
 		}

@@ -6,7 +6,7 @@ import * as ROUTES from '../constants/routes'
 export default () => (
   <nav className='navbar navbar-expand-lg navbar-dark bg-primary fixed-top'>
   	<div className='container'>
-  		<Link to={ROUTES.HOME} className='navbar-brand'>OneBigLab</Link>
+  		<Link to={ROUTES.HOME} className='navbar-brand'>DAO Browser</Link>
 		  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    <span className="navbar-toggler-icon"></span>
 		  </button>
