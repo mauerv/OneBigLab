@@ -2,6 +2,8 @@ import React from 'react'
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
 import Dao from './Dao'
+import ContractGrid from './ContractGrid'
+import SocialIcons from './SocialIcons'
 
 import daos from '../../data/daos'
 
@@ -20,41 +22,9 @@ export default ({ match }) => {
 				<MDBCol className='col-12 mt-1'>
 					<p className='pt-3'>{dao.description}</p>
 				</MDBCol>
-				<MDBCol className='col-12 d-flex justify-content-center'>
-					<a href={dao.github} target='__blank' className='mr-3 ml-3'>
-						<i className="fab fa-github fa-2x" aria-hidden="true"></i>
-					</a>
-					<a href={`https://medium.com/${dao.medium}`} target='__blank' className='mr-3 ml-3'>
-						<i className="fab fa-medium fa-2x" aria-hidden="true"></i>
-					</a>
-					<a href={`https://twitter.com/${dao.twitter}`} target='__blank' className='mr-3 ml-3'>
-						<i className="fab fa-twitter fa-2x" aria-hidden="true"></i>
-					</a>
-				</MDBCol>
+				<SocialIcons social={dao.social}/>
 			</MDBRow>
-			<MDBRow className='mt-2 mb-2 pb-3 pt-3 justify-content-center'>
-				<div className='col-12 mb-2 text-md-center'>
-					<h3>Contracts</h3>
-				</div>
-				{dao.contracts.map(contract => (
-					<div key={contract.address} className='col-12 col-md-5 col-lg-3 mb-2 mr-2 mr-lg-4 pt-2 pb-2 border border-light rounded-lg'>
-						<a href={`https://etherscan.io/address/${contract.address}`} target="_blank">
-							<h5 className='text-primary'>{contract.name}</h5>
-						</a>
-						<a href={`https://etherscan.io/address/${contract.address}`} target="_blank">
-							<p className='wrap-url font-weight-lighter'>{contract.address}</p>
-						</a>
-						<p>{contract.description}</p>
-					</div>
-				))}
-				{dao.contractProof && (
-					<div className='col-12 mt-4'>
-						<hr />
-						<h3 className='mt-4'>Contract Proof</h3>
-						<a href={dao.contractProof} className='wrap-url'>{dao.contractProof}</a>
-					</div>
-				)}
-			</MDBRow>
+			<ContractGrid contracts={dao.contracts} contractProof={dao.contractProof}/>
 		</MDBContainer>
 	)
 }

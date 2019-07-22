@@ -22,9 +22,14 @@ export default [
 				description: 'Contains all the funds for the DAO'
 			}
 		],
-		github: `https://github.com/MolochVentures`,
-		twitter: `MolochDAO`,
-		medium: 'molochdao',
+		social: {
+			github: 'https://github.com/MolochVentures',
+			twitter: 'MolochDAO',
+			medium: 'molochdao',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
 		documents: {
 			whitepaper: 'https://github.com/MolochVentures/Whitepaper/blob/master/Whitepaper.pdf'
 		}
@@ -72,9 +77,14 @@ export default [
 				description: 'Does Stuff'
 			}
 		],
-		github: `https://github.com/marbleprotocol/humanity`,
-		twitter: `HumanityDAO`,
-		medium: 'marbleorg',
+		social: {
+			github: 'https://github.com/marbleprotocol/humanity',
+			twitter: 'HumanityDAO',
+			medium: 'marbleorg',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
 		documents: {
 			whitepaper: ''
 		}
@@ -97,9 +107,14 @@ export default [
 				description: 'MKR token contract'
 			},
 		],
-		github: `https://github.com/makerdao`,
-		twitter: `MakerDAO`,
-		medium: 'makerdao',
+		social: {
+			github: 'https://github.com/makerdao',
+			twitter: 'MakerDAO',
+			medium: 'makerdao',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
 		documents: {
 			whitepaper: 'https://makerdao.com/whitepaper/'
 		}
@@ -207,9 +222,14 @@ export default [
 				description: ''
 			},
 		],
-		github: `https://github.com/somish/NexusMutual`,
-		twitter: `nexusmutual`,
-		medium: 'nexus-mutual',
+		social: {
+			github: 'https://github.com/somish/NexusMutual',
+			twitter: 'nexusmutual',
+			medium: 'nexus-mutual',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
 		documents: {
 			whitepaper: 'https://www.nexusmutual.io/assets/docs/nmx_white_paperv2_3.pdf'
 		}
@@ -257,10 +277,15 @@ export default [
 				description: ''
 			}
 		],
-		github: `https://github.com/kleros`,
-		twitter: `Kleros_io`,
-		medium: 'kleros',
-		blog: `https://blog.kleros.io/`,
+		social: {
+			github: 'https://github.com/kleros',
+			twitter: 'Kleros_io',
+			medium: 'kleros',
+			telegram: '',
+			reddit: '',
+			discord: '',
+			blog: `https://blog.kleros.io/`
+		},
 		documents: {
 			whitepaper: `https://kleros.io/assets/whitepaper.pdf`
 		}
@@ -288,10 +313,15 @@ export default [
 				description: `Contains the DAO's funds.`
 			}
 		],
-		github: `https://github.com/metacartel`,
-		twitter: `meta_cartel`,
-		medium: 'metacartel',
-		forum: 'https://forum.metacartel.org/',
+		social: {
+			github: 'https://github.com/metacartel',
+			twitter: 'meta_cartel',
+			medium: 'metacartel',
+			telegram: '',
+			reddit: '',
+			discord: '',
+			forum: 'https://forum.metacartel.org/'
+		},
 		documents: {
 			whitepaper: ''
 		}
@@ -314,9 +344,14 @@ export default [
 				description: 'The main contract for the DAO'
 			}
 		],
-		github: ``,
-		twitter: `yangdaoofficial`,
-		medium: 'yangdao',
+		social: {
+			github: '',
+			twitter: 'yangdaoofficial',
+			medium: 'yangdao',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
 		documents: {
 			whitepaper: ''
 		}
@@ -359,10 +394,14 @@ export default [
 				description: 'Holographic Consensus voting machine for voting on proposals	'
 			}
 		],
-		github: ``,
-		twitter: ``,
-		medium: '',
-		telegramGroup: 'https://t.me/dxDAO',
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: 'https://t.me/dxDAO',
+			reddit: '',
+			discord: '',
+		},
 		documents: {
 			whitepaper: ''
 		}
@@ -385,6 +424,14 @@ export default [
 				description: `Genesis DAO's own token`
 			}
 		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
 		github: ``,
 		twitter: ``,
 		medium: '',
@@ -410,16 +457,20 @@ export default [
 				description: `The main PolkaDAO contract.`
 			}
 		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: 'EuqreF4',
+		},
 		articles: [
 			{
 				title: `Announcing PolkaDAO: Fund Your Project!`,
 				url: `https://polkadot.network/announcing-polkadao-fund-your-project/`
 			}
 		],
-		github: ``,
-		twitter: ``,
-		medium: '',
-		discord: 'https://discordapp.com/invite/EuqreF4?source=post_page---------------------------',
 		documents: {
 			whitepaper: ''
 		}
@@ -442,15 +493,20 @@ export default [
 				description: `The main CuraDAO contract`
 			}
 		],
+		social: {
+			github: '',
+			twitter: 'Cura_DAO',
+			medium: 'caribbean-blockchain-network',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
 		articles: [
 			{
 				title: ``,
 				url: ``
 			}
 		],
-		github: ``,
-		twitter: `Cura_DAO`,
-		medium: 'caribbean-blockchain-network',
 		documents: {
 			whitepaper: ''
 		}
@@ -473,15 +529,20 @@ export default [
 				description: `The main efxDAO contract`
 			}
 		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
 		articles: [
 			{
 				title: `Ethfinex Launches Funding DAO`,
 				url: `https://blog.ethfinex.com/ethfinex-launches-funding-dao/`
 			}
 		],
-		github: ``,
-		twitter: ``,
-		medium: '',
 		documents: {
 			whitepaper: ''
 		}
@@ -504,16 +565,20 @@ export default [
 				description: `Main Liberland DAO contract`
 			}
 		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '2tKVhss',
+		},
 		articles: [
 			{
 				title: ``,
 				url: ``
 			}
 		],
-		github: ``,
-		twitter: ``,
-		discord: 'https://discordapp.com/invite/2tKVhss',
-		medium: '',
 		documents: {
 			whitepaper: ''
 		}
@@ -530,16 +595,20 @@ export default [
 		website: `https://praguedao.com/`,
 		contractProof: ``,
 		contracts: [],
+		social: {
+			github: '',
+			twitter: 'praguedao',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: 'qXCxwSH',
+		},
 		articles: [
 			{
 				title: `Indroducing The PragueDAO`,
 				url: `https://medium.com/daostack/introducing-the-praguedao-9930e6b3801`
 			}
 		],
-		github: ``,
-		twitter: `praguedao`,
-		discord: 'https://discordapp.com/invite/qXCxwSH',
-		medium: '',
 		documents: {
 			whitepaper: ''
 		}
@@ -556,15 +625,20 @@ export default [
 		website: `http://socialevolution.io/`,
 		contractProof: ``,
 		contracts: [],
+		social: {
+			github: '',
+			twitter: 'socialevol',
+			medium: 'social-evolution',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
 		articles: [
 			{
 				title: ``,
 				url: ``
 			}
 		],
-		github: ``,
-		twitter: `socialevol`,
-		medium: 'social-evolution',
 		documents: {
 			whitepaper: 'https://drive.google.com/file/d/1u9gogbXcnAtivST_y7qhJFTL3cd1ZfOf/view?source=post_page---------------------------'
 		}
@@ -587,16 +661,20 @@ export default [
 				description: `Main KyberDAO contract`
 			}
 		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: 'https://t.me/joinchat/GS0ljBLOtCv_FlzFHYuPHg',
+			reddit: '',
+			discord: '',
+		},
 		articles: [
 			{
 				title: ``,
 				url: ``
 			}
 		],
-		github: ``,
-		twitter: ``,
-		medium: '',
-		telegram: 'https://t.me/joinchat/GS0ljBLOtCv_FlzFHYuPHg',
 		documents: {
 			whitepaper: ''
 		}
@@ -619,10 +697,14 @@ export default [
 				url: `https://medium.com/daostack/introducing-dhack-a-decentralized-hackathon-e013f76821ca`
 			}
 		],
-		github: ``,
-		twitter: `dHack0`,
-		medium: '',
-		telegram: 'https://t.me/dHack0',
+		social: {
+			github: '',
+			twitter: 'dHack0',
+			medium: '',
+			telegram: 'https://t.me/dHack0',
+			reddit: '',
+			discord: '',
+		},
 		documents: {
 			whitepaper: ''
 		}
@@ -645,15 +727,20 @@ export default [
 				description: `The main Psychedelic Society DAO contract`
 			}
 		],
+		social: {
+			github: '',
+			twitter: 'PsychedelicsUK',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
 		articles: [
 			{
 				title: ``,
 				url: ``
 			}
 		],
-		github: ``,
-		twitter: `PsychedelicsUK`,
-		medium: '',
 		documents: {
 			whitepaper: ''
 		}
@@ -676,16 +763,20 @@ export default [
 				description: `The main CementDAO contract`
 			}
 		],
+		social: {
+			github: '',
+			twitter: 'CementDAO',
+			medium: 'cementdao',
+			telegram: 'https://t.me/cementdao',
+			reddit: '',
+			discord: '',
+		},
 		articles: [
 			{
 				title: ``,
 				url: ``
 			}
 		],
-		github: ``,
-		twitter: `CementDAO`,
-		medium: 'cementdao',
-		telegram: 'https://t.me/cementdao',
 		documents: {
 			whitepaper: ''
 		}
@@ -708,16 +799,20 @@ export default [
 				description: `The main contract for dOrg DAO.`
 			}
 		],
+		social: {
+			github: 'https://github.com/dOrgTech',
+			twitter: 'dOrg_tech',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: 'Z5R4CcS',
+		},
 		articles: [
 			{
 				title: `dOrg Founders Have Created the First Limited Liability DAO`,
 				url: `https://www.coindesk.com/dorg-founders-have-created-the-first-limited-liability-dao`
 			}
 		],
-		github: `https://github.com/dOrgTech`,
-		twitter: `dOrg_tech`,
-		medium: '',
-		discord: 'https://discordapp.com/invite/Z5R4CcS',
 		documents: {
 			whitepaper: ''
 		}
@@ -740,20 +835,21 @@ export default [
 				description: `The DGD token`
 			}
 		],
+		social: {
+			github: 'https://github.com/digixglobal',
+			twitter: 'DigixDAO',
+			medium: 'digix',
+			telegram: 'https://t.me/digixofficial',
+			reddit: 'digix',
+			youtube: 'https://www.youtube.com/digixglobal',
+			discord: 'CCDBJJC',
+		},
 		articles: [
 			{
 				title: ``,
 				url: ``
 			}
 		],
-		github: `https://github.com/digixglobal`,
-		twitter: `DigixDAO`,
-		medium: 'digix',
-		telegram: 'https://t.me/digixofficial',
-		reddit: 'digix',
-		youtube: 'https://www.youtube.com/digixglobal',
-		discord: 'https://discordapp.com/invite/CCDBJJC',
-		forum: '',
 		documents: {
 			whitepaper: 'http://cryptochainuni.com/wp-content/uploads/Overview-of-DigixGlobal-DigixDAO.pdf'
 		}
@@ -771,6 +867,14 @@ export default [
 		blockchain: 'Ethereum',
 		framework: 'Custom',
 		contracts: [],
+		social: {
+			github: 'https://github.com/recdao',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: 'recdao',
+			discord: '',
+		},
 		articles: [
 			{
 				title: `RECDAO Curator explained`,
@@ -785,14 +889,6 @@ export default [
 				url: `https://ethresear.ch/t/prediction-markets-for-content-curation-daos/1312`
 			}
 		],
-		github: `https://github.com/recdao`,
-		twitter: ``,
-		medium: '',
-		telegram: '',
-		youtube: '',
-		discord: '',
-		reddit: 'recdao',
-		forum: '',
 		documents: {
 			whitepaper: ''
 		}
@@ -815,20 +911,20 @@ export default [
 				description: `Main KittyDAO contract`
 			}
 		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
 		articles: [
 			{
 				title: ``,
 				url: ``
 			}
 		],
-		github: ``,
-		twitter: ``,
-		medium: '',
-		telegram: '',
-		discord: '',
-		youtube: '',
-		reddit: '',
-		forum: '',
 		documents: {
 			whitepaper: ''
 		}
@@ -856,20 +952,20 @@ export default [
 				description: ''
 			}
 		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: 'decentfund',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
 		articles: [
 			{
 				title: `Kyodo — “You decide your own level of involvement”`,
 				url: `https://medium.com/decentfund/kyodo-you-decide-your-own-level-of-involvement-385515ef03a7`
 			}
 		],
-		github: ``,
-		twitter: ``,
-		medium: 'decentfund',
-		telegram: '',
-		youtube: '',
-		discord: '',
-		reddit: '',
-		forum: '',
 		documents: {
 			whitepaper: ''
 		}
@@ -885,32 +981,21 @@ export default [
 		contractProof: ``,
 		blockchain: '',
 		framework: '',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
+		contracts: [],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
 		articles: [
 			{
 				title: ``,
 				url: ``
 			}
 		],
-		github: ``,
-		twitter: ``,
-		medium: '',
-		telegram: '',
-		youtube: '',
-		discord: '',
-		reddit: '',
-		forum: '',
 		documents: {
 			whitepaper: ''
 		}
@@ -926,32 +1011,21 @@ export default [
 		contractProof: ``,
 		blockchain: '',
 		framework: '',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
+		contracts: [],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
 		articles: [
 			{
 				title: ``,
 				url: ``
 			}
 		],
-		github: ``,
-		twitter: ``,
-		medium: '',
-		telegram: '',
-		youtube: '',
-		discord: '',
-		reddit: '',
-		forum: '',
 		documents: {
 			whitepaper: 'https://github.com/aragon/nest/blob/master/Nest%20DAO%20Governance/Nest%20DAO%20specification%20at%202019-11-07.md#membership-for-the-nest-dao'
 		}
@@ -982,20 +1056,20 @@ export default [
 				description: ''
 			}
 		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
 		articles: [
 			{
 				title: ``,
 				url: ``
 			}
 		],
-		github: ``,
-		twitter: ``,
-		medium: '',
-		telegram: '',
-		youtube: '',
-		discord: '',
-		reddit: '',
-		forum: '',
 		documents: {
 			whitepaper: ''
 		}
