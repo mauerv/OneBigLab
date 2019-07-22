@@ -1,5 +1,9 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom'
+
+import * as ROUTES from '../constants/routes'
+
 export default () => (
 	<div className='container'>
 		<div className='text-center p-5 row'>
@@ -10,6 +14,7 @@ export default () => (
 		<div>
 			<h3>Fork MolochDAO</h3>
 			<p>The <a href='https://github.com/MolochVentures/moloch'>code repo</a> for the MolochDAO opens with "STEAL THIS CODE". This initiative to further ethereum development, created a simple, but generalized contract structure to create an organization, add vetted members, create proposals, and manage funding.</p>
+			<p>There are multiple initiatives that forked this codebase, like <Link to={`${ROUTES.DAOS}/5`}>MetaCartel</Link>, <Link to={`${ROUTES.DAOS}/6`}>YangDAO</Link> and <Link to={`${ROUTES.DAOS}/22`}>KittyDAO</Link>.</p>
 		</div>
 
 		<div>
@@ -30,6 +35,6 @@ export default () => (
 		<div>
 			<h3>Giveth</h3>
 			<p>Giveth specializes in letting you create decentralized autonomous charities. These are DAOs optimized to run a charity.</p>
-		</div>				
+		</div>
 	</div>
 )

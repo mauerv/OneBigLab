@@ -93,7 +93,7 @@ export default [
 		contracts: [
 			{
 				name: 'Maker',
-				address: `https://etherscan.io/token/0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2?a=0x69076e44a9c70a67d5b79d95795aba299083c275`,
+				address: `0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2`,
 				description: 'MKR token contract'
 			},
 		],
@@ -225,7 +225,6 @@ export default [
 		description: 'A decentralized autonomous organization that delivers fast, affordable and transparent justice for all.',
 		website: `https://kleros.io/`,
 		contractProof: ``,
-		token: `https://etherscan.io/token/0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d`,
 		contracts: [
 			{
 				name: 'Kleros',
@@ -918,10 +917,10 @@ export default [
 	},
 	{
 		id: 25,
-		title: '',
+		title: 'Nest DAO',
 		subtitle: '',
-		status: '',
-		image: '',
+		status: 'prelaunch',
+		image: 'aragon.jpg',
 		description: '',
 		website: ``,
 		contractProof: ``,
@@ -954,7 +953,7 @@ export default [
 		reddit: '',
 		forum: '',
 		documents: {
-			whitepaper: ''
+			whitepaper: 'https://github.com/aragon/nest/blob/master/Nest%20DAO%20Governance/Nest%20DAO%20specification%20at%202019-11-07.md#membership-for-the-nest-dao'
 		}
 	},
 ]

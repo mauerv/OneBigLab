@@ -12,7 +12,7 @@ export default ({ match }) => {
 			<MDBRow className='text-center mb-3 pb-3 border-bottom'>
 				<MDBCol className='col-6 col-md-2 offset-3 offset-md-5'>
 					<img src={`../${dao.image}`} className='img-thumbnail' />
-				</MDBCol>	
+				</MDBCol>
 				<MDBCol className='col-12'>
 					<h1 className='mb-0'>{dao.title}</h1>
 					<a href={dao.website} target='__blank'>{dao.website}</a>
@@ -37,9 +37,13 @@ export default ({ match }) => {
 					<h3>Contracts</h3>
 				</div>
 				{dao.contracts.map(contract => (
-					<div key={contract.address} className='col-12 col-md-5 col-lg-3 mb-2 mr-2 mr-lg-4 pt-2 pb-2 border border-light rounded-lg'> 	
-						<h5 className='text-primary'>{contract.name}</h5>
-						<p className='wrap-url'>{contract.address}</p>
+					<div key={contract.address} className='col-12 col-md-5 col-lg-3 mb-2 mr-2 mr-lg-4 pt-2 pb-2 border border-light rounded-lg'>
+						<a href={`https://etherscan.io/address/${contract.address}`} target="_blank">
+							<h5 className='text-primary'>{contract.name}</h5>
+						</a>
+						<a href={`https://etherscan.io/address/${contract.address}`} target="_blank">
+							<p className='wrap-url font-weight-lighter'>{contract.address}</p>
+						</a>
 						<p>{contract.description}</p>
 					</div>
 				))}
@@ -49,10 +53,8 @@ export default ({ match }) => {
 						<h3 className='mt-4'>Contract Proof</h3>
 						<a href={dao.contractProof} className='wrap-url'>{dao.contractProof}</a>
 					</div>
-				)}				
+				)}
 			</MDBRow>
 		</MDBContainer>
 	)
 }
-
-
