@@ -3,6 +3,7 @@ import { MDBMask, MDBView, MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
 import Hero from './Hero'
 import Feature from './Feature'
+import FeaturedGrid from './FeaturedGrid'
 
 import { Link } from 'react-router-dom'
 
@@ -17,11 +18,10 @@ export default () => (
 			buttonText='Explore DAOs'
 			buttonLink={ROUTES.DAOS}
 		/>
-
 		<MDBContainer>
 			<MDBRow className='border-top border-bottom pt-4 pb-4'>
 				<MDBCol className='col-12'>
-					<h3>What is a DAO</h3>
+					<h2>What is a DAO</h2>
 				</MDBCol>
 				<MDBCol className='col-12'>
 					<p>
@@ -32,25 +32,11 @@ export default () => (
 					</p>
 				</MDBCol>
 			</MDBRow>
+			<FeaturedGrid items={daos.slice(0, 4)}/>
 			<MDBRow className='border-top border-bottom pt-4 pb-4'>
-				<MDBCol className='col-12'><h3>How to start one?</h3></MDBCol>
+				<MDBCol className='col-12'><h2>How to start one?</h2></MDBCol>
 				<MDBCol className='col-12'><p>These days there are multiple frameworks, platforms or code you can fork in order to start your own DAO. It can have its own blockchain, or live as a smart contract on top of a platform like <a href='https://ethereum.org/' target='_blank'>Ethereum</a> or <a href='https://www.rsk.co/' target='_blank'>Rootstock</a>.</p></MDBCol>
 				<MDBCol className='col-12'><Link to={ROUTES.CREATE_INFO} className='btn btn-primary ml-0'>Start a DAO</Link></MDBCol>
-			</MDBRow>
-			<MDBRow className='border-top border-bottom pt-4 pb-3'>
-				<MDBCol className='col-12'><h3>Featured DAOs</h3></MDBCol>
-				{daos.map(dao => (
-					<MDBCol sm='6' md='3' className='col-10 offset-1 offset-sm-0 text-center mb-3'>
-            <Link to={`${ROUTES.DAOS}/${dao.id}`}>
-	            <MDBView hover zoom>
-								<img src={dao.image} className='img-thumbnail' />
-	              <MDBMask className="flex-center" overlay="stylish-strong">
-	                <h4 className="white-text font-weight-bolder">{dao.title}</h4>
-	              </MDBMask>
-	            </MDBView>
-						</Link>
-          </MDBCol>
-				))}
 			</MDBRow>
 		</MDBContainer>
 	</div>
