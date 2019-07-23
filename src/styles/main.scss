@@ -7,6 +7,9 @@
 .small-thumbnail {
 	width: 100px;
 }
+.lg-thumbnail {
+	width: 100px;
+}
 .btn.tag {
 	box-shadow: none;
 	font-size: 12px;
@@ -23,6 +26,15 @@
 .footer-icon-light:hover {
 	color: #ccc;
 }
-.banner {
-	width: 100%;
+
+@media only screen and (min-width: 768px) {
+  .lg-thumbnail {
+		width: 150px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .lg-thumbnail {
+		width: 200px;
+  }
 }

@@ -13,9 +13,6 @@ export default () => (
 		  <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
 		    <ul className="navbar-nav">
 		      <li className="nav-item">
-		      	<Link to={ROUTES.NEWS} className='nav-link text-light'>News</Link>
-		      </li>
-		      <li className="nav-item">
 		      	<Link to={ROUTES.DAOS} className='nav-link text-light'>Explore</Link>
 		      </li>
 		      <li className="nav-item">
