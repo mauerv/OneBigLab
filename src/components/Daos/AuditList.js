@@ -3,6 +3,7 @@ import React from 'react'
 export default ({ audits }) => (
   <div>
     <h3>Code Audits</h3>
+    {audits.length !== 0 ? (
       <table className='table table-bordered'>
         <thead className='thead-light'>
           <th>Auditor</th>
@@ -19,5 +20,8 @@ export default ({ audits }) => (
           ))}
         </tbody>
       </table>
+    ) : (
+      <p>There are no known code audits.</p>
+    )}
   </div>
 )
