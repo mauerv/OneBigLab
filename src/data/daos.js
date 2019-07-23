@@ -22,12 +22,20 @@ export default [
 				description: 'Contains all the funds for the DAO'
 			}
 		],
+		audits: [
+			{
+				auditor: 'Nomic Labs',
+				auditorWebsite: 'https://nomiclabs.io/',
+				auditUrl: 'https://medium.com/nomic-labs-blog/moloch-dao-audit-report-f31505e85c70'
+			}
+		],
 		social: {
 			github: 'https://github.com/MolochVentures',
 			twitter: 'MolochDAO',
 			medium: 'molochdao',
 			telegram: '',
 			reddit: '',
+			youtube: '',
 			discord: '',
 		},
 		documents: {
@@ -419,8 +427,23 @@ export default [
 		contractProof: ``,
 		contracts: [
 			{
+				name: 'Genesis DAO Avatar',
+				address: `0x294f999356ed03347c7a23bcbcf8d33fa41dc830`,
+				description: `Genesis DAO's main contract`
+			},
+			{
 				name: 'Token',
 				address: `0x543ff227f64aa17ea132bf9886cab5db55dcaddf`,
+				description: `Genesis DAO's own token`
+			},
+			{
+				name: 'Reputation',
+				address: ``,
+				description: ``
+			},
+			{
+				name: 'GenesisProtocol',
+				address: `0x374026A48D777CB0FFdCCdB9a919c0Aa7cE8a0fc`,
 				description: `Genesis DAO's own token`
 			}
 		],
@@ -858,7 +881,6 @@ export default [
 		id: 21,
 		title: 'RECDAO',
 		subtitle: 'Reddit Ethereum Community DAO',
-		status: 'active',
 		status: 'inactive',
 		image: 'placeholder.jpg',
 		description: `RECDAO is an effort to develop Ethereum based tools for improving how we use Reddit. One of those tools, the RECDAO Curator, has been in experimental operation on r/ethtrader for the past few weeks. It's purpose is to explore the use of prediction markets to curate content.`,
@@ -1043,6 +1065,13 @@ export default [
 				name: '',
 				address: ``,
 				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: 'Nomic Labs',
+				auditorWebsite: 'https://nomiclabs.io/',
+				auditUrl: 'https://medium.com/nomic-labs-blog/moloch-dao-audit-report-f31505e85c70'
 			}
 		],
 		social: {

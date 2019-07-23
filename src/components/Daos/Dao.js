@@ -4,6 +4,7 @@ import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import Dao from './Dao'
 import ContractGrid from './ContractGrid'
 import SocialIcons from '../SocialIcons'
+import TagGroup from '../Tags/TagGroup'
 
 import daos from '../../data/daos'
 
@@ -26,6 +27,11 @@ export default ({ match }) => {
 					<SocialIcons social={dao.social}/>
 				</MDBCol>
 			</MDBRow>
+			<TagGroup
+				blockchain={dao.blockchain}
+				framework={dao.framework}
+				status={dao.status}
+			/>
 			<ContractGrid contracts={dao.contracts} contractProof={dao.contractProof}/>
 		</MDBContainer>
 	)
