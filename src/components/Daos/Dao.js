@@ -6,6 +6,8 @@ import ContractGrid from './ContractGrid'
 import SocialIcons from '../SocialIcons'
 import TagGroup from '../Tags/TagGroup'
 import AuditList from './AuditList'
+import DocumentGrid from './DocumentGrid'
+
 import daos from '../../data/daos'
 
 export default ({ match }) => {
@@ -34,6 +36,7 @@ export default ({ match }) => {
 			/>
 			<ContractGrid contracts={dao.contracts} contractProof={dao.contractProof}/>
 			<AuditList audits={dao.audits}/>
+			<DocumentGrid documents={dao.documents}/>
 		</MDBContainer>
 	)
 }

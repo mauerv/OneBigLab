@@ -39,9 +39,12 @@ export default [
 			youtube: '',
 			discord: '',
 		},
-		documents: {
-			whitepaper: 'https://github.com/MolochVentures/Whitepaper/blob/master/Whitepaper.pdf'
-		}
+		documents: [
+			{
+				title: "Whitepaper",
+				url: 'https://github.com/MolochVentures/Whitepaper/blob/master/Whitepaper.pdf'
+			}
+		]
 	},
 	{
 		id: 1,
