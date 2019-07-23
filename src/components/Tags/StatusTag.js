@@ -1,7 +1,7 @@
 import React from 'react'
 import classNames from 'classnames'
 
-export default ({ status }) => {
+export default ({ status, label = true }) => {
   let statusClass = ''
 
   switch (status) {
@@ -17,7 +17,7 @@ export default ({ status }) => {
 
   return (
     <div>
-      <h5 className='mb-0'>Status</h5>
+      {label && <h5 className='mb-0'>Status</h5>}
       <p className={`tag btn btn-outline-${statusClass}`}>{status}</p>
     </div>
   )

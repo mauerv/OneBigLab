@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default ({ framework }) => {
+export default ({ framework, label = true }) => {
   let frameworkClass = ''
 
   switch (framework) {
@@ -19,7 +19,7 @@ export default ({ framework }) => {
 
   return (
     <div>
-      <h5 className='mb-0'>Framework</h5>
+      {label && <h5 className='mb-0'>Framework</h5>}
       <p className={`tag btn btn-${frameworkClass}`}>{framework}</p>
     </div>
   )

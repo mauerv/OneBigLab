@@ -5,6 +5,9 @@ import {
 
 import * as ROUTES from '../../constants/routes'
 
+import ChainTag from '../Tags/ChainTag'
+import FrameworkTag from '../Tags/FrameworkTag'
+
 export default ({ dao }) => (
   <div className='list-group-item d-flex flex-column flex-md-row justify-content-between'>
 		<div className='d-flex flex-row mt-1'>
@@ -18,9 +21,9 @@ export default ({ dao }) => (
 		    <p>{dao.subtitle}</p>
 			</div>
 		</div>
-		<div className='d-flex justify-content-between flex-md-column'>
-			<p className='tag btn btn-outline-info'>{dao.blockchain}</p>
-			<p className='tag btn btn-secondary'>{dao.framework}</p>
+		<div className='d-flex flex-md-column justify-content-between align-items-end'>
+			<ChainTag chain={dao.blockchain} label={false} />
+			<FrameworkTag framework={dao.framework} label={false} />
 		</div>
   </div>
 )
