@@ -26,7 +26,8 @@ export default [
 			{
 				auditor: 'Nomic Labs',
 				auditorWebsite: 'https://nomiclabs.io/',
-				auditUrl: 'https://medium.com/nomic-labs-blog/moloch-dao-audit-report-f31505e85c70'
+				auditUrl: 'https://medium.com/nomic-labs-blog/moloch-dao-audit-report-f31505e85c70',
+				auditDate: "14/02/2019"
 			}
 		],
 		social: {
