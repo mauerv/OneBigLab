@@ -3,7 +3,7 @@ import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
 import Dao from './Dao'
 import ContractGrid from './ContractGrid'
-import SocialIcons from './SocialIcons'
+import SocialIcons from '../SocialIcons'
 
 import daos from '../../data/daos'
 
@@ -22,7 +22,9 @@ export default ({ match }) => {
 				<MDBCol className='col-12 mt-1'>
 					<p className='pt-3'>{dao.description}</p>
 				</MDBCol>
-				<SocialIcons social={dao.social}/>
+				<MDBCol>
+					<SocialIcons social={dao.social}/>
+				</MDBCol>
 			</MDBRow>
 			<ContractGrid contracts={dao.contracts} contractProof={dao.contractProof}/>
 		</MDBContainer>

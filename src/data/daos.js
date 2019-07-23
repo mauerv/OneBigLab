@@ -940,18 +940,7 @@ export default [
 		contractProof: ``,
 		blockchain: 'Ethereum',
 		framework: 'Colony',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
+		contracts: [],
 		social: {
 			github: '',
 			twitter: '',
