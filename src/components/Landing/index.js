@@ -1,19 +1,19 @@
 import React from 'react'
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
-import Hero from './Hero'
+import Hero from '../Hero'
 
 import { Link } from 'react-router-dom'
 
-import * as ROUTES from '../constants/routes'
+import * as ROUTES from '../../constants/routes'
 
 export default () => (
 	<div>
 		<Hero
 			title='DAO Browser'
 			subtitle='Your governance dashboard. Home for all things DAO. '
-			buttonText='Explore DAOs'
-			buttonLink={ROUTES.DAOS}
+			btnText='Explore DAOs'
+			btnLink={ROUTES.DAOS}
 		/>
 		<MDBContainer>
 			<MDBRow className='border-bottom pt-4 pb-4'>

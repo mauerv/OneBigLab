@@ -1,6 +1,6 @@
 import React from 'react'
 
-import SocialIcons from './SocialIcons'
+import SocialIcons from '../SocialIcons'
 
 const social = {
 	github: "https://github.com/mauerv/OneBigLab",

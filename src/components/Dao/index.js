@@ -1,11 +1,11 @@
 import React from 'react'
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
-import ContractGrid from './ContractGrid'
+import ContractGrid from '../ContractGrid'
 import SocialIcons from '../SocialIcons'
 import TagGroup from '../Tags/TagGroup'
-import AuditList from './AuditList'
-import DocumentGrid from './DocumentGrid'
+import AuditList from '../AuditList'
+import DocumentGrid from '../DocumentGrid'
 
 import daos from '../../data/daos'
 

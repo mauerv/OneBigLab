@@ -3,7 +3,7 @@ import React from 'react'
 import { MDBMask, MDBView, MDBCol } from "mdbreact";
 import { Link } from 'react-router-dom'
 
-import * as ROUTES from '../constants/routes'
+import * as ROUTES from '../../constants/routes'
 
 export default ({ item }) => (
   <MDBCol sm='6' md='3' className='col-10 offset-1 offset-sm-0 text-center mb-3'>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import newsList from '../data/news'
+import newsList from '../../data/news'
 
 export default () => (
 	<div className='container'>
