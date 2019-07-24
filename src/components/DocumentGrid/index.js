@@ -7,7 +7,7 @@ export default ({ documents }) => (
       {documents.length !== 0 ? (
         documents.map(document => (
           <div key={document.url} className='col-2 text-center'>
-            <a href={document.url}>
+            <a href={document.url} target='_blank' rel="noopener noreferrer">
               <i className="far fa-file-alt fa-4x secondary-icon"></i>
               <p className='mt-1'>{document.title}</p>
             </a>

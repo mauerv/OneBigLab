@@ -13,6 +13,9 @@ export default ({ framework, label = true }) => {
     case 'Colony':
       frameworkClass = 'success'
       break;
+    case 'TCR':
+      frameworkClass = 'warning'
+      break;
     default:
       frameworkClass = 'secondary'
   }

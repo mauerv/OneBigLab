@@ -53,9 +53,15 @@ export default [
 		status: 'active',
 		image: 'humanity.png',
 		blockchain: 'Ethereum',
-		framework: 'Custom',
+		framework: 'TCR',
 		audits: [],
-		description: 'Unique identity on Ethereum. Building the foundation for voting, Universal Basic Income, and more.',
+		articles: [
+			{
+				title: 'Introducing Humanity DAO',
+				url: 'https://medium.com/marbleorg/introducing-humanity-90ddf9ead235'
+			}
+		],
+		description: 'HumanityDAO is a standard for unique identity on Ethereum. The Humanity registry can serve as the foundation for Sybil-resistant protocols including Universal Basic Income, credit, democratic voting, and more.',
 		website: `https://humanitydao.org/`,
 		contractProof: `https://github.com/marbleprotocol/humanity`,
 		documents: [],
@@ -63,7 +69,7 @@ export default [
 			{
 				name: 'Humanity (ERC20)',
 				address: `0xbbd1706d16418bb136e1497a73d3af4164586da0`,
-				description: 'Contract for the token.'
+				description: 'Token contract'
 			},
 			{
 				name: 'HumanityGovernance',
@@ -78,17 +84,17 @@ export default [
 			{
 				name: 'Faucet',
 				address: `0x2fe5e394a312acf9d18e8836f04ba92af29ad6d4`,
-				description: 'Gives away the free money.'
+				description: 'Gives away free money'
 			},
 			{
 				name: 'TwitterHumanityApplicant',
 				address: `0x9d661f7773be14439b4223f5b516bc7ef67b0369`,
-				description: 'Does more Stuff'
+				description: 'Apply to the registry using Twitter as proof of identity'
 			},
 			{
 				name: 'UniversalBasicIncome',
 				address: `0x762d141b8d9600bde64138762e6fb38efc56dcba`,
-				description: 'Does Stuff'
+				description: 'Manage claimable DAI by members of the registry'
 			}
 		],
 		social: {
@@ -96,8 +102,8 @@ export default [
 			twitter: 'HumanityDAO',
 			medium: 'marbleorg',
 			telegram: '',
-			reddit: '',
-			discord: '',
+			reddit: 'HumanityDAO',
+			discord: 'yvUqPUn',
 		}
 	},
 	{
@@ -341,8 +347,8 @@ export default [
 			github: 'https://github.com/metacartel',
 			twitter: 'meta_cartel',
 			medium: 'metacartel',
-			telegram: '',
-			reddit: '',
+			telegram: 'https://t.me/metacartel',
+			reddit: 'MetaCartel',
 			discord: '',
 			forum: 'https://forum.metacartel.org/'
 		},
@@ -365,6 +371,11 @@ export default [
 				name: 'DAO contract',
 				address: `0x240D1B4ab4463fEb22EcB3bdC43F4BD316513728`,
 				description: 'The main contract for the DAO'
+			},
+			{
+				name: 'DAO Bank',
+				address: ``,
+				description: 'Holds the DAO funds'
 			}
 		],
 		social: {

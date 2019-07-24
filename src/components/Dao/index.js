@@ -19,7 +19,7 @@ export default ({ match }) => {
 				</MDBCol>
 				<MDBCol className='col-12'>
 					<h1 className='mb-0'>{dao.title}</h1>
-					<a href={dao.website} target='__blank'>{dao.website}</a>
+					<a href={dao.website} target='_blank' rel="noopener noreferrer">{dao.website}</a>
 				</MDBCol>
 				<MDBCol className='col-12 mt-1'>
 					<p className='pt-3'>{dao.description}</p>
@@ -38,7 +38,7 @@ export default ({ match }) => {
 				{dao.contractProof && (
 		      <div className='col-12 pt-4 pb-4 border-bottom'>
 		        <h3>Contract Proof</h3>
-		        <a href={dao.contractProof} className='wrap-url'>{dao.contractProof}</a>
+		        <a href={dao.contractProof} target='_blank' rel="noopener noreferrer" className='wrap-url'>{dao.contractProof}</a>
 		      </div>
 		    )}
 			</MDBRow>
