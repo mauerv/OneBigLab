@@ -23,7 +23,7 @@ export default ({ social, theme = "dark", className }) => (
       </a>
     )}
     {social.medium && (
-      <a href={`https://medium.com/${social.medium}`} target='__blank' rel="noopener noreferrer" className='mr-3 ml-3'>
+      <a href={social.medium} target='__blank' rel="noopener noreferrer" className='mr-3 ml-3'>
         <i className={`fab fa-medium fa-2x footer-icon-${theme}`} aria-hidden="true"></i>
       </a>
     )}

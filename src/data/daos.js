@@ -33,7 +33,7 @@ export default [
 		social: {
 			github: 'https://github.com/MolochVentures',
 			twitter: 'MolochDAO',
-			medium: 'molochdao',
+			medium: 'https://medium.com/molochdao',
 			telegram: '',
 			reddit: '',
 			youtube: '',
@@ -100,7 +100,7 @@ export default [
 		social: {
 			github: 'https://github.com/marbleprotocol/humanity',
 			twitter: 'HumanityDAO',
-			medium: 'marbleorg',
+			medium: 'https://medium.com/marbleorg',
 			telegram: '',
 			reddit: 'HumanityDAO',
 			discord: 'yvUqPUn',
@@ -112,10 +112,41 @@ export default [
 		subtitle: 'Transparent and sustainable finance',
 		status: 'active',
 		image: 'maker.jpg',
-		audits: [],
+		audits: [
+			{
+				auditor: "Trail of Bits",
+				auditorWebsite: "https://www.trailofbits.com/",
+				auditUrl: "https://github.com/makerdao/audits/blob/master/mcd/trail-of-bits.pdf",
+				auditDate: "23/03/2018"
+			},
+			{
+				auditor: "Whitehat Group",
+				auditorWebsite: "",
+				auditUrl: "https://github.com/makerdao/audits/blob/master/scd/white-hat-group.pdf",
+				auditDate: "15/12/2017"
+			},
+			{
+				auditor: "Trail of Bits",
+				auditorWebsite: "https://www.trailofbits.com/",
+				auditUrl: "https://github.com/makerdao/audits/blob/master/scd/trail-of-bits.pdf",
+				auditDate: "24/10/2017"
+			},
+			{
+				auditor: "Bok Consulting",
+				auditorWebsite: "https://www.bokconsulting.com.au/",
+				auditUrl: "https://github.com/bokkypoobah/MakerDAOSaiContractAudit/tree/8dbefb06826c01082ff2fb9c368d30c0336733a1",
+				auditDate: "21/06/2018"
+			},
+			{
+				auditor: "Trail of Bits",
+				auditorWebsite: "https://www.trailofbits.com/",
+				auditUrl: "https://github.com/makerdao/audits/blob/master/dappsys/trail-of-bits.pdf",
+				auditDate: "08/12/2017"
+			}
+		],
 		description: 'Maker is a Decentralized Autonomous Organization that creates and insures the dai stablecoin on the Ethereum blockchain',
 		website: `https://makerdao.com/`,
-		contractProof: ``,
+		contractProof: `https://github.com/makerdao/awesome-makerdao`,
 		blockchain: 'Ethereum',
 		framework: 'Custom',
 		contracts: [
@@ -124,13 +155,43 @@ export default [
 				address: `0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2`,
 				description: 'MKR token contract'
 			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
 		],
 		social: {
 			github: 'https://github.com/makerdao',
 			twitter: 'MakerDAO',
-			medium: 'makerdao',
-			telegram: '',
-			reddit: '',
+			medium: 'https://medium.com/makerdao',
+			telegram: 'https://t.me/makerdaoofficial',
+			reddit: 'MakerDAO',
 			discord: '',
 		},
 		documents: [
@@ -247,10 +308,11 @@ export default [
 		social: {
 			github: 'https://github.com/somish/NexusMutual',
 			twitter: 'nexusmutual',
-			medium: 'nexus-mutual',
+			medium: 'https://medium.com/nexus-mutual',
 			telegram: '',
 			reddit: '',
-			discord: '',
+			discord: 'DwtQuSD',
+			email: 'info@nexusmutual.io'
 		},
 		documents: [
 			{
@@ -306,11 +368,12 @@ export default [
 		social: {
 			github: 'https://github.com/kleros',
 			twitter: 'Kleros_io',
-			medium: 'kleros',
-			telegram: '',
-			reddit: '',
+			medium: 'https://medium.com/kleros',
+			telegram: 'https://t.me/kleros',
+			reddit: 'Kleros',
 			discord: '',
-			blog: `https://blog.kleros.io/`
+			blog: `https://blog.kleros.io/`,
+			forum: "https://forum.kleros.io/"
 		},
 		documents: [
 			{
@@ -346,7 +409,7 @@ export default [
 		social: {
 			github: 'https://github.com/metacartel',
 			twitter: 'meta_cartel',
-			medium: 'metacartel',
+			medium: 'https://medium.com/metacartel',
 			telegram: 'https://t.me/metacartel',
 			reddit: 'MetaCartel',
 			discord: '',
@@ -365,23 +428,23 @@ export default [
 		framework: 'Moloch Fork',
 		description: `A place where members secure the collective bag 💰 to fund initiatives to foster Andrew Yang's presidential campaign.`,
 		website: `https://www.yangdao.org/`,
-		contractProof: `https://twitter.com/YangDAOofficial/status/1148721427836575744`,
+		contractProof: `https://twitter.com/YangDAOofficial/status/1154047687588581378`,
 		contracts: [
 			{
 				name: 'DAO contract',
-				address: `0x240D1B4ab4463fEb22EcB3bdC43F4BD316513728`,
+				address: `0xB3C02F093E6140Ed2ad91Be66B302F938cd8434f`,
 				description: 'The main contract for the DAO'
 			},
 			{
 				name: 'DAO Bank',
-				address: ``,
+				address: `0x75227641D30Dd5134088746ED785A998Cf43B36b`,
 				description: 'Holds the DAO funds'
 			}
 		],
 		social: {
 			github: '',
 			twitter: 'yangdaoofficial',
-			medium: 'yangdao',
+			medium: 'https://medium.com/yangdao',
 			telegram: '',
 			reddit: '',
 			discord: '',
@@ -510,11 +573,9 @@ export default [
 			medium: '',
 			telegram: '',
 			reddit: '',
+			daotalk: 'https://daotalk.org/c/daos/genesis',
 			discord: '',
 		},
-		github: ``,
-		twitter: ``,
-		medium: '',
 		documents: [
 			{
 				title: "Whitepaper",
@@ -551,6 +612,7 @@ export default [
 			medium: '',
 			telegram: '',
 			reddit: '',
+			daotalk: "https://daotalk.org/c/daos/polkadao",
 			discord: 'EuqreF4',
 		},
 		articles: [
@@ -588,10 +650,12 @@ export default [
 		social: {
 			github: '',
 			twitter: 'Cura_DAO',
-			medium: 'caribbean-blockchain-network',
+			medium: 'https://medium.com/caribbean-blockchain-network',
 			telegram: '',
 			reddit: '',
+			daotalk: 'https://daotalk.org/c/daos/curacao',
 			discord: '',
+			youtube: 'https://www.youtube.com/channel/UCAx2VzjvbTffPrH2RvlDqNg'
 		},
 		articles: [
 			{
@@ -666,11 +730,11 @@ export default [
 			}
 		],
 		social: {
-			github: '',
-			twitter: '',
+			github: 'https://github.com/liberland/liberland',
+			twitter: 'Liberland_org',
 			medium: '',
-			telegram: '',
-			reddit: '',
+			telegram: 'https://t.me/liberlanders',
+			reddit: 'Liberland',
 			discord: '2tKVhss',
 		},
 		articles: [
@@ -703,8 +767,9 @@ export default [
 			github: '',
 			twitter: 'praguedao',
 			medium: '',
-			telegram: '',
+			telegram: 'https://t.me/DisruptDigital',
 			reddit: '',
+			daotalk: 'https://daotalk.org/c/daos/prague',
 			discord: 'qXCxwSH',
 		},
 		articles: [
@@ -736,10 +801,11 @@ export default [
 		social: {
 			github: '',
 			twitter: 'socialevol',
-			medium: 'social-evolution',
+			medium: 'https://medium.com/social-evolution',
 			telegram: '',
 			reddit: '',
 			discord: '',
+			email: 'hello@social-evolution.com'
 		},
 		articles: [
 			{
@@ -778,11 +844,11 @@ export default [
 			}
 		],
 		social: {
-			github: '',
-			twitter: '',
-			medium: '',
+			github: 'https://github.com/kybernetwork',
+			twitter: 'KyberNetwork',
+			medium: 'https://blog.kyber.network/',
 			telegram: 'https://t.me/joinchat/GS0ljBLOtCv_FlzFHYuPHg',
-			reddit: '',
+			reddit: 'kybernetwork',
 			discord: '',
 		},
 		articles: [
@@ -894,7 +960,7 @@ export default [
 		social: {
 			github: '',
 			twitter: 'CementDAO',
-			medium: 'cementdao',
+			medium: 'https://medium.com/cementdao',
 			telegram: 'https://t.me/cementdao',
 			reddit: '',
 			discord: '',
@@ -974,7 +1040,7 @@ export default [
 		social: {
 			github: 'https://github.com/digixglobal',
 			twitter: 'DigixDAO',
-			medium: 'digix',
+			medium: 'https://medium.com/digix',
 			telegram: 'https://t.me/digixofficial',
 			reddit: 'digix',
 			youtube: 'https://www.youtube.com/digixglobal',
@@ -1081,7 +1147,7 @@ export default [
 		social: {
 			github: '',
 			twitter: '',
-			medium: 'decentfund',
+			medium: 'https://medium.com/decentfund',
 			telegram: '',
 			reddit: '',
 			discord: '',

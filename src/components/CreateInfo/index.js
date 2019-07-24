@@ -38,7 +38,7 @@ export default () => (
 			<div className='col-12 col-sm-8'>
 				<h2>DAOStack</h2>
 				<p><a href="https://daostack.io/" target="_blank" rel="noopener noreferrer">DAOStack</a> currently lets you create DAOs that follow <a href='https://medium.com/daostack/holographic-consensus-part-1-116a73ba1e1c'>holographic consensus</a> on top of the Ethereum blockchain. More consensus mechanisms will be added in the future and possibly support for other blockchains.</p>
-				<p>Well known projects in the community are launching experiments using this framework, from polkadot's <Link to={`${ROUTES.DAOS}/9`}>PolkaDAO</Link>, to <Link to={`${ROUTES.DAOS}/13`}>Prague DAO</Link> the first physical incubator run as a DAO.</p>
+				<p>Well known projects in the community are launching experiments using this framework, from polkadot's <Link to={`${ROUTES.DAOS}/9`}>PolkaDAO</Link>, to <Link to={`${ROUTES.DAOS}/13`}>Prague DAO</Link> the first physical incubator run as a DAO. Learn more about using their tech <a href="https://github.com/daostack/DAOstack-Hackers-Kit" target='_blank' rel="noopener noreferrer">here</a>.</p>
 			</div>
 			<div className='col-sm-3 offset-sm-1 d-none d-sm-block'>
 				<img className='lg-thumbnail' src='daostack.png' alt='daostack' />
