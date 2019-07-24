@@ -13,7 +13,7 @@ export default ({ dao }) => (
 
 		<div className='d-flex flex-row mt-1'>
 	    <Link to={`${ROUTES.DAOS}/${dao.id}`}>
-	      <img src={dao.image} className='img-thumbnail sm-thumbnail' />
+	      <img src={dao.image} alt='' className='img-thumbnail sm-thumbnail' />
 	    </Link>
 			<div className='ml-3 mt-1'>
 		    <Link to={`${ROUTES.DAOS}/${dao.id}`}>

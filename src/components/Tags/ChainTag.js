@@ -4,9 +4,8 @@ export default ({ chain, label = true }) => {
   let chainClass = ''
 
   switch (chain) {
-    case 'Ethereum':
+    default:
       chainClass = 'info'
-      break;
   }
 
   return (

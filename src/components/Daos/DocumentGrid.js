@@ -6,7 +6,7 @@ export default ({ documents }) => (
     <div className='row'>
       {documents.length !== 0 ? (
         documents.map(document => (
-          <div className='col-2 text-center'>
+          <div key={document.url} className='col-2 text-center'>
             <a href={document.url}>
               <i className="far fa-file-alt fa-4x secondary-icon"></i>
               <p className='mt-1'>{document.title}</p>

@@ -1,7 +1,6 @@
 import React from 'react'
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
-import Dao from './Dao'
 import ContractGrid from './ContractGrid'
 import SocialIcons from '../SocialIcons'
 import TagGroup from '../Tags/TagGroup'
@@ -16,7 +15,7 @@ export default ({ match }) => {
 		<MDBContainer>
 			<MDBRow className='text-center pt-4 pb-4 border-bottom'>
 				<MDBCol className='col-6 col-md-2 offset-3 offset-md-5'>
-					<img src={`../${dao.image}`} className='img-thumbnail' />
+					<img src={`../${dao.image}`} alt='' className='img-thumbnail' />
 				</MDBCol>
 				<MDBCol className='col-12'>
 					<h1 className='mb-0'>{dao.title}</h1>

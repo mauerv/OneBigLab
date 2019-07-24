@@ -1,7 +1,5 @@
 import React from 'react'
 
-import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
-
 import StatusTag from './StatusTag'
 import ChainTag from './ChainTag'
 import FrameworkTag from './FrameworkTag'

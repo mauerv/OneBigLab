@@ -6,15 +6,17 @@ export default ({ audits }) => (
     {audits.length !== 0 ? (
       <table className='table table-bordered mb-0'>
         <thead className='thead-light'>
-          <th scope="col">Auditor</th>
-          <th scope="col">Audit</th>
-          <th scope="col">Date</th>
+          <tr>
+            <th scope="col">Auditor</th>
+            <th scope="col">Audit</th>
+            <th scope="col">Date</th>
+          </tr>
         </thead>
         <tbody>
           {audits.map(audit => (
-            <tr>
-              <td><a href={audit.auditorWebsite} target="_blank">{audit.auditor}</a></td>
-              <td><a href={audit.auditUrl} target="_blank" className='break-words'>{audit.auditUrl}</a></td>
+            <tr key={audit.auditUrl}>
+              <td><a href={audit.auditorWebsite} target="_blank"  rel="noopener noreferrer">{audit.auditor}</a></td>
+              <td><a href={audit.auditUrl} target="_blank"  rel="noopener noreferrer" className='break-words'>{audit.auditUrl}</a></td>
               <td><p>{audit.auditDate}</p></td>
             </tr>
           ))}

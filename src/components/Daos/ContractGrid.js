@@ -9,7 +9,7 @@ export default ({ contracts }) => (
     <div className='col-12 text-md-center'>
       <h3>Contracts</h3>
     </div>
-    {contracts.map(contract => <ContractGridItem contract={contract}/>)}
+    {contracts.map(contract => <ContractGridItem key={contract.address} contract={contract}/>)}
     {!contracts.length && (
       <div className='col-12'>
         <p>No contract data available</p>

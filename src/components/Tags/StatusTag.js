@@ -1,5 +1,4 @@
 import React from 'react'
-import classNames from 'classnames'
 
 export default ({ status, label = true }) => {
   let statusClass = ''

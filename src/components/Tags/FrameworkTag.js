@@ -13,7 +13,7 @@ export default ({ framework, label = true }) => {
     case 'Colony':
       frameworkClass = 'success'
       break;
-    case 'Custom':
+    default:
       frameworkClass = 'secondary'
   }
 
