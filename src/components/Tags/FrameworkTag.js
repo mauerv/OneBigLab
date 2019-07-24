@@ -20,7 +20,7 @@ export default ({ framework, label = true }) => {
   return (
     <div>
       {label && <h5 className='mb-0'>Framework</h5>}
-      <p className={`tag btn btn-${frameworkClass}`}>{framework}</p>
+      <p className={`tag btn btn-outline-${frameworkClass}`}>{framework}</p>
     </div>
   )
 }
