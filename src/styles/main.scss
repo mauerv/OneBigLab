@@ -4,8 +4,9 @@
 .wrap-url {
 	word-wrap: break-word;
 }
-.small-thumbnail {
+.sm-thumbnail {
 	width: 100px;
+	max-width: 100px;
 }
 .lg-thumbnail {
 	width: 100px;
