@@ -19,7 +19,14 @@ export default ({ match }) => {
 				</MDBCol>
 				<MDBCol className='col-12'>
 					<h1 className='mb-0'>{dao.title}</h1>
-					<a href={dao.website} target='_blank' rel="noopener noreferrer">{dao.website}</a>
+					<a
+						href={dao.website}
+						target='_blank'
+						rel="noopener noreferrer"
+						className='break-words'
+					>
+						{dao.website}
+					</a>
 				</MDBCol>
 				<MDBCol className='col-12 mt-1'>
 					<p className='pt-3'>{dao.description}</p>
