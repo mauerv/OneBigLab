@@ -14,7 +14,7 @@ export default ({ match }) => {
 	const dao = daos[match.params.id]
 	return (
 		<MDBContainer>
-			<MDBRow className='text-center mb-3 pb-3 border-bottom'>
+			<MDBRow className='text-center pt-4 pb-4 border-bottom'>
 				<MDBCol className='col-6 col-md-2 offset-3 offset-md-5'>
 					<img src={`../${dao.image}`} className='img-thumbnail' />
 				</MDBCol>
@@ -35,6 +35,14 @@ export default ({ match }) => {
 				status={dao.status}
 			/>
 			<ContractGrid contracts={dao.contracts} contractProof={dao.contractProof}/>
+			<MDBRow>
+				{dao.contractProof && (
+		      <div className='col-12 pt-4 pb-4 border-bottom'>
+		        <h3>Contract Proof</h3>
+		        <a href={dao.contractProof} className='wrap-url'>{dao.contractProof}</a>
+		      </div>
+		    )}
+			</MDBRow>
 			<AuditList audits={dao.audits}/>
 			<DocumentGrid documents={dao.documents}/>
 		</MDBContainer>

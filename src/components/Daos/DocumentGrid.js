@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default ({ documents }) => (
-  <div>
+  <div className='pt-4 pb-4 border-bottom'>
     <h3>Important Docs</h3>
     <div className='row'>
       {documents.length !== 0 ? (
