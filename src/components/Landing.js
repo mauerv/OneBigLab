@@ -17,7 +17,7 @@ export default () => (
 			buttonLink={ROUTES.DAOS}
 		/>
 		<MDBContainer>
-			<MDBRow className='border-top border-bottom pt-4 pb-4'>
+			<MDBRow className='border-bottom pt-4 pb-4'>
 				<MDBCol className='col-12'>
 					<h2>What is a DAO</h2>
 				</MDBCol>
