@@ -58,6 +58,7 @@ export default [
 		description: 'Unique identity on Ethereum. Building the foundation for voting, Universal Basic Income, and more.',
 		website: `https://humanitydao.org/`,
 		contractProof: `https://github.com/marbleprotocol/humanity`,
+		documents: [],
 		contracts: [
 			{
 				name: 'Humanity (ERC20)',
@@ -97,9 +98,6 @@ export default [
 			telegram: '',
 			reddit: '',
 			discord: '',
-		},
-		documents: {
-			whitepaper: ''
 		}
 	},
 	{
@@ -129,9 +127,12 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		documents: {
-			whitepaper: 'https://makerdao.com/whitepaper/'
-		}
+		documents: [
+			{
+				title: "Whitepaper",
+				url: 'https://makerdao.com/whitepaper/'
+			}
+		]
 	},
 	{
 		id: 3,
@@ -245,9 +246,12 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		documents: {
-			whitepaper: 'https://www.nexusmutual.io/assets/docs/nmx_white_paperv2_3.pdf'
-		}
+		documents: [
+			{
+				title: "Whitepaper",
+				url: 'https://www.nexusmutual.io/assets/docs/nmx_white_paperv2_3.pdf'
+			}
+		]
 	},
 	{
 		id: 4,
@@ -302,9 +306,12 @@ export default [
 			discord: '',
 			blog: `https://blog.kleros.io/`
 		},
-		documents: {
-			whitepaper: `https://kleros.io/assets/whitepaper.pdf`
-		}
+		documents: [
+			{
+				title: "Whitepaper",
+				url: `https://kleros.io/assets/whitepaper.pdf`
+			}
+		]
 	},
 	{
 		id: 5,
@@ -339,9 +346,7 @@ export default [
 			discord: '',
 			forum: 'https://forum.metacartel.org/'
 		},
-		documents: {
-			whitepaper: ''
-		}
+		documents: []
 	},
 	{
 		id: 6,
@@ -370,9 +375,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		documents: {
-			whitepaper: ''
-		}
+		documents: []
 	},
 	{
 		id: 7,
@@ -421,9 +424,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		documents: {
-			whitepaper: ''
-		}
+		documents: []
 	},
 	{
 		id: 8,
@@ -470,9 +471,12 @@ export default [
 		github: ``,
 		twitter: ``,
 		medium: '',
-		documents: {
-			whitepaper: 'https://daostack.io/wp/DAOstack-White-Paper-en.pdf'
-		}
+		documents: [
+			{
+				title: "Whitepaper",
+				url: 'https://daostack.io/wp/DAOstack-White-Paper-en.pdf'
+			}
+		]
 	},
 	{
 		id: 9,
@@ -507,9 +511,7 @@ export default [
 				url: `https://polkadot.network/announcing-polkadao-fund-your-project/`
 			}
 		],
-		documents: {
-			whitepaper: ''
-		}
+		documents: []
 	},
 	{
 		id: 10,
@@ -544,9 +546,7 @@ export default [
 				url: ``
 			}
 		],
-		documents: {
-			whitepaper: ''
-		}
+		documents: []
 	},
 	{
 		id: 11,
@@ -581,9 +581,7 @@ export default [
 				url: `https://blog.ethfinex.com/ethfinex-launches-funding-dao/`
 			}
 		],
-		documents: {
-			whitepaper: ''
-		}
+		documents: []
 	},
 	{
 		id: 12,
@@ -618,9 +616,7 @@ export default [
 				url: ``
 			}
 		],
-		documents: {
-			whitepaper: ''
-		}
+		documents: []
 	},
 	{
 		id: 13,
@@ -649,9 +645,7 @@ export default [
 				url: `https://medium.com/daostack/introducing-the-praguedao-9930e6b3801`
 			}
 		],
-		documents: {
-			whitepaper: ''
-		}
+		documents: []
 	},
 	{
 		id: 14,
@@ -680,9 +674,12 @@ export default [
 				url: ``
 			}
 		],
-		documents: {
-			whitepaper: 'https://drive.google.com/file/d/1u9gogbXcnAtivST_y7qhJFTL3cd1ZfOf/view?source=post_page---------------------------'
-		}
+		documents: [
+			{
+				title: "Whitepaper",
+				url: 'https://drive.google.com/file/d/1u9gogbXcnAtivST_y7qhJFTL3cd1ZfOf/view?source=post_page---------------------------'
+			}
+		]
 	},
 	{
 		id: 15,
@@ -717,9 +714,7 @@ export default [
 				url: ``
 			}
 		],
-		documents: {
-			whitepaper: ''
-		}
+		documents: []
 	},
 	{
 		id: 16,
@@ -748,9 +743,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		documents: {
-			whitepaper: ''
-		}
+		documents: []
 	},
 	{
 		id: 17,
@@ -785,9 +778,7 @@ export default [
 				url: ``
 			}
 		],
-		documents: {
-			whitepaper: ''
-		}
+		documents: []
 	},
 	{
 		id: 18,
@@ -822,9 +813,7 @@ export default [
 				url: ``
 			}
 		],
-		documents: {
-			whitepaper: ''
-		}
+		documents: []
 	},
 	{
 		id: 19,
@@ -859,9 +848,7 @@ export default [
 				url: `https://www.coindesk.com/dorg-founders-have-created-the-first-limited-liability-dao`
 			}
 		],
-		documents: {
-			whitepaper: ''
-		}
+		documents: []
 	},
 	{
 		id: 20,
@@ -897,9 +884,12 @@ export default [
 				url: ``
 			}
 		],
-		documents: {
-			whitepaper: 'http://cryptochainuni.com/wp-content/uploads/Overview-of-DigixGlobal-DigixDAO.pdf'
-		}
+		documents: [
+			{
+				title: "Whitepaper",
+				url: 'http://cryptochainuni.com/wp-content/uploads/Overview-of-DigixGlobal-DigixDAO.pdf'
+			}
+		]
 	},
 	{
 		id: 21,
@@ -936,9 +926,7 @@ export default [
 				url: `https://ethresear.ch/t/prediction-markets-for-content-curation-daos/1312`
 			}
 		],
-		documents: {
-			whitepaper: ''
-		}
+		documents: []
 	},
 	{
 		id: 22,
@@ -973,9 +961,7 @@ export default [
 				url: ``
 			}
 		],
-		documents: {
-			whitepaper: ''
-		}
+		documents: []
 	},
 	{
 		id: 23,
@@ -1004,9 +990,7 @@ export default [
 				url: `https://medium.com/decentfund/kyodo-you-decide-your-own-level-of-involvement-385515ef03a7`
 			}
 		],
-		documents: {
-			whitepaper: ''
-		}
+		documents: []
 	},
 	{
 		id: 24,
@@ -1035,9 +1019,7 @@ export default [
 				url: ``
 			}
 		],
-		documents: {
-			whitepaper: ''
-		}
+		documents: []
 	},
 	{
 		id: 25,
@@ -1066,9 +1048,12 @@ export default [
 				url: ``
 			}
 		],
-		documents: {
-			whitepaper: 'https://github.com/aragon/nest/blob/master/Nest%20DAO%20Governance/Nest%20DAO%20specification%20at%202019-11-07.md#membership-for-the-nest-dao'
-		}
+		documents: [
+			{
+				title: "Whitepaper",
+				url: 'https://github.com/aragon/nest/blob/master/Nest%20DAO%20Governance/Nest%20DAO%20specification%20at%202019-11-07.md#membership-for-the-nest-dao'
+			}
+		]
 	},
 ]
 
@@ -1117,8 +1102,6 @@ export default [
 				url: ``
 			}
 		],
-		documents: {
-			whitepaper: ''
-		}
+		documents: []
 	},
 */
