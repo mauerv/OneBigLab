@@ -393,7 +393,26 @@ export default [
 		title: 'dxDAO',
 		subtitle: 'Managing DutchX exchange protocol',
 		status: 'active',
-		audits: [],
+		audits: [
+			{
+				auditor: 'Solidified',
+				auditorWebsite: 'https://solidified.io/',
+				auditUrl: 'https://dutchx.readthedocs.io/en/latest/_static/docs/DutchX_1.0_Audit%20Report.pdf',
+				auditDate: '29/03/2018'
+			},
+			{
+				auditor: 'Solidified',
+				auditorWebsite: 'https://solidified.io/',
+				auditUrl: 'https://dutchx.readthedocs.io/en/latest/_static/docs/DutchX_2.0_Audit%20Report.pdf',
+				auditDate: '04/02/2019'
+			},
+			{
+				auditor: 'Solidified',
+				auditorWebsite: 'https://solidified.io/',
+				auditUrl: 'https://github.com/gnosis/dx-price-oracle/blob/develop/docs/audit_report/Solidified_Audit_Report.pdf',
+				auditDate: '04/02/2019'
+			}
+		],
 		image: 'dxdao.png',
 		blockchain: 'Ethereum',
 		framework: 'DAOStack',
@@ -424,7 +443,7 @@ export default [
 			{
 				name: 'Genesis Protocol',
 				address: `0x332B8C9734b4097dE50f302F7D9F273FFdB45B84`,
-				description: 'Holographic Consensus voting machine for voting on proposals	'
+				description: 'Holographic Consensus voting machine for voting on proposals'
 			}
 		],
 		social: {
@@ -434,8 +453,22 @@ export default [
 			telegram: 'https://t.me/dxDAO',
 			reddit: '',
 			discord: '',
+			daotalk: "https://daotalk.org/c/daos/dx-dao"
 		},
-		documents: []
+		documents: [
+			{
+				title: "Whitepaper",
+				url: "https://github.com/gnosis/dx-daostack/blob/master/dxdao_whitepaper_v1.pdf"
+			},
+			{
+				title: "Genesis Protocol",
+				url: "https://docs.google.com/document/d/1b3UXvIDjxTVjS1nZNAn0umSY4DT5Y1yJeNHg07ny_5k/edit#"
+			},
+			{
+				title: "DxDAO Resources",
+				url: "https://docs.google.com/document/d/1PIgWibaN1n1UF3oMx-Ca-ebFK8tHmT2JVQbOC_xSQSg/edit"
+			}
+		]
 	},
 	{
 		id: 8,
@@ -486,6 +519,10 @@ export default [
 			{
 				title: "Whitepaper",
 				url: 'https://daostack.io/wp/DAOstack-White-Paper-en.pdf'
+			},
+			{
+				title: "Genesis Protocol",
+				url: "https://docs.google.com/document/d/1b3UXvIDjxTVjS1nZNAn0umSY4DT5Y1yJeNHg07ny_5k/edit#"
 			}
 		]
 	},
@@ -522,7 +559,12 @@ export default [
 				url: `https://polkadot.network/announcing-polkadao-fund-your-project/`
 			}
 		],
-		documents: []
+		documents: [,
+			{
+				title: "Genesis Protocol",
+				url: "https://docs.google.com/document/d/1b3UXvIDjxTVjS1nZNAn0umSY4DT5Y1yJeNHg07ny_5k/edit#"
+			}
+		]
 	},
 	{
 		id: 10,
@@ -557,7 +599,12 @@ export default [
 				url: ``
 			}
 		],
-		documents: []
+		documents: [
+			{
+				title: "Genesis Protocol",
+				url: "https://docs.google.com/document/d/1b3UXvIDjxTVjS1nZNAn0umSY4DT5Y1yJeNHg07ny_5k/edit#"
+			}
+		]
 	},
 	{
 		id: 11,
@@ -592,7 +639,12 @@ export default [
 				url: `https://blog.ethfinex.com/ethfinex-launches-funding-dao/`
 			}
 		],
-		documents: []
+		documents: [
+			{
+				title: "Genesis Protocol",
+				url: "https://docs.google.com/document/d/1b3UXvIDjxTVjS1nZNAn0umSY4DT5Y1yJeNHg07ny_5k/edit#"
+			}
+		]
 	},
 	{
 		id: 12,
@@ -627,7 +679,12 @@ export default [
 				url: ``
 			}
 		],
-		documents: []
+		documents: [
+			{
+				title: "Genesis Protocol",
+				url: "https://docs.google.com/document/d/1b3UXvIDjxTVjS1nZNAn0umSY4DT5Y1yJeNHg07ny_5k/edit#"
+			}
+		]
 	},
 	{
 		id: 13,
@@ -656,7 +713,12 @@ export default [
 				url: `https://medium.com/daostack/introducing-the-praguedao-9930e6b3801`
 			}
 		],
-		documents: []
+		documents: [
+			{
+				title: "Genesis Protocol",
+				url: "https://docs.google.com/document/d/1b3UXvIDjxTVjS1nZNAn0umSY4DT5Y1yJeNHg07ny_5k/edit#"
+			}
+		]
 	},
 	{
 		id: 14,
@@ -689,6 +751,10 @@ export default [
 			{
 				title: "Whitepaper",
 				url: 'https://drive.google.com/file/d/1u9gogbXcnAtivST_y7qhJFTL3cd1ZfOf/view?source=post_page---------------------------'
+			},
+			{
+				title: "Genesis Protocol",
+				url: "https://docs.google.com/document/d/1b3UXvIDjxTVjS1nZNAn0umSY4DT5Y1yJeNHg07ny_5k/edit#"
 			}
 		]
 	},
@@ -725,7 +791,12 @@ export default [
 				url: ``
 			}
 		],
-		documents: []
+		documents: [
+			{
+				title: "Genesis Protocol",
+				url: "https://docs.google.com/document/d/1b3UXvIDjxTVjS1nZNAn0umSY4DT5Y1yJeNHg07ny_5k/edit#"
+			}
+		]
 	},
 	{
 		id: 16,
@@ -754,7 +825,12 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		documents: []
+		documents: [
+			{
+				title: "Genesis Protocol",
+				url: "https://docs.google.com/document/d/1b3UXvIDjxTVjS1nZNAn0umSY4DT5Y1yJeNHg07ny_5k/edit#"
+			}
+		]
 	},
 	{
 		id: 17,
@@ -789,7 +865,12 @@ export default [
 				url: ``
 			}
 		],
-		documents: []
+		documents: [
+			{
+				title: "Genesis Protocol",
+				url: "https://docs.google.com/document/d/1b3UXvIDjxTVjS1nZNAn0umSY4DT5Y1yJeNHg07ny_5k/edit#"
+			}
+		]
 	},
 	{
 		id: 18,
@@ -824,7 +905,12 @@ export default [
 				url: ``
 			}
 		],
-		documents: []
+		documents: [
+			{
+				title: "Genesis Protocol",
+				url: "https://docs.google.com/document/d/1b3UXvIDjxTVjS1nZNAn0umSY4DT5Y1yJeNHg07ny_5k/edit#"
+			}
+		]
 	},
 	{
 		id: 19,
@@ -859,7 +945,12 @@ export default [
 				url: `https://www.coindesk.com/dorg-founders-have-created-the-first-limited-liability-dao`
 			}
 		],
-		documents: []
+		documents: [
+			{
+				title: "Genesis Protocol",
+				url: "https://docs.google.com/document/d/1b3UXvIDjxTVjS1nZNAn0umSY4DT5Y1yJeNHg07ny_5k/edit#"
+			}
+		]
 	},
 	{
 		id: 20,
