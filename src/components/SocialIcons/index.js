@@ -37,5 +37,15 @@ export default ({ social, theme = "dark", className }) => (
         <i className={`fab fa-youtube fa-2x footer-icon-${theme}`} aria-hidden="true"></i>
       </a>
     )}
+    {social.rocketchat && (
+      <a href={social.rocketchat} target='__blank' rel="noopener noreferrer" className='mr-3 ml-3'>
+        <i className={`fab fa-rocketchat fa-2x footer-icon-${theme}`} aria-hidden="true"></i>
+      </a>
+    )}
+    {social.discourse && (
+      <a href={social.discourse} target='__blank' rel="noopener noreferrer" className='mr-3 ml-3'>
+        <i className={`fab fa-discourse fa-2x footer-icon-${theme}`} aria-hidden="true"></i>
+      </a>
+    )}
   </div>
 )

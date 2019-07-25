@@ -29,8 +29,8 @@ export default () => (
 			</div>
 			<div className='col-12 col-sm-8 offset-sm-1 col-lg-8 offset-lg-0'>
 				<h2>Aragon</h2>
-				<p>With a slick UI and a strong team behind it. Aragon is one of the strongest platforms to create your own DAO with a few clicks and with no technical knowledge.</p>
-				<p>With a slick UI and a strong team behind it. Aragon is one of the strongest platforms to create your own DAO with a few clicks and with no technical knowledge.</p>
+				<p>With a slick UI and a strong team behind it. Aragon is the platform with the greatest track record when it comes to providing tools to create a DAO.</p>
+				<p>More than 15,000 organizations have launched using their stack. The <a href='https://hack.aragon.org/'>developer portal</a> has all the info you need to get started.</p>
 			</div>
 		</div>
 
@@ -58,7 +58,7 @@ export default () => (
 		<div className='row border-top border-bottom pt-5 pb-5 align-items-center'>
 			<div className='col-12 col-sm-8'>
 				<h2>Giveth</h2>
-				<p>Giveth specializes in letting you create decentralized autonomous charities. These are DAOs optimized to run a charity.</p>
+				<p><a href='https://giveth.io/'>Giveth</a> specializes in letting you create decentralized autonomous charities. These are DAOs optimized to run non-profit organizations.</p>
 			</div>
 			<div className='col-sm-3 offset-sm-1 d-none d-sm-block'>
 				<img className='lg-thumbnail' src='giveth.png' alt='giveth' />

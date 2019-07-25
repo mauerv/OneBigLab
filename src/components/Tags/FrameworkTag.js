@@ -16,6 +16,9 @@ export default ({ framework, label = true }) => {
     case 'TCR':
       frameworkClass = 'warning'
       break;
+    case 'Giveth DAC':
+      frameworkClass = 'dark'
+      break;
     default:
       frameworkClass = 'secondary'
   }

@@ -120,8 +120,8 @@ export default [
 				auditDate: "23/03/2018"
 			},
 			{
-				auditor: "Whitehat Group",
-				auditorWebsite: "",
+				auditor: "WhiteHat Group",
+				auditorWebsite: "https://addreth.space/address/whitehats.eth",
 				auditUrl: "https://github.com/makerdao/audits/blob/master/scd/white-hat-group.pdf",
 				auditDate: "15/12/2017"
 			},
@@ -192,6 +192,7 @@ export default [
 			medium: 'https://medium.com/makerdao',
 			telegram: 'https://t.me/makerdaoofficial',
 			reddit: 'MakerDAO',
+			rocketchat: 'https://chat.makerdao.com/home',
 			discord: '',
 		},
 		documents: [
@@ -206,7 +207,14 @@ export default [
 		title: 'NexusMutual',
 		subtitle: 'A people-powered alternative to insurance',
 		status: 'active',
-		audits: [],
+		audits: [
+			{
+				auditor: 'Solidified',
+				auditorWebsite: 'https://solidified.io/',
+				auditUrl: 'https://www.scribd.com/document/411077416/Solidified-Audit-Report-Nexus-Mutual-20-05-2019',
+				auditDate: "20/05/2019"
+			}
+		],
 		image: 'nexus_mutual.jpg',
 		blockchain: 'Ethereum',
 		framework: 'Custom',
@@ -373,7 +381,7 @@ export default [
 			reddit: 'Kleros',
 			discord: '',
 			blog: `https://blog.kleros.io/`,
-			forum: "https://forum.kleros.io/"
+			discourse: "https://forum.kleros.io/"
 		},
 		documents: [
 			{
@@ -413,7 +421,7 @@ export default [
 			telegram: 'https://t.me/metacartel',
 			reddit: 'MetaCartel',
 			discord: '',
-			forum: 'https://forum.metacartel.org/'
+			discourse: 'https://forum.metacartel.org/'
 		},
 		documents: []
 	},
@@ -1022,7 +1030,14 @@ export default [
 		id: 20,
 		title: 'DigixDAO',
 		subtitle: '',
-		audits: [],
+		audits: [
+			{
+				auditor: 'Chainsecurity',
+				auditorWebsite: 'https://chainsecurity.com/',
+				auditUrl: 'https://medium.com/chainsecurity/digix-audit-completed-f03c116daac1',
+				auditDate: "18/12/2018"
+			}
+		],
 		status: 'active',
 		image: 'digixdao.png',
 		description: 'DigixDAO aims to be a self-organising community on the Ethereum blockchain that actively involves its token holders in decision making and shaping the direction of the asset tokenisation business.',
@@ -1056,6 +1071,10 @@ export default [
 			{
 				title: "Whitepaper",
 				url: 'http://cryptochainuni.com/wp-content/uploads/Overview-of-DigixGlobal-DigixDAO.pdf'
+			},
+			{
+				title: "Messari Report",
+				url: "https://messari.github.io/research/profiles/DigixDAO(DGD).pdf"
 			}
 		]
 	},
@@ -1162,17 +1181,196 @@ export default [
 	},
 	{
 		id: 24,
-		title: 'Aragon',
+		title: 'Aragon Network',
 		subtitle: 'Freedom to organize',
+		mailingList: 'https://one.us15.list-manage.com/subscribe?u=a590aa3843a54b079d48e6e18&id=e81a44c4bd',
 		status: 'active',
+		audits: [
+			{
+				auditor: 'WhiteHat Group',
+				auditorWebsite: 'https://addreth.space/address/whitehats.eth',
+				auditUrl: 'https://wiki.aragon.org/documentation/audits/audit_whg01_report/',
+				auditDate: "22/06/2018"
+			},
+			{
+				auditor: 'Adam Dossa',
+				auditorWebsite: 'https://github.com/adamdossa',
+				auditUrl: 'https://wiki.aragon.org/documentation/audits/audit01_report_dossa/',
+				auditDate: "2017"
+			}
+		],
+		image: 'aragon.jpg',
+		description: 'Aragon empowers you to freely organize and collaborate without borders or intermediaries. Create global, bureaucracy-free organizations, companies, and communities.',
+		website: `https://aragon.org/network`,
+		contractProof: ``,
+		blockchain: 'Ethereum',
+		framework: 'Custom',
+		contracts: [],
+		social: {
+			github: 'https://github.com/aragon/',
+			twitter: 'AragonProject',
+			medium: 'https://medium.com/aragondec',
+			telegram: '',
+			reddit: 'aragonproject',
+			rocketchat: 'https://aragon.chat/home',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: [
+			{
+				title: 'Whitepaper',
+				url: 'https://github.com/aragon/whitepaper'
+			},
+			{
+				title: 'Aragon Manifesto',
+				url: 'https://blog.aragon.org/the-aragon-manifesto-4a21212eac03/'
+			}
+		]
+	},
+	{
+		id: 25,
+		title: 'Nest DAO',
+		subtitle: 'DAO to manage the Aragon Nest grants',
+		status: 'prelaunch',
 		audits: [],
 		image: 'aragon.jpg',
+		description: 'The Nest DAO is an initiative by the Aragon Association to give the community more power to manage the Nest grant program. Nest grants are distributed to people and projects working on improving the Aragon ecosystem.',
+		website: `https://aragon.org/project/grants`,
+		contractProof: ``,
+		blockchain: 'Ethereum',
+		framework: 'Custom',
+		contracts: [],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+			youtube: 'https://www.youtube.com/channel/UCODiU_-FWhr4SVOoBlm-qaQ',
+			discourse: 'https://forum.aragon.org/'
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: [
+			{
+				title: "Whitepaper",
+				url: 'https://github.com/aragon/nest/blob/master/Nest%20DAO%20Governance/Nest%20DAO%20specification%20at%202019-11-07.md#membership-for-the-nest-dao'
+			}
+		]
+	},
+	{
+		id: 26,
+		title: 'RewardDAC',
+		subtitle: '',
+		status: '',
+		image: 'giveth.png',
 		description: '',
 		website: ``,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: 'Offchain',
+		framework: 'Custom',
 		contracts: [],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: `How RewardDAO Works`,
+				url: `https://medium.com/giveth/how-rewarddao-works-aka-what-are-points-7388f70269a`
+			}
+		],
+		documents: []
+	},
+	{
+		id: 27,
+		title: 'Unicorn DAO',
+		subtitle: '',
+		status: '',
+		image: 'giveth.png',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: 'Offchain',
+		framework: 'Custom',
+		contracts: [],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: `The Unicorn DAC, a non-hierarchical decentralized governance experiment`,
+				url: `https://medium.com/giveth/the-unicorndac-a-non-hierarchical-decentralized-governance-experiment-8dfbe6e98d19`
+			}
+		],
+		documents: []
+	},
+	{
+		id: 28,
+		title: 'Giveth DAC',
+		subtitle: '',
+		status: '',
+		image: 'giveth.png',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: 'Offchain',
+		framework: 'Custom',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
 		social: {
 			github: '',
 			twitter: '',
@@ -1190,18 +1388,101 @@ export default [
 		documents: []
 	},
 	{
-		id: 25,
-		title: 'Nest DAO',
-		subtitle: '',
-		status: 'prelaunch',
+		id: 29,
+		title: 'DAO Incubator',
+		subtitle: 'Engineer. Design. Incubate. The future of human governance',
+		status: 'active',
+		image: 'daoincubator.jpg',
+		description: 'The DAOincubator is a group of builders, researchers, designers and specialists dedicated to making today’s DAOs more functional and deploying these entities in the service of previously unexplored use cases. ',
+		website: `http://daoincubator.org/`,
+		contractProof: ``,
+		blockchain: 'Offchain',
+		framework: 'Custom',
+		contracts: [],
 		audits: [],
-		image: 'aragon.jpg',
-		description: '',
+		social: {
+			github: '',
+			twitter: 'DAOincubator',
+			medium: 'https://medium.com/dao-incubator',
+			telegram: 'https://t.me/DAOincubator',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 30,
+		title: 'Trojan DAO',
+		subtitle: '',
+		status: 'research',
+		image: 'trojandao.png',
+		description: `A network of artists & developers, co-creating a new cultural economy through blockchain from the ground-up. Starting from Athens, Greece. The TrojanDAO will manage a Community Fund. Trojan Foundation members can vote on how to spend this money: issuing of bounties and, mostly, grants to support art projects. Smart contracts will enable participating projects to manage funding, income distribution, and project governance rights. The goal is to use art value chains to feed a self-sustaining, democratically governed ecosystem for the remuneration of creative labor as a commons.‌`,
+		website: `http://c-a-s-athens.squarespace.com/`,
+		contractProof: `https://twitter.com/TrojanDAO/status/1153420222348562433`,
+		blockchain: 'Ethereum',
+		framework: 'Moloch Fork',
+		contracts: [
+			{
+				name: 'TrojanDAO',
+				address: `0x5bf9553c1d797b41f05a4b6b423c7fb1ec9f820f`,
+				description: `Main DAO contract`
+			},
+			{
+				name: 'TrojanBank',
+				address: `0xc416810990007a8cbaa9570661a860a909ea1dd7`,
+				description: 'Holds funds'
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: 'TrojanDAO',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 31,
+		title: 'TheTradingHall',
+		subtitle: 'Portfolio Management',
+		status: 'research',
+		image: 'placeholder.jpg',
+		description: '‌Asset allocation by community voting‌',
 		website: ``,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
-		contracts: [],
+		team: ['https://www.linkedin.com/in/agaboury'],
+		blockchain: 'Ethereum',
+		framework: 'Aragon OS',
+		contracts: [
+			{
+				name: 'Org Address',
+				address: `0x0ee165029b09d91a54687041Adbc705F6376C67F`,
+				description: `Identifies the organization`
+			}
+		],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -1216,12 +1497,328 @@ export default [
 				url: ``
 			}
 		],
+		documents: []
+	},
+	{
+		id: 32,
+		title: 'Video DAO',
+		subtitle: 'Manage Transcoder Livepeer Node',
+		status: '',
+		image: 'placeholder.jpg',
+		description: 'To manage the Staking and running of a Transcoder on the Livepeer network‌',
+		website: `https://mainnet.aragon.org/#/video/`,
+		contractProof: ``,
+		blockchain: 'Ethereum',
+		framework: 'Aragon OS',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 33,
+		title: 'NowHerePlastik',
+		subtitle: '',
+		status: 'PoC',
+		image: 'placeholder.jpg',
+		description: 'Converting plastic into resource through a circular economy model and increase crypto adoption‌',
+		website: ``,
+		contractProof: ``,
+		blockchain: '-',
+		framework: '-',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 34,
+		title: 'Bundlesblock DAO',
+		subtitle: 'Representing the German blockchain industry',
+		status: 'research',
+		image: 'placeholder.jpg',
+		description: `Representing the German blockchain industry, Bundesblock educates decision-makers in politics, industry and the general public. Its 24 working groups cover topics such as 'legal', 'sandboxing', 'governance' as well as a variety of use cases, such as 'finance', 'insurance' and 'energy'. Bundesblock seeks a tool allow its 20+ working groups to elect a speaker, vote in/out members and vote on positions.‌`,
+		website: ``,
+		contractProof: ``,
+		blockchain: 'Offchain',
+		framework: 'None',
+		contracts: [],
+		audits: [],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 35,
+		title: 'SmartMachine',
+		subtitle: 'An open smart contracts market owned by the community.‌',
+		status: 'active',
+		image: 'placeholder.jpg',
+		description: 'All system will be governed by the DAO, including the code and the git repo. Acceptance of smart modules to be sold on the market by external devs and companies is dependent on DAO voting. All % and everything else is dependent on DAO voting. The election/firing of the board of admins too.Fund distribution by community voting etc. etc.‌',
+		website: ``,
+		contractProof: ``,
+		blockchain: 'Ethereum',
+		framework: 'Custom',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 36,
+		title: 'Betoken',
+		subtitle: 'Crowd-powered crypto assets management protocol',
+		status: '',
+		image: 'betoken.png',
+		description: 'Making optimal investment decisions for a decentralized hedge fund. Investment decisions are made by a community of managers, each of whom owns Kairo tokens (non-transferrable) denominating the percentage of total funds they can manage. Making profits increases one’s Kairo balance, and making losses decreases it, resulting in a meritocratic Kairo distribution over time. Managers receive a monthly commission based on their Kairo balance, so they’re incentivized to make better investments. Managers may initiate a protocol upgrade via voting with Kairo, and at the same time electing the dev team responsible for protocol maintenance & development. The dev team receives monthly funding from the hedge fund’s AUM.',
+		website: `https://betoken.fund/`,
+		contractProof: ``,
+		blockchain: 'Ethereum',
+		framework: 'Custom',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: 'https://github.com/Betoken/',
+			twitter: 'betokenfund',
+			medium: 'https://medium.com/betoken',
+			telegram: 'https://t.me/betokenfund',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
 		documents: [
 			{
 				title: "Whitepaper",
-				url: 'https://github.com/aragon/nest/blob/master/Nest%20DAO%20Governance/Nest%20DAO%20specification%20at%202019-11-07.md#membership-for-the-nest-dao'
+				url: "https://github.com/Betoken/Whitepaper/blob/master/BetokenWhitepaper.pdf"
+			},
+			{
+				title: "Pitch Deck",
+				url: "https://docs.google.com/presentation/d/1CvVZRCSsal1SJyb4IT3slR4D52A94G35xcDZSSrtFa8/edit#slide=id.p"
 			}
 		]
+	},
+	{
+		id: 37,
+		title: 'Personal Tokens',
+		subtitle: 'Tokenize all people',
+		status: 'active',
+		image: 'personaltokens.jpg',
+		description: 'A network of artists & developers, co-creating a new cultural economy through blockchain from the ground-up. Starting from Athens, Greece',
+		website: `https://www.personaltokens.io/`,
+		contractProof: ``,
+		blockchain: 'Ethereum',
+		framework: '-',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: 'PersonalTokens',
+			medium: '',
+			steemit: 'https://steemit.com/@personaltokens',
+			telegram: 'https://web.telegram.org/#/im?p=@personaltokens',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 38,
+		title: 'Audacity',
+		subtitle: 'Democratise founding',
+		status: 'PoC',
+		image: 'audacity.png',
+		description: 'Audacity makes it easy to operate a decentralized company, manage resources, allocate equity and raise capital.',
+		website: `https://audacity.id/`,
+		contractProof: ``,
+		blockchain: 'Offchain',
+		framework: 'Custom',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
 	},
 ]
 
@@ -1251,9 +1848,10 @@ export default [
 		],
 		audits: [
 			{
-				auditor: 'Nomic Labs',
-				auditorWebsite: 'https://nomiclabs.io/',
-				auditUrl: 'https://medium.com/nomic-labs-blog/moloch-dao-audit-report-f31505e85c70'
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
 			}
 		],
 		social: {

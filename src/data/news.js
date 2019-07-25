@@ -31,6 +31,10 @@ export default [
 	{
 		title: '',
 		url: ``
+	},
+	{
+		title: 'Conviction Voting: A Novel Continuous Decision Making Alternative to Governance',
+		url: `https://medium.com/giveth/conviction-voting-a-novel-continuous-decision-making-alternative-to-governance-aa746cfb9475`
 	}
 ]
 
