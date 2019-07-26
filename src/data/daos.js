@@ -50,10 +50,11 @@ export default [
 		id: 1,
 		title: 'HumanityDAO',
 		subtitle: 'Humanity is a global identity network.',
+		tags: ['TCR'],
 		status: 'active',
 		image: 'humanity.png',
 		blockchain: 'Ethereum',
-		framework: 'TCR',
+		framework: 'Custom',
 		audits: [],
 		articles: [
 			{
@@ -949,7 +950,7 @@ export default [
 	{
 		id: 18,
 		title: 'CementDAO',
-		subtitle: 'Unifying Stablecoins',
+		subtitle: 'Stablecoin Registry',
 		status: 'active',
 		audits: [],
 		image: 'cement.jpg',
@@ -1551,7 +1552,7 @@ export default [
 		title: 'NowHerePlastik',
 		subtitle: '',
 		status: 'PoC',
-		image: 'placeholder.jpg',
+		image: 'nowhereplastik.jpg',
 		description: 'Converting plastic into resource through a circular economy model and increase crypto adoption‌',
 		website: ``,
 		contractProof: ``,
@@ -1807,6 +1808,1642 @@ export default [
 		social: {
 			github: '',
 			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 39,
+		title: 'bkDAO',
+		subtitle: '',
+		status: '',
+		image: 'bkdao.png',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: `bkDAO: Self-Funding Brooklyn’s Civic Orgs`,
+				url: `https://medium.com/@orishim/bkdao-self-funding-brooklyns-civic-orgs-7d57a164254f`
+			}
+		],
+		documents: []
+	},
+	{
+		id: 40,
+		title: 'Blockdam',
+		subtitle: '',
+		status: '',
+		image: 'blockdam.jpg',
+		description: '',
+		website: `https://alchemy.daostack.io/dao/0x0004a4c02f97a2cdab3628ac4b834ce4c14f5cf7`,
+		contractProof: `https://twitter.com/MatanField/status/1132536859349921792`,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: [
+			{
+				title: 'How to MemeDAO',
+				url: 'https://docs.google.com/document/d/1iJZfjmOK1eZHq-flmVF_44dZWNsN-Z2KAeLqW3pLQo8/edit'
+			}
+		]
+	},
+	{
+		id: 41,
+		title: 'memeDAO',
+		subtitle: '',
+		status: '',
+		image: 'placeholder.jpg',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 42,
+		title: 'bitfwd Blockathon',
+		subtitle: '',
+		status: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 43,
+		title: 'The DMO',
+		subtitle: 'Decentralized Marketing Organization',
+		status: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 44,
+		title: 'General Store DAO',
+		subtitle: '',
+		status: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 45,
+		title: 'Research DAO',
+		subtitle: '',
+		status: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 46,
+		title: 'GrammarDAO',
+		subtitle: '',
+		status: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: 'Ethereum',
+		framework: 'DAOStack',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 47,
+		title: 'WorkersDAO',
+		subtitle: '',
+		status: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 48,
+		title: 'Greta DAO',
+		subtitle: '',
+		status: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 49,
+		title: 'Because of the Internet DAO',
+		subtitle: '',
+		status: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 50,
+		title: 'District0x',
+		subtitle: '',
+		status: '',
+		image: 'district0x',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		mailingList: 'https://sourcerers.us14.list-manage.com/subscribe?u=6531cd004e712d76e07f04ca9&id=104ce689d2',
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: [
+			{
+				title: 'Whitepaper',
+				url: 'https://district0x.io/docs/district0x-whitepaper.pdf'
+			}
+		]
+	},
+	{
+		id: 51,
+		title: 'Meme Factory',
+		tags: ['TCR', 'ERC721'],
+		subtitle: 'Create and trade provably rare digital assets',
+		status: 'active',
+		image: 'memefactory.jpg',
+		description: 'Meme Factory users submit original memes to a community run list generally known as a token curated registry, and specifically known as the Dank Registry. Token holders of a newly minted token, the DANK token, then decide which memes are added to the registry through an economically incentivized voting game. Although DANK is an ERC20 token standard and therefore interchangeable, the actual memes themselves are ERC721 standard, more commonly referred to as Non-Fungible tokens (NFTs). This allows for unique identification, ownership, and provable rarity for every meme created on the Meme Factory platform.',
+		website: `https://memefactory.io/`,
+		assetsGoverned: 'Registry content and the registry itself',
+		centralizationPoints: 'None',
+		decentralizationLevel: 'Fully Decentralized',
+		contractProof: ``,
+		blockchain: 'Ethereum',
+		framework: 'district0x',
+		contracts: [
+			{
+				name: 'DANK Token',
+				address: `0x0cb8d0b37c7487b11d57f1f33defa2b1d3cfccfe`,
+				description: `The contract for the DANK token.`
+			},
+			{
+				name: 'MEME Token',
+				address: `0xd23043ce917ac39309f49dba82f264994d3ade76`,
+				description: `ERC721 token storing memes`
+			},
+			{
+				name: 'MemeFactory',
+				address: `-`,
+				description: '-'
+			},
+			{
+				name: 'ParamChange Factory',
+				address: `-`,
+				description: '-'
+			}
+		],
+		audits: [],
+		social: {
+			github: 'https://github.com/district0x/memefactory',
+			twitter: 'MemeFactory0x',
+			medium: '',
+			telegram: 'district0x',
+			reddit: 'meme_factory',
+			discord: 'rJvBEyV',
+		},
+		articles: [
+			{
+				title: `Introducing Meme Factory`,
+				url: `https://blog.district0x.io/introducing-meme-factory-4aba7925dcdd`
+			}
+		],
+		faucets: [
+			'https://memefactory.io/get-dank'
+		],
+		documents: [
+				{
+					title: 'district0x Whitepaper',
+					url: 'https://district0x.io/docs/district0x-whitepaper.pdf'
+				}
+		]
+	},
+	{
+		id: 52,
+		title: 'Name Bazaar',
+		subtitle: 'P2P marketplace to exchange names registered via ENS',
+		status: '',
+		image: 'namebazaar.jpg',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: 'NameBazaar0x',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: [
+			{
+				title: 'district0x Whitepaper',
+				url: 'https://district0x.io/docs/district0x-whitepaper.pdf'
+			}
+		]
+	},
+	{
+		id: 53,
+		title: 'Kipos',
+		subtitle: '',
+		status: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 54,
+		title: '1Hive',
+		subtitle: '',
+		status: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 55,
+		title: 'blankdao',
+		subtitle: '',
+		status: '',
+		image: '',
+		description: 'Aragon One is a Swiss company formed by the founders of the Aragon Project',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 56,
+		title: 'Aragon One',
+		subtitle: '',
+		status: '',
+		image: 'aragonone.jpg',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: 'AragonOneTeam',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 57,
+		title: 'Aragon DAC',
+		subtitle: '',
+		status: '',
+		image: 'aragon_dac.jpg',
+		description: 'Aragon DAC is the 2nd team working on the Aragon Project. Empowering Freedom. Building Human Collaboration, focusing on devX. ',
+		website: `http://aragondac.org/`,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 58,
+		title: 'Ocean Protocol',
+		subtitle: '',
+		status: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 59,
+		title: 'LegalBlock',
+		subtitle: '',
+		status: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 60,
+		title: 'Ethlance',
+		subtitle: '',
+		status: '',
+		image: 'ethlance.jpg',
+		description: 'Ethlance is the first job market platform built entirely on the Ethereum blockchain. Free to use forever! The original district on the district0x Network.',
+		website: `https://ethlance.com/`,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: 'ethlance',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: [
+				{
+					title: 'district0x Whitepaper',
+					url: 'https://district0x.io/docs/district0x-whitepaper.pdf'
+				}
+		]
+	},
+	{
+		id: 61,
+		title: 'Status',
+		subtitle: '',
+		status: '',
+		image: 'status.jpg',
+		description: 'Building an open source, secure & private messenger, crypto wallet, and web3 browser.',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: 'ethstatus',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 62,
+		title: 'Space Decentral',
+		subtitle: '',
+		status: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 63,
+		title: 'Melon',
+		subtitle: '',
+		status: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 64,
+		title: 'Althea.org DAOs',
+		subtitle: '',
+		status: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 65,
+		title: 'Open ESQ',
+		subtitle: '',
+		status: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 66,
+		title: 'Pool Together',
+		subtitle: '',
+		status: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 67,
+		title: 'Request Network',
+		subtitle: '',
+		status: '',
+		image: '',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 68,
+		title: 'Decentraland',
+		subtitle: '',
+		status: '',
+		image: 'decentraland.jpg',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 69,
+		title: 'Red Light District',
+		subtitle: '',
+		status: '',
+		image: 'red_light_district.jpg',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 70,
+		title: 'Autark',
+		subtitle: '',
+		status: '',
+		image: 'autark.jpg',
+		description: 'We are interested in advancing civilization, with a special focus on DAOs, Aragon, worker-autonomy, and tools to enable open source development of mega-projects',
+		website: `https://www.autark.xyz/`,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: 'autarklabs',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+	{
+		id: 71,
+		title: 'Aragon Black',
+		subtitle: '',
+		status: '',
+		image: 'aragonblack.png',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: '',
+		framework: '',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: 'AragonBlackTeam',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
+
+	{
+		id: 72,
+		title: 'Adchain',
+		subtitle: '',
+		tags: ['TCR'],
+		status: '',
+		image: 'adchain.png',
+		description: '',
+		website: ``,
+		contractProof: ``,
+		blockchain: 'Ethereum',
+		framework: 'Custom',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: 'ad_chain',
 			medium: '',
 			telegram: '',
 			reddit: '',

@@ -40,6 +40,24 @@ export default ({ match }) => {
 				framework={dao.framework}
 				status={dao.status}
 			/>
+			<MDBRow>
+				<div className='col-12 pt-4 pb-4 border-bottom'>
+					<h3>Assets Governed</h3>
+					<p>{dao.assetsGoverned}</p>
+				</div>
+			</MDBRow>
+			<MDBRow>
+				<div className='col-12 pt-4 pb-4 border-bottom'>
+					<h3>Decentralization Level</h3>
+					<p>{dao.decentralizationLevel}</p>
+				</div>
+			</MDBRow>
+			<MDBRow>
+				<div className='col-12 pt-4 pb-4 border-bottom'>
+					<h3>Centralization Points</h3>
+					<p>{dao.centralizationPoints}</p>
+				</div>
+			</MDBRow>
 			<ContractGrid contracts={dao.contracts} contractProof={dao.contractProof}/>
 			<MDBRow>
 				{dao.contractProof && (
