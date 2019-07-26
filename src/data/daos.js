@@ -1,6 +1,23 @@
 export default [
 	{
 		id: 0,
+		podcasts: [
+			{
+				title: 'MolochDAO: Could This Decentralized Autonomous Organization Help Ethereum Scale Faster?',
+				url: 'https://unchainedpodcast.com/molochdao-could-this-decentralized-autonomous-organization-help-ethereum-scale-faster/',
+				date: '19/03/2019'
+			},
+			{
+				title: 'MolochDAO and Ethereum Clients',
+				url: 'https://www.stitcher.com/podcast/anchor-podcasts/membranlabs/e/58553712',
+				date: '03/02/2019'
+			},
+			{
+				title: 'Ameen Soleimani: Moloch DAO – A Simple Yet Unforgiving DAO to Fund Ethereum Development (#297)',
+				url: 'https://www.youtube.com/watch?v=YgEXImQLoq4',
+				date: '24/07/2019'
+			}
+		],
 		title: 'MolochDAO',
 		subtitle: 'A community DAO focused on funding Ethereum dev',
 		status: 'active',
@@ -48,6 +65,7 @@ export default [
 	},
 	{
 		id: 1,
+		podcasts: [],
 		title: 'HumanityDAO',
 		subtitle: 'Humanity is a global identity network.',
 		tags: ['TCR'],
@@ -109,6 +127,7 @@ export default [
 	},
 	{
 		id: 2,
+		podcasts: [],
 		title: 'MakerDAO',
 		subtitle: 'Transparent and sustainable finance',
 		status: 'active',
@@ -205,6 +224,7 @@ export default [
 	},
 	{
 		id: 3,
+		podcasts: [],
 		title: 'NexusMutual',
 		subtitle: 'A people-powered alternative to insurance',
 		status: 'active',
@@ -332,6 +352,7 @@ export default [
 	},
 	{
 		id: 4,
+		podcasts: [],
 		title: 'Kleros',
 		subtitle: 'The Blockchain Dispute Resolution Layer',
 		status: 'active',
@@ -393,6 +414,7 @@ export default [
 	},
 	{
 		id: 5,
+		podcasts: [],
 		title: 'Metacartel',
 		subtitle: 'Ethereum’s grassroot dapp alliance',
 		status: 'active',
@@ -428,6 +450,7 @@ export default [
 	},
 	{
 		id: 6,
+		podcasts: [],
 		title: 'YangDAO',
 		subtitle: `DAO to help Andrew Yang's 2020 election campaign`,
 		status: 'active',
@@ -462,6 +485,7 @@ export default [
 	},
 	{
 		id: 7,
+		podcasts: [],
 		title: 'dxDAO',
 		subtitle: 'Managing DutchX exchange protocol',
 		status: 'active',
@@ -544,6 +568,7 @@ export default [
 	},
 	{
 		id: 8,
+		podcasts: [],
 		title: 'GenesisDAO',
 		subtitle: `DAOstack's native DAO`,
 		status: 'active',
@@ -598,6 +623,7 @@ export default [
 	},
 	{
 		id: 9,
+		podcasts: [],
 		title: 'PolkaDAO',
 		subtitle: 'Funding community projects in Polkadot',
 		status: 'active',
@@ -639,6 +665,7 @@ export default [
 	},
 	{
 		id: 10,
+		podcasts: [],
 		title: 'CuraDAO',
 		subtitle: 'Community DAO in Curaçao.',
 		status: 'active',
@@ -681,6 +708,7 @@ export default [
 	},
 	{
 		id: 11,
+		podcasts: [],
 		title: 'efxDAO',
 		subtitle: 'Meritocratic funding for Ethfinex community',
 		status: 'active',
@@ -721,6 +749,7 @@ export default [
 	},
 	{
 		id: 12,
+		podcasts: [],
 		title: 'Liberland DAO',
 		subtitle: 'Decentralized Autonomous Government',
 		status: 'active',
@@ -761,6 +790,7 @@ export default [
 	},
 	{
 		id: 13,
+		podcasts: [],
 		title: 'Prague DAO',
 		subtitle: 'The first incubator governed by the community',
 		status: 'active',
@@ -796,6 +826,7 @@ export default [
 	},
 	{
 		id: 14,
+		podcasts: [],
 		title: 'Quest Society',
 		subtitle: 'Creating the mutual benefit societies of the future',
 		status: 'active',
@@ -835,6 +866,7 @@ export default [
 	},
 	{
 		id: 15,
+		podcasts: [],
 		title: 'KyberDAO Exp #2',
 		subtitle: 'Kyber Protocol DAO',
 		status: 'active',
@@ -875,6 +907,7 @@ export default [
 	},
 	{
 		id: 16,
+		podcasts: [],
 		title: 'dHack',
 		subtitle: 'Decentralized Hackathon',
 		status: 'active',
@@ -909,6 +942,7 @@ export default [
 	},
 	{
 		id: 17,
+		podcasts: [],
 		title: 'Psychedelic Society DAO',
 		subtitle: 'Creating a more joyful world through psychedelics',
 		status: 'active',
@@ -949,6 +983,7 @@ export default [
 	},
 	{
 		id: 18,
+		podcasts: [],
 		title: 'CementDAO',
 		subtitle: 'Stablecoin Registry',
 		status: 'active',
@@ -989,6 +1024,7 @@ export default [
 	},
 	{
 		id: 19,
+		podcasts: [],
 		title: 'dOrg',
 		subtitle: 'Enabling Decentralized Organizations',
 		status: 'active',
@@ -1029,6 +1065,7 @@ export default [
 	},
 	{
 		id: 20,
+		podcasts: [],
 		title: 'DigixDAO',
 		subtitle: '',
 		audits: [
@@ -1081,6 +1118,7 @@ export default [
 	},
 	{
 		id: 21,
+		podcasts: [],
 		title: 'RECDAO',
 		subtitle: 'Reddit Ethereum Community DAO',
 		status: 'inactive',
@@ -1118,6 +1156,7 @@ export default [
 	},
 	{
 		id: 22,
+		podcasts: [],
 		title: 'KittyDAO',
 		subtitle: '',
 		audits: [],
@@ -1153,6 +1192,7 @@ export default [
 	},
 	{
 		id: 23,
+		podcasts: [],
 		title: 'KyodoDAO',
 		subtitle: '',
 		audits: [],
@@ -1182,6 +1222,7 @@ export default [
 	},
 	{
 		id: 24,
+		podcasts: [],
 		title: 'Aragon Network',
 		subtitle: 'Freedom to organize',
 		mailingList: 'https://one.us15.list-manage.com/subscribe?u=a590aa3843a54b079d48e6e18&id=e81a44c4bd',
@@ -1235,6 +1276,7 @@ export default [
 	},
 	{
 		id: 25,
+		podcasts: [],
 		title: 'Nest DAO',
 		subtitle: 'DAO to manage the Aragon Nest grants',
 		status: 'prelaunch',
@@ -1271,6 +1313,7 @@ export default [
 	},
 	{
 		id: 26,
+		podcasts: [],
 		title: 'RewardDAC',
 		subtitle: '',
 		status: '',
@@ -1307,6 +1350,7 @@ export default [
 	},
 	{
 		id: 27,
+		podcasts: [],
 		title: 'Unicorn DAO',
 		subtitle: '',
 		status: '',
@@ -1343,6 +1387,7 @@ export default [
 	},
 	{
 		id: 28,
+		podcasts: [],
 		title: 'Giveth DAC',
 		subtitle: '',
 		status: '',
@@ -1390,6 +1435,7 @@ export default [
 	},
 	{
 		id: 29,
+		podcasts: [],
 		title: 'DAO Incubator',
 		subtitle: 'Engineer. Design. Incubate. The future of human governance',
 		status: 'active',
@@ -1419,6 +1465,7 @@ export default [
 	},
 	{
 		id: 30,
+		podcasts: [],
 		title: 'Trojan DAO',
 		subtitle: '',
 		status: 'research',
@@ -1466,6 +1513,7 @@ export default [
 	},
 	{
 		id: 31,
+		podcasts: [],
 		title: 'TheTradingHall',
 		subtitle: 'Portfolio Management',
 		status: 'research',
@@ -1502,6 +1550,7 @@ export default [
 	},
 	{
 		id: 32,
+		podcasts: [],
 		title: 'Video DAO',
 		subtitle: 'Manage Transcoder Livepeer Node',
 		status: '',
@@ -1549,6 +1598,7 @@ export default [
 	},
 	{
 		id: 33,
+		podcasts: [],
 		title: 'NowHerePlastik',
 		subtitle: '',
 		status: 'PoC',
@@ -1596,6 +1646,7 @@ export default [
 	},
 	{
 		id: 34,
+		podcasts: [],
 		title: 'Bundlesblock DAO',
 		subtitle: 'Representing the German blockchain industry',
 		status: 'research',
@@ -1625,6 +1676,7 @@ export default [
 	},
 	{
 		id: 35,
+		podcasts: [],
 		title: 'SmartMachine',
 		subtitle: 'An open smart contracts market owned by the community.‌',
 		status: 'active',
@@ -1672,6 +1724,7 @@ export default [
 	},
 	{
 		id: 36,
+		podcasts: [],
 		title: 'Betoken',
 		subtitle: 'Crowd-powered crypto assets management protocol',
 		status: '',
@@ -1728,6 +1781,7 @@ export default [
 	},
 	{
 		id: 37,
+		podcasts: [],
 		title: 'Personal Tokens',
 		subtitle: 'Tokenize all people',
 		status: 'active',
@@ -1776,6 +1830,7 @@ export default [
 	},
 	{
 		id: 38,
+		podcasts: [],
 		title: 'Audacity',
 		subtitle: 'Democratise founding',
 		status: 'PoC',
@@ -1823,6 +1878,7 @@ export default [
 	},
 	{
 		id: 39,
+		podcasts: [],
 		title: 'bkDAO',
 		subtitle: '',
 		status: '',
@@ -1870,6 +1926,7 @@ export default [
 	},
 	{
 		id: 40,
+		podcasts: [],
 		title: 'Blockdam',
 		subtitle: '',
 		status: '',
@@ -1922,6 +1979,7 @@ export default [
 	},
 	{
 		id: 41,
+		podcasts: [],
 		title: 'memeDAO',
 		subtitle: '',
 		status: '',
@@ -1969,6 +2027,7 @@ export default [
 	},
 	{
 		id: 42,
+		podcasts: [],
 		title: 'bitfwd Blockathon',
 		subtitle: '',
 		status: '',
@@ -2016,6 +2075,7 @@ export default [
 	},
 	{
 		id: 43,
+		podcasts: [],
 		title: 'The DMO',
 		subtitle: 'Decentralized Marketing Organization',
 		status: '',
@@ -2063,6 +2123,7 @@ export default [
 	},
 	{
 		id: 44,
+		podcasts: [],
 		title: 'General Store DAO',
 		subtitle: '',
 		status: '',
@@ -2110,6 +2171,7 @@ export default [
 	},
 	{
 		id: 45,
+		podcasts: [],
 		title: 'Research DAO',
 		subtitle: '',
 		status: '',
@@ -2157,6 +2219,7 @@ export default [
 	},
 	{
 		id: 46,
+		podcasts: [],
 		title: 'GrammarDAO',
 		subtitle: '',
 		status: '',
@@ -2204,6 +2267,7 @@ export default [
 	},
 	{
 		id: 47,
+		podcasts: [],
 		title: 'WorkersDAO',
 		subtitle: '',
 		status: '',
@@ -2251,6 +2315,7 @@ export default [
 	},
 	{
 		id: 48,
+		podcasts: [],
 		title: 'Greta DAO',
 		subtitle: '',
 		status: '',
@@ -2298,6 +2363,7 @@ export default [
 	},
 	{
 		id: 49,
+		podcasts: [],
 		title: 'Because of the Internet DAO',
 		subtitle: '',
 		status: '',
@@ -2346,42 +2412,68 @@ export default [
 	{
 		id: 50,
 		title: 'District0x',
-		subtitle: '',
-		status: '',
-		image: 'district0x',
-		description: '',
-		website: ``,
+		subtitle: 'A network of decentralized marketplaces and communities',
+		status: 'active',
+		image: 'district0x.jpg',
+		description: 'A cooperative of decentralized marketplaces and communities. Powered by Ethereum, Aragon, and IPFS.',
+		website: `https://district0x.io/`,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: 'Ethereum',
+		framework: 'd0xINFRA',
 		contracts: [
 			{
-				name: '',
-				address: ``,
+				name: 'district0x Network Token',
+				address: `0x0abdace70d3790235af448c88547603b945604ea`,
+				description: `ERC20 Token for district0x`
+			},
+			{
+				name: 'MiniMeTokenFactory',
+				address: `0xa7dd95d9978dde794eae5233889f1ffebcdc9914`,
 				description: ``
 			},
 			{
-				name: '',
-				address: ``,
-				description: ''
+				name: 'ENS',
+				address: `0x314159265dd8dbb310642f98f50c066173c1259b`,
+				description: ``
+			},
+			{
+				name: 'DAOFactory',
+				address: `0x595b34c93aa2c2ba0a38daeede629a0dfbdcc559`,
+				description: ``
+			},
+			{
+				name: 'FIFSResolvingRegistrar',
+				address: `0x546aa2eae2514494eeadb7bbb35243348983c59d`,
+				description: ``
+			},
+			{
+				name: 'District0xEmails',
+				address: `0x5065ef0724b76421aeaafa87ba752d6c5d5499b5`,
+				description: ``
 			}
 		],
 		audits: [
 			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
+				auditor: 'Adam Dossa',
+				auditorWebsite: 'https://github.com/adamdossa',
+				auditUrl: 'https://github.com/district0x/district0x-network-token/issues/4',
+				auditDate: '28/06/2017'
 			}
 		],
 		social: {
-			github: '',
-			twitter: '',
-			medium: '',
-			telegram: '',
-			reddit: '',
+			github: 'https://github.com/district0x',
+			twitter: 'district0x',
+			medium: 'https://blog.district0x.io/',
+			telegram: 'https://t.me/district0x',
+			reddit: 'district0x',
 			discord: '',
 		},
+		podcasts: [
+			{
+				title: 'BlockChannel Episode 25: Building Digital Communities, with District0x',
+				url: 'https://thebitcoinpodcast.com/bc25/'
+			}
+		],
 		mailingList: 'https://sourcerers.us14.list-manage.com/subscribe?u=6531cd004e712d76e07f04ca9&id=104ce689d2',
 		articles: [
 			{
@@ -2398,6 +2490,7 @@ export default [
 	},
 	{
 		id: 51,
+		podcasts: [],
 		title: 'Meme Factory',
 		tags: ['TCR', 'ERC721'],
 		subtitle: 'Create and trade provably rare digital assets',
@@ -2410,7 +2503,7 @@ export default [
 		decentralizationLevel: 'Fully Decentralized',
 		contractProof: ``,
 		blockchain: 'Ethereum',
-		framework: 'district0x',
+		framework: 'd0xINFRA',
 		contracts: [
 			{
 				name: 'DANK Token',
@@ -2424,12 +2517,17 @@ export default [
 			},
 			{
 				name: 'MemeFactory',
-				address: `-`,
-				description: '-'
+				address: `0x01cb025ec5d7907e33b357bccae6260e9adbd32a`,
+				description: 'Main contract to manage the registry'
 			},
 			{
 				name: 'ParamChange Factory',
-				address: `-`,
+				address: `0x179921d3a4b673581c68b21631aa7573b651d4e5`,
+				description: 'Meta contract, manages the registry params'
+			},
+			{
+				name: 'District Config',
+				address: `0xc3f953d1d9c0117f0988a16f2eda8641467e0b6d`,
 				description: '-'
 			}
 		],
@@ -2460,15 +2558,16 @@ export default [
 	},
 	{
 		id: 52,
+		podcasts: [],
 		title: 'Name Bazaar',
 		subtitle: 'P2P marketplace to exchange names registered via ENS',
 		status: '',
 		image: 'namebazaar.jpg',
-		description: '',
+		description: 'A peer-to-peer marketplace for the exchange of names registered via the Ethereum Name Service',
 		website: ``,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: 'Ethereum',
+		framework: 'd0xINFRA',
 		contracts: [
 			{
 				name: '',
@@ -2490,7 +2589,7 @@ export default [
 			}
 		],
 		social: {
-			github: '',
+			github: 'https://github.com/district0x/name-bazaar',
 			twitter: 'NameBazaar0x',
 			medium: '',
 			telegram: '',
@@ -2512,6 +2611,7 @@ export default [
 	},
 	{
 		id: 53,
+		podcasts: [],
 		title: 'Kipos',
 		subtitle: '',
 		status: '',
@@ -2559,6 +2659,7 @@ export default [
 	},
 	{
 		id: 54,
+		podcasts: [],
 		title: '1Hive',
 		subtitle: '',
 		status: '',
@@ -2606,6 +2707,7 @@ export default [
 	},
 	{
 		id: 55,
+		podcasts: [],
 		title: 'blankdao',
 		subtitle: '',
 		status: '',
@@ -2653,6 +2755,7 @@ export default [
 	},
 	{
 		id: 56,
+		podcasts: [],
 		title: 'Aragon One',
 		subtitle: '',
 		status: '',
@@ -2700,6 +2803,7 @@ export default [
 	},
 	{
 		id: 57,
+		podcasts: [],
 		title: 'Aragon DAC',
 		subtitle: '',
 		status: '',
@@ -2747,6 +2851,7 @@ export default [
 	},
 	{
 		id: 58,
+		podcasts: [],
 		title: 'Ocean Protocol',
 		subtitle: '',
 		status: '',
@@ -2794,6 +2899,7 @@ export default [
 	},
 	{
 		id: 59,
+		podcasts: [],
 		title: 'LegalBlock',
 		subtitle: '',
 		status: '',
@@ -2841,15 +2947,17 @@ export default [
 	},
 	{
 		id: 60,
+		podcasts: [],
 		title: 'Ethlance',
+		tags: ['IPFS'],
 		subtitle: '',
 		status: '',
 		image: 'ethlance.jpg',
 		description: 'Ethlance is the first job market platform built entirely on the Ethereum blockchain. Free to use forever! The original district on the district0x Network.',
 		website: `https://ethlance.com/`,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: 'Ethereum',
+		framework: 'd0xINFRA',
 		contracts: [
 			{
 				name: '',
@@ -2893,6 +3001,7 @@ export default [
 	},
 	{
 		id: 61,
+		podcasts: [],
 		title: 'Status',
 		subtitle: '',
 		status: '',
@@ -2940,6 +3049,7 @@ export default [
 	},
 	{
 		id: 62,
+		podcasts: [],
 		title: 'Space Decentral',
 		subtitle: '',
 		status: '',
@@ -2987,6 +3097,7 @@ export default [
 	},
 	{
 		id: 63,
+		podcasts: [],
 		title: 'Melon',
 		subtitle: '',
 		status: '',
@@ -3034,6 +3145,7 @@ export default [
 	},
 	{
 		id: 64,
+		podcasts: [],
 		title: 'Althea.org DAOs',
 		subtitle: '',
 		status: '',
@@ -3081,6 +3193,7 @@ export default [
 	},
 	{
 		id: 65,
+		podcasts: [],
 		title: 'Open ESQ',
 		subtitle: '',
 		status: '',
@@ -3128,6 +3241,7 @@ export default [
 	},
 	{
 		id: 66,
+		podcasts: [],
 		title: 'Pool Together',
 		subtitle: '',
 		status: '',
@@ -3175,6 +3289,7 @@ export default [
 	},
 	{
 		id: 67,
+		podcasts: [],
 		title: 'Request Network',
 		subtitle: '',
 		status: '',
@@ -3222,6 +3337,7 @@ export default [
 	},
 	{
 		id: 68,
+		podcasts: [],
 		title: 'Decentraland',
 		subtitle: '',
 		status: '',
@@ -3269,6 +3385,7 @@ export default [
 	},
 	{
 		id: 69,
+		podcasts: [],
 		title: 'Red Light District',
 		subtitle: '',
 		status: '',
@@ -3316,6 +3433,7 @@ export default [
 	},
 	{
 		id: 70,
+		podcasts: [],
 		title: 'Autark',
 		subtitle: '',
 		status: '',
@@ -3363,6 +3481,7 @@ export default [
 	},
 	{
 		id: 71,
+		podcasts: [],
 		title: 'Aragon Black',
 		subtitle: '',
 		status: '',
@@ -3411,6 +3530,7 @@ export default [
 
 	{
 		id: 72,
+		podcasts: [],
 		title: 'Adchain',
 		subtitle: '',
 		tags: ['TCR'],
@@ -3462,6 +3582,7 @@ export default [
 /*
 	{
 		id: 0,
+		podcasts: [],
 		title: '',
 		subtitle: '',
 		status: '',

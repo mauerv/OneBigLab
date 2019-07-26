@@ -69,6 +69,19 @@ export default ({ match }) => {
 			</MDBRow>
 			<AuditList audits={dao.audits}/>
 			<DocumentGrid documents={dao.documents}/>
+			{dao.podcasts.length !== 0 && (
+				<MDBRow className='pt-4 pb-4 border-bottom'>
+					<h3 className='col-12'>Podcasts</h3>
+					<ul className='col-12 list-group'>
+						{dao.podcasts.map(podcast => (
+							<li className='list-group-item d-flex justify-content-md-between flex-column flex-md-row'>
+								<a href={podcast.url}><h6>{podcast.title}</h6></a>
+								<p className='ml-'>{podcast.date}</p>
+							</li>
+						))}
+					</ul>
+				</MDBRow>
+			)}
 		</MDBContainer>
 	)
 }
