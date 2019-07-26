@@ -9,3 +9,8 @@ Articles
 https://a16z.com/2019/03/02/cooperatives-cryptonetworks/
 Events
 https://www.eventbrite.com.au/e/dapp-team-speed-dating-tickets-66660811281?utm_source=eb_email&utm_medium=email&utm_campaign=event_reminder&utm_term=eventname&ref=eemaileventremind
+Ideas
+// Moloch Fork with Bonding Token
+https://docs.google.com/document/d/1mAs_gEVMnSEag2gl-J2vOb1Dw3bRncyn0NhhNbcHiXc/edit
+https://github.com/haythem96/bc-moloch-fork
+//

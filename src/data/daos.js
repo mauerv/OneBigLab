@@ -21,6 +21,9 @@ export default [
 		title: 'MolochDAO',
 		subtitle: 'A community DAO focused on funding Ethereum dev',
 		status: 'active',
+		assetsGoverned: 'The community decides that members to accept, in what proposals to work on and how to spend the crypto funds controlled by the DAO.',
+		decentralizationLevel: 'Fully Decentralized',
+		centralizationPoints: 'None',
 		image: 'moloch.png',
 		description: 'A community DAO focused on funding Ethereum development, in the name of Moloch the God of Coordination Failure.',
 		website: `https://molochdao.com/`,
@@ -60,6 +63,12 @@ export default [
 			{
 				title: "Whitepaper",
 				url: 'https://github.com/MolochVentures/Whitepaper/blob/master/Whitepaper.pdf'
+			}
+		],
+		articles: [
+			{
+				title: 'The Moloch DAO: Collapsing The Firm.',
+				url: 'https://medium.com/@simondlr/the-moloch-dao-collapsing-the-firm-2a800b3aa2e7'
 			}
 		]
 	},
@@ -1886,8 +1895,8 @@ export default [
 		description: '',
 		website: ``,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -1934,8 +1943,8 @@ export default [
 		description: '',
 		website: `https://alchemy.daostack.io/dao/0x0004a4c02f97a2cdab3628ac4b834ce4c14f5cf7`,
 		contractProof: `https://twitter.com/MatanField/status/1132536859349921792`,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -1987,8 +1996,8 @@ export default [
 		description: '',
 		website: ``,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -2029,14 +2038,14 @@ export default [
 		id: 42,
 		podcasts: [],
 		title: 'bitfwd Blockathon',
-		subtitle: '',
+		subtitle: 'Accelerating Cryptopreneurs to the next level ',
 		status: '',
-		image: '',
+		image: 'bitfwd.jpg',
 		description: '',
-		website: ``,
+		website: `https://www.bitfwd.com/`,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -2058,17 +2067,17 @@ export default [
 			}
 		],
 		social: {
-			github: '',
-			twitter: '',
+			github: 'https://github.com/bitfwdcommunity/Blockathon-DAO',
+			twitter: 'bitfwdxyz',
 			medium: '',
-			telegram: '',
+			telegram: 'https://t.me/bitfwd',
 			reddit: '',
 			discord: '',
 		},
 		articles: [
 			{
-				title: ``,
-				url: ``
+				title: `bitfwd and DAOstack partnership announcement!`,
+				url: `https://medium.com/bitfwd/bitfwd-and-daostack-partnership-announcement-b5d605ba314e`
 			}
 		],
 		documents: []
@@ -2083,8 +2092,8 @@ export default [
 		description: '',
 		website: ``,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -2131,8 +2140,8 @@ export default [
 		description: '',
 		website: ``,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -2179,8 +2188,8 @@ export default [
 		description: '',
 		website: ``,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -2275,8 +2284,8 @@ export default [
 		description: '',
 		website: ``,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -2319,12 +2328,12 @@ export default [
 		title: 'Greta DAO',
 		subtitle: '',
 		status: '',
-		image: '',
+		image: 'placeholder.jpg',
 		description: '',
 		website: ``,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -2355,8 +2364,8 @@ export default [
 		},
 		articles: [
 			{
-				title: ``,
-				url: ``
+				title: `Aragon Greta DAO`,
+				url: `https://forum.aragon.org/t/aragon-greta-dao/613/9`
 			}
 		],
 		documents: []
@@ -2371,8 +2380,8 @@ export default [
 		description: '',
 		website: ``,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -2411,13 +2420,16 @@ export default [
 	},
 	{
 		id: 50,
-		title: 'District0x',
+		title: 'District0x Network',
 		subtitle: 'A network of decentralized marketplaces and communities',
 		status: 'active',
 		image: 'district0x.jpg',
 		description: 'A cooperative of decentralized marketplaces and communities. Powered by Ethereum, Aragon, and IPFS.',
 		website: `https://district0x.io/`,
 		contractProof: ``,
+		assetsGoverned: "What marketplaces to accept or reject as part of the community. You have to stake crypto to propose one, and get penalized if it's rejected at any point.",
+		decentralizationLevel: 'Fully Decentralized',
+		centralizationPoints: 'None',
 		blockchain: 'Ethereum',
 		framework: 'd0xINFRA',
 		contracts: [
@@ -2467,11 +2479,13 @@ export default [
 			telegram: 'https://t.me/district0x',
 			reddit: 'district0x',
 			discord: '',
+			youtube: 'https://www.youtube.com/channel/UCQq0INymkcGDYYXeFZgYk4g'
 		},
 		podcasts: [
 			{
 				title: 'BlockChannel Episode 25: Building Digital Communities, with District0x',
-				url: 'https://thebitcoinpodcast.com/bc25/'
+				url: 'https://thebitcoinpodcast.com/bc25/',
+				date: '14/07/2017'
 			}
 		],
 		mailingList: 'https://sourcerers.us14.list-manage.com/subscribe?u=6531cd004e712d76e07f04ca9&id=104ce689d2',
@@ -2561,45 +2575,83 @@ export default [
 		podcasts: [],
 		title: 'Name Bazaar',
 		subtitle: 'P2P marketplace to exchange names registered via ENS',
-		status: '',
+		status: 'active',
 		image: 'namebazaar.jpg',
 		description: 'A peer-to-peer marketplace for the exchange of names registered via the Ethereum Name Service',
-		website: ``,
+		website: `https://namebazaar.io/`,
 		contractProof: ``,
 		blockchain: 'Ethereum',
 		framework: 'd0xINFRA',
 		contracts: [
 			{
-				name: '',
-				address: ``,
+				name: 'AuctionOffer',
+				address: `0x3a11344d66a72784dd440820ba6422a534a4206e`,
 				description: ``
 			},
 			{
-				name: '',
-				address: ``,
+				name: 'BuyNowOfferingFactory',
+				address: `0x575262e80edf7d4b39d95422f86195eb4c21bb52`,
+				description: ''
+			},
+			{
+				name: 'Registrar',
+				address: `0x6090A6e47849629b7245Dfa1Ca21D94cd15878Ef`,
+				description: ''
+			},
+			{
+				name: 'ReverseRegistrar',
+				address: `0x9062C0A6Dbd6108336BcBe4593a3D1cE05512069`,
+				description: ''
+			},
+			{
+				name: 'BuyNowOffering',
+				address: `0x7f5dbcab54cb17cd494477d4f11a2b7ba470fb3a`,
+				description: ''
+			},
+			{
+				name: 'ENS',
+				address: `0x314159265dD8dbb310642f98f50C066173C1259b`,
+				description: ''
+			},
+			{
+				name: 'PublicResolver',
+				address: `0x5FfC014343cd971B7eb70732021E26C35B744cc4`,
+				description: ''
+			},
+			{
+				name: 'OfferingRegistry',
+				address: `0x34e400a8b4da8a23b5eaf81b46d3a887669a45b9`,
+				description: ''
+			},
+			{
+				name: 'District0xEmails',
+				address: `0x5065ef0724b76421aeaafa87ba752d6c5d5499b5`,
+				description: ''
+			},
+			{
+				name: 'OfferingRequests',
+				address: `0x016bdfcf49ecdd9592e493cd4a75048ce09d6d75`,
+				description: ''
+			},
+			{
+				name: 'AuctionOffering',
+				address: `0x6676f9a4be165daa756816f3234d5e019032728e`,
 				description: ''
 			}
 		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		audits: [],
 		social: {
 			github: 'https://github.com/district0x/name-bazaar',
 			twitter: 'NameBazaar0x',
-			medium: '',
+			medium: 'https://blog.district0x.io/',
 			telegram: '',
 			reddit: '',
-			discord: '',
+			discord: 'Gjvw7qU',
 		},
 		articles: [
 			{
-				title: ``,
-				url: ``
+				title: `Name Bazaar - What is it?`,
+				url: `https://steemit.com/namebazaar/@mojorisin/name-bazaar-what-is-it`
 			}
 		],
 		documents: [
@@ -2615,12 +2667,12 @@ export default [
 		title: 'Kipos',
 		subtitle: '',
 		status: '',
-		image: '',
+		image: 'placeholder.jpg',
 		description: '',
 		website: ``,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -2655,20 +2707,25 @@ export default [
 				url: ``
 			}
 		],
-		documents: []
+		documents: [
+			{
+				title: 'Aragon Nest Proposal: Kipos',
+				url: 'https://github.com/aragon/nest/issues/155'
+			}
+		]
 	},
 	{
 		id: 54,
 		podcasts: [],
 		title: '1Hive',
-		subtitle: '',
+		subtitle: 'Helping Open Source Communities Thrive',
 		status: '',
-		image: '',
+		image: '1hive.png',
 		description: '',
-		website: ``,
+		website: `https://1hive.org/`,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -2691,7 +2748,7 @@ export default [
 		],
 		social: {
 			github: '',
-			twitter: '',
+			twitter: '1HiveOrg',
 			medium: '',
 			telegram: '',
 			reddit: '',
@@ -2711,12 +2768,12 @@ export default [
 		title: 'blankdao',
 		subtitle: '',
 		status: '',
-		image: '',
+		image: 'blank_dao.png',
 		description: 'Aragon One is a Swiss company formed by the founders of the Aragon Project',
-		website: ``,
+		website: `https://blankdao.org/`,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -2738,12 +2795,14 @@ export default [
 			}
 		],
 		social: {
-			github: '',
-			twitter: '',
-			medium: '',
+			github: 'https://github.com/BlankDAO',
+			twitter: 'blankdao_org',
+			medium: 'https://medium.com/blankdao',
 			telegram: '',
 			reddit: '',
 			discord: '',
+			bitcointalk: 'https://bitcointalk.org/index.php?topic=5111294',
+			riot: 'https://riot.im/app/#/room/#BlankDAO:matrix.org'
 		},
 		articles: [
 			{
@@ -2751,7 +2810,12 @@ export default [
 				url: ``
 			}
 		],
-		documents: []
+		documents: [
+			{
+				title: "Whitepaper",
+				url: 'https://docs.google.com/document/d/1cErxBj73-D3v5aYB5J-qc13nQ03XEfcuFAIl_N9_76I/edit'
+			}
+		]
 	},
 	{
 		id: 56,
@@ -2763,8 +2827,8 @@ export default [
 		description: '',
 		website: ``,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -2811,8 +2875,8 @@ export default [
 		description: 'Aragon DAC is the 2nd team working on the Aragon Project. Empowering Freedom. Building Human Collaboration, focusing on devX. ',
 		website: `http://aragondac.org/`,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -2855,12 +2919,12 @@ export default [
 		title: 'Ocean Protocol',
 		subtitle: '',
 		status: '',
-		image: '',
+		image: 'ocean_protocol.jpg',
 		description: '',
-		website: ``,
+		website: `https://oceanprotocol.com/`,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -2883,7 +2947,7 @@ export default [
 		],
 		social: {
 			github: '',
-			twitter: '',
+			twitter: 'oceanprotocol',
 			medium: '',
 			telegram: '',
 			reddit: '',
@@ -2901,14 +2965,14 @@ export default [
 		id: 59,
 		podcasts: [],
 		title: 'LegalBlock',
-		subtitle: '',
+		subtitle: 'A Decentralized-driven Legal Community Practicing Collective Wisdom',
 		status: '',
-		image: '',
+		image: 'legal_block.jpg',
 		description: '',
-		website: ``,
+		website: `https://legalblock.co/`,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -2931,18 +2995,13 @@ export default [
 		],
 		social: {
 			github: '',
-			twitter: '',
+			twitter: 'legal_block',
 			medium: '',
 			telegram: '',
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -2950,10 +3009,10 @@ export default [
 		podcasts: [],
 		title: 'Ethlance',
 		tags: ['IPFS'],
-		subtitle: '',
-		status: '',
+		subtitle: 'First job market built entirely on Ethereum',
+		status: 'active',
 		image: 'ethlance.jpg',
-		description: 'Ethlance is the first job market platform built entirely on the Ethereum blockchain. Free to use forever! The original district on the district0x Network.',
+		description: 'Ethlance is a freelancing marketplace that allows users to create an employer/employee profile, list and apply for open positions, rank and provide feedback for employers/employees, and to send/receive invoices. Ethlance is decentralized and does not charge any service fees, and users pay only the necessary cost of gas to broadcast their profiles, posts, messages, feedback, and invoices to the Ethereum network. Ethlance is part of the district0x network and is the first district (marketplace) to be deployed. It was the initial inspiration for the overall network of community marketplaces.',
 		website: `https://ethlance.com/`,
 		contractProof: ``,
 		blockchain: 'Ethereum',
@@ -2979,11 +3038,11 @@ export default [
 			}
 		],
 		social: {
-			github: '',
+			github: 'https://github.com/district0x/ethlance',
 			twitter: 'ethlance',
-			medium: '',
-			telegram: '',
-			reddit: '',
+			medium: 'https://blog.ethlance.com/',
+			telegram: 'https://t.me/district0x',
+			reddit: 'district0x',
 			discord: '',
 		},
 		articles: [
@@ -3009,8 +3068,8 @@ export default [
 		description: 'Building an open source, secure & private messenger, crypto wallet, and web3 browser.',
 		website: ``,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -3053,12 +3112,12 @@ export default [
 		title: 'Space Decentral',
 		subtitle: '',
 		status: '',
-		image: '',
+		image: 'space_decentral.jpg',
 		description: '',
 		website: ``,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -3081,7 +3140,7 @@ export default [
 		],
 		social: {
 			github: '',
-			twitter: '',
+			twitter: 'SpaceDecentral',
 			medium: '',
 			telegram: '',
 			reddit: '',
@@ -3101,12 +3160,12 @@ export default [
 		title: 'Melon',
 		subtitle: '',
 		status: '',
-		image: '',
+		image: 'melon.png',
 		description: '',
 		website: ``,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -3128,8 +3187,8 @@ export default [
 			}
 		],
 		social: {
-			github: '',
-			twitter: '',
+			github: 'https://github.com/melonproject/protocol',
+			twitter: 'melonprotocol',
 			medium: '',
 			telegram: '',
 			reddit: '',
@@ -3137,8 +3196,8 @@ export default [
 		},
 		articles: [
 			{
-				title: ``,
-				url: ``
+				title: `Melon will run its decentralized governance on Aragon`,
+				url: `https://medium.com/melonprotocol/melon-will-run-its-decentralized-governance-on-aragon-9f7935693720`
 			}
 		],
 		documents: []
@@ -3149,12 +3208,12 @@ export default [
 		title: 'Althea.org DAOs',
 		subtitle: '',
 		status: '',
-		image: '',
+		image: 'placeholder.jpg',
 		description: '',
 		website: ``,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -3195,14 +3254,15 @@ export default [
 		id: 65,
 		podcasts: [],
 		title: 'Open ESQ',
-		subtitle: '',
+		subtitle: 'Enabling The Next Generation of Legal Services',
 		status: '',
-		image: '',
+		image: 'open_esq.png',
 		description: '',
-		website: ``,
+		website: `https://openesq.tech/`,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
+		dapp: 'https://mainnet.aragon.org/#/openesq/',
 		contracts: [
 			{
 				name: '',
@@ -3225,9 +3285,9 @@ export default [
 		],
 		social: {
 			github: '',
-			twitter: '',
+			twitter: 'OpenESQ',
 			medium: '',
-			telegram: '',
+			telegram: 'https://t.me/OpenEsquire/',
 			reddit: '',
 			discord: '',
 		},
@@ -3237,20 +3297,35 @@ export default [
 				url: ``
 			}
 		],
-		documents: []
+		documents: [],
+		email: 'info@openesq.tech',
+		team: [
+			{
+				name: 'Ross Campbell',
+				twitter: 'r_ross_campbell'
+			},
+			{
+				name: 'Robert Leonhard',
+				twitter: 'RobLionhart'
+			},
+			{
+				name: 'Josh Ma',
+				twitter: 'Joshma91'
+			}
+		]
 	},
 	{
 		id: 66,
 		podcasts: [],
 		title: 'Pool Together',
-		subtitle: '',
+		subtitle: 'PoolTogether is a no loss lottery built on Ethereum.',
 		status: '',
-		image: '',
+		image: 'pool_together.png',
 		description: '',
-		website: ``,
+		website: `https://www.pooltogether.us`,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: 'Ethereum',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -3273,7 +3348,7 @@ export default [
 		],
 		social: {
 			github: '',
-			twitter: '',
+			twitter: 'PoolTogether_',
 			medium: '',
 			telegram: '',
 			reddit: '',
@@ -3291,14 +3366,14 @@ export default [
 		id: 67,
 		podcasts: [],
 		title: 'Request Network',
-		subtitle: '',
+		subtitle: 'The Open Network for Transaction Requests',
 		status: '',
-		image: '',
+		image: 'request_network.png',
 		description: '',
-		website: ``,
+		website: `https://request.network/en/`,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: 'Ethereum',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -3322,10 +3397,10 @@ export default [
 		social: {
 			github: '',
 			twitter: '',
-			medium: '',
+			medium: 'https://blog.request.network/',
 			telegram: '',
 			reddit: '',
-			discord: '',
+			discord: '6aGhs6v',
 		},
 		articles: [
 			{
@@ -3345,8 +3420,8 @@ export default [
 		description: '',
 		website: ``,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -3393,8 +3468,8 @@ export default [
 		description: '',
 		website: ``,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -3441,8 +3516,8 @@ export default [
 		description: 'We are interested in advancing civilization, with a special focus on DAOs, Aragon, worker-autonomy, and tools to enable open source development of mega-projects',
 		website: `https://www.autark.xyz/`,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -3489,8 +3564,8 @@ export default [
 		description: '',
 		website: ``,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',
@@ -3577,6 +3652,54 @@ export default [
 		],
 		documents: []
 	},
+	{
+		id: 0,
+		podcasts: [],
+		title: 'KoalaDAO',
+		subtitle: '',
+		status: '',
+		image: 'bitfwd.jpg',
+		description: "The KoalaDAO #Blockathon mission is to run a continuous online Blockchain hackathon that is geared toward inclusive participation and supports the growth of leading crypto projects in that are matching the following verticals: Social, Mobile and Consumer Market. The aim is to serve as testbed for a decentralized ecosystem accelerator community. At the initial stage, the majority of the reputation will be held with the eucalyptus tree committee as described in the governance section below. The reputation will be dynamically adjusted using DAOstack's Alchemy platform. Stakeholders of #KoalaDAO #Blockathon are diverse and come from different organizations or are independent contributors and others.",
+		website: ``,
+		contractProof: ``,
+		blockchain: '-',
+		framework: '-',
+		contracts: [
+			{
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
+			}
+		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: 'https://github.com/bitfwdcommunity/KoalaDAO',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [
+			{
+				title: ``,
+				url: ``
+			}
+		],
+		documents: []
+	},
 ]
 
 /*
@@ -3590,8 +3713,8 @@ export default [
 		description: '',
 		website: ``,
 		contractProof: ``,
-		blockchain: '',
-		framework: '',
+		blockchain: '-',
+		framework: '-',
 		contracts: [
 			{
 				name: '',

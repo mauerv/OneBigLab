@@ -40,24 +40,30 @@ export default ({ match }) => {
 				framework={dao.framework}
 				status={dao.status}
 			/>
-			<MDBRow>
-				<div className='col-12 pt-4 pb-4 border-bottom'>
-					<h3>Assets Governed</h3>
-					<p>{dao.assetsGoverned}</p>
-				</div>
-			</MDBRow>
-			<MDBRow>
-				<div className='col-12 pt-4 pb-4 border-bottom'>
-					<h3>Decentralization Level</h3>
-					<p>{dao.decentralizationLevel}</p>
-				</div>
-			</MDBRow>
-			<MDBRow>
-				<div className='col-12 pt-4 pb-4 border-bottom'>
-					<h3>Centralization Points</h3>
-					<p>{dao.centralizationPoints}</p>
-				</div>
-			</MDBRow>
+			{dao.assetsGoverned && (
+				<MDBRow>
+					<div className='col-12 pt-4 pb-4 border-bottom'>
+						<h3>Assets Governed</h3>
+						<p>{dao.assetsGoverned}</p>
+					</div>
+				</MDBRow>
+			)}
+			{dao.decentralizationLevel && (
+				<MDBRow>
+					<div className='col-12 pt-4 pb-4 border-bottom'>
+						<h3>Decentralization Level</h3>
+						<p>{dao.decentralizationLevel}</p>
+					</div>
+				</MDBRow>
+			)}
+			{dao.centralizationPoints && (
+				<MDBRow>
+					<div className='col-12 pt-4 pb-4 border-bottom'>
+						<h3>Centralization Points</h3>
+						<p>{dao.centralizationPoints}</p>
+					</div>
+				</MDBRow>
+			)}
 			<ContractGrid contracts={dao.contracts} contractProof={dao.contractProof}/>
 			<MDBRow>
 				{dao.contractProof && (
@@ -74,8 +80,8 @@ export default ({ match }) => {
 					<h3 className='col-12'>Podcasts</h3>
 					<ul className='col-12 list-group'>
 						{dao.podcasts.map(podcast => (
-							<li className='list-group-item d-flex justify-content-md-between flex-column flex-md-row'>
-								<a href={podcast.url}><h6>{podcast.title}</h6></a>
+							<li className='list-group-item d-flex justify-content-md-between flex-column flex-md-row align-items-md-center'>
+								<a href={podcast.url} target='_blank' rel="noopener noreferrer" ><h6>{podcast.title}</h6></a>
 								<p className='ml-'>{podcast.date}</p>
 							</li>
 						))}
