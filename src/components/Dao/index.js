@@ -88,6 +88,19 @@ export default ({ match }) => {
 					</ul>
 				</MDBRow>
 			)}
+			{dao.articles.length !== 0 && (
+				<MDBRow className='pt-4 pb-4 border-bottom'>
+					<h3 className='col-12'>Insightful Articles</h3>
+					<ul className='col-12 list-group'>
+						{dao.articles.map(article => (
+							<li className='list-group-item d-flex justify-content-md-between flex-column flex-md-row align-items-md-center'>
+								<a href={article.url} target='_blank' rel="noopener noreferrer" ><h6>{article.title}</h6></a>
+								<p className='ml-'>{article.date}</p>
+							</li>
+						))}
+					</ul>
+				</MDBRow>
+			)}
 		</MDBContainer>
 	)
 }

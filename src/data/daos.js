@@ -68,13 +68,20 @@ export default [
 		articles: [
 			{
 				title: 'The Moloch DAO: Collapsing The Firm.',
-				url: 'https://medium.com/@simondlr/the-moloch-dao-collapsing-the-firm-2a800b3aa2e7'
+				url: 'https://medium.com/@simondlr/the-moloch-dao-collapsing-the-firm-2a800b3aa2e7',
+				date: '16/01/2019'
 			}
 		]
 	},
 	{
 		id: 1,
-		podcasts: [],
+		podcasts: [
+			{
+				title: 'Episode 9: Humanity DAO with Rich McAteer',
+				url: 'https://anchor.fm/wizardofdapps/episodes/Episode-9-Humanity-DAO-with-Rich-McAteer-e4gdhe',
+				date: '04/07/2019'
+			}
+		],
 		title: 'HumanityDAO',
 		subtitle: 'Humanity is a global identity network.',
 		tags: ['TCR'],
@@ -86,7 +93,8 @@ export default [
 		articles: [
 			{
 				title: 'Introducing Humanity DAO',
-				url: 'https://medium.com/marbleorg/introducing-humanity-90ddf9ead235'
+				url: 'https://medium.com/marbleorg/introducing-humanity-90ddf9ead235',
+				date: '09/05/2019'
 			}
 		],
 		description: 'HumanityDAO is a standard for unique identity on Ethereum. The Humanity registry can serve as the foundation for Sybil-resistant protocols including Universal Basic Income, credit, democratic voting, and more.',
@@ -136,11 +144,57 @@ export default [
 	},
 	{
 		id: 2,
-		podcasts: [],
 		title: 'MakerDAO',
 		subtitle: 'Transparent and sustainable finance',
 		status: 'active',
 		image: 'maker.jpg',
+		podcasts: [
+			{
+				title: 'POV Crypto Ep. 58-The Frontier of Dai, With Mariano Conti',
+				url: 'https://medium.com/@TrustlessState/58-the-frontier-of-dai-with-mariano-conti-8e532cdc48a4',
+				date: '17/06/2019'
+			},
+			{
+				title: 'Hashing It Out #47: MakerDAO – Nik Kunkel',
+				url: 'https://thebitcoinpodcast.com/hashing-it-out-47/',
+				date: '31/05/2019'
+			},
+			{
+				title: 'Software Engineering Daily: Stablecoins with Rune Christensen',
+				url: 'https://softwareengineeringdaily.com/2019/04/03/stablecoins-with-rune-christensen/',
+				date: '03/04/2019'
+			},
+			{
+				title: 'ZeroKnowledgefm: Digging into DAI with Rune Christensen from Maker',
+				url: 'https://www.zeroknowledge.fm/70',
+				date: '27/03/2019'
+			},
+			{
+				title: 'POV Crypto Podcast Episode 40 — Bitcoin Vs MakerDAO II',
+				url: 'https://medium.com/@TrustlessState/pov-crypto-episode-40-bitcoin-vs-makerdao-ii-d71cce4f19b8',
+				date: '26/03/2019'
+			},
+			{
+				title: 'Stablecoins and What’s next for MakerDAO with Ashleigh Schap',
+				url: 'https://limechain.tech/stable-coins-and-whats-next-for-makerdao/?',
+				date: '21/03/2019'
+			},
+			{
+				title: "How Maker Became Ethereum's Biggest Project - Rune Christensen (Founder, MakerDao)",
+				url: 'https://blockcrunch.libsyn.com/how-maker-became-ethereums-biggest-project-rune-christensen-founder-makerdao',
+				date: '11/02/2019'
+			},
+			{
+				title: 'Unchained: Rune Christensen of MakerDAO Part 2: How Dai Stayed at $1 While ETH Crashed From $1,400 to $85 - Ep.105',
+				url: 'https://overcast.fm/+LNqexSQnI',
+				date: '05/02/2019'
+			},
+			{
+				title: 'Unchained: Rune Christensen of MakerDAO Part 1: How to Keep a Crypto-Collateralized Stablecoin Afloat - Ep.104',
+				url: 'https://overcast.fm/+LNqfe3mfk',
+				date: '29/01/2019'
+			}
+		],
 		audits: [
 			{
 				auditor: "Trail of Bits",
@@ -183,36 +237,6 @@ export default [
 				name: 'Maker',
 				address: `0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2`,
 				description: 'MKR token contract'
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
 			}
 		],
 		social: {
@@ -224,6 +248,7 @@ export default [
 			rocketchat: 'https://chat.makerdao.com/home',
 			discord: '',
 		},
+		articles: [],
 		documents: [
 			{
 				title: "Whitepaper",
@@ -233,7 +258,23 @@ export default [
 	},
 	{
 		id: 3,
-		podcasts: [],
+		podcasts: [
+			{
+				title: 'Ep.43 – ‘Mutualisation’ of insurance through blockchain – insights from Nexus Mutual',
+				url: 'https://www.insureblocks.com/ep-43-mutualisation-of-insurance-through-blockchain-insights-from-nexus-mutual/',
+				date: '27/01/2019'
+			},
+			{
+				title: 'An introduction to Blockchain and Nexus Mutual',
+				url: 'https://www.listennotes.com/podcasts/network-of/an-introduction-to-GXWnhv0qU8H/',
+				date: '19/10/2018'
+			},
+			{
+				title: 'Base Layer Episode 050 - Hugh Karp (Nexus Mutual)',
+				url: 'https://www.stitcher.com/podcast/david-nage/base-layer/e/62573603',
+				date: '15/07/2019'
+			}
+		],
 		title: 'NexusMutual',
 		subtitle: 'A people-powered alternative to insurance',
 		status: 'active',
@@ -352,6 +393,7 @@ export default [
 			discord: 'DwtQuSD',
 			email: 'info@nexusmutual.io'
 		},
+		articles: [],
 		documents: [
 			{
 				title: "Whitepaper",
@@ -361,7 +403,18 @@ export default [
 	},
 	{
 		id: 4,
-		podcasts: [],
+		podcasts: [
+			{
+				title: 'Dispute Resolution - William George of Kleros.io',
+				url: 'https://www.youtube.com/watch?v=_Rf-KWJwzS8',
+				date: '07/01/2019'
+			},
+			{
+				title: 'Kleros, Decentralized Arbitration Dispute Resolution via Smart Contracts',
+				url: 'https://player.fm/series/david-bovills-listen-later/guest-kleros-decentralized-arbitration-dispute-resolution-via-smart-contracts',
+				date: '11/04/2018'
+			}
+		],
 		title: 'Kleros',
 		subtitle: 'The Blockchain Dispute Resolution Layer',
 		status: 'active',
@@ -414,6 +467,7 @@ export default [
 			blog: `https://blog.kleros.io/`,
 			discourse: "https://forum.kleros.io/"
 		},
+		articles: [],
 		documents: [
 			{
 				title: "Whitepaper",
@@ -455,6 +509,7 @@ export default [
 			discord: '',
 			discourse: 'https://forum.metacartel.org/'
 		},
+		articles: [],
 		documents: []
 	},
 	{
@@ -490,11 +545,18 @@ export default [
 			reddit: '',
 			discord: '',
 		},
+		articles: [],
 		documents: []
 	},
 	{
 		id: 7,
-		podcasts: [],
+		podcasts: [
+			{
+				title: '#271 Martin Köppelmann & Matan Field: How the dxDAO could become the world’s largest organization',
+				url: 'https://castro.fm/episode/GXbCid',
+				date: '24/01/2019'
+			}
+		],
 		title: 'dxDAO',
 		subtitle: 'Managing DutchX exchange protocol',
 		status: 'active',
@@ -560,6 +622,7 @@ export default [
 			discord: '',
 			daotalk: "https://daotalk.org/c/daos/dx-dao"
 		},
+		articles: [],
 		documents: [
 			{
 				title: "Whitepaper",
@@ -577,7 +640,13 @@ export default [
 	},
 	{
 		id: 8,
-		podcasts: [],
+		podcasts: [
+			{
+				title: '#237 Matan Field: DAOstack – An Operating System for Collective Intelligence',
+				url: 'https://www.youtube.com/watch?v=zbn_W9b24SM',
+				date: '31/05/2018'
+			}
+		],
 		title: 'GenesisDAO',
 		subtitle: `DAOstack's native DAO`,
 		status: 'active',
@@ -600,11 +669,6 @@ export default [
 				description: `Genesis DAO's own token`
 			},
 			{
-				name: 'Reputation',
-				address: ``,
-				description: ``
-			},
-			{
 				name: 'GenesisProtocol',
 				address: `0x374026A48D777CB0FFdCCdB9a919c0Aa7cE8a0fc`,
 				description: `Genesis DAO's own token`
@@ -619,6 +683,7 @@ export default [
 			daotalk: 'https://daotalk.org/c/daos/genesis',
 			discord: '',
 		},
+		articles: [],
 		documents: [
 			{
 				title: "Whitepaper",
@@ -662,7 +727,8 @@ export default [
 		articles: [
 			{
 				title: `Announcing PolkaDAO: Fund Your Project!`,
-				url: `https://polkadot.network/announcing-polkadao-fund-your-project/`
+				url: `https://polkadot.network/announcing-polkadao-fund-your-project/`,
+				date: '16/05/2019'
 			}
 		],
 		documents: [,
@@ -702,12 +768,7 @@ export default [
 			discord: '',
 			youtube: 'https://www.youtube.com/channel/UCAx2VzjvbTffPrH2RvlDqNg'
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: [
 			{
 				title: "Genesis Protocol",
@@ -746,7 +807,8 @@ export default [
 		articles: [
 			{
 				title: `Ethfinex Launches Funding DAO`,
-				url: `https://blog.ethfinex.com/ethfinex-launches-funding-dao/`
+				url: `https://blog.ethfinex.com/ethfinex-launches-funding-dao/`,
+				date: '01/06/2019'
 			}
 		],
 		documents: [
@@ -758,7 +820,13 @@ export default [
 	},
 	{
 		id: 12,
-		podcasts: [],
+		podcasts: [
+			{
+				title: 'FTP051: Vít Jedlička - Liberland: Prototype For a Decentralized State',
+				url: 'https://www.listennotes.com/podcasts/future-thinkers/ftp051-v%C3%ADt-jedli%C4%8Dka-ZF89OvmuIMA/',
+				date: '07/04/2018'
+			}
+		],
 		title: 'Liberland DAO',
 		subtitle: 'Decentralized Autonomous Government',
 		status: 'active',
@@ -784,12 +852,7 @@ export default [
 			reddit: 'Liberland',
 			discord: '2tKVhss',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: [
 			{
 				title: "Genesis Protocol",
@@ -823,7 +886,8 @@ export default [
 		articles: [
 			{
 				title: `Indroducing The PragueDAO`,
-				url: `https://medium.com/daostack/introducing-the-praguedao-9930e6b3801`
+				url: `https://medium.com/daostack/introducing-the-praguedao-9930e6b3801`,
+				date: '24/06/2019'
 			}
 		],
 		documents: [
@@ -856,12 +920,7 @@ export default [
 			discord: '',
 			email: 'hello@social-evolution.com'
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: [
 			{
 				title: "Whitepaper",
@@ -901,12 +960,7 @@ export default [
 			reddit: 'kybernetwork',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: [
 			{
 				title: "Genesis Protocol",
@@ -931,7 +985,8 @@ export default [
 		articles: [
 			{
 				title: `Introducing dHack — A Decentralized Hackathon.`,
-				url: `https://medium.com/daostack/introducing-dhack-a-decentralized-hackathon-e013f76821ca`
+				url: `https://medium.com/daostack/introducing-dhack-a-decentralized-hackathon-e013f76821ca`,
+				date: '05/06/2019'
 			}
 		],
 		social: {
@@ -977,12 +1032,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: [
 			{
 				title: "Genesis Protocol",
@@ -1018,12 +1068,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: [
 			{
 				title: "Genesis Protocol",
@@ -1062,7 +1107,8 @@ export default [
 		articles: [
 			{
 				title: `dOrg Founders Have Created the First Limited Liability DAO`,
-				url: `https://www.coindesk.com/dorg-founders-have-created-the-first-limited-liability-dao`
+				url: `https://www.coindesk.com/dorg-founders-have-created-the-first-limited-liability-dao`,
+				date: '11/06/2019'
 			}
 		],
 		documents: [
@@ -1074,7 +1120,23 @@ export default [
 	},
 	{
 		id: 20,
-		podcasts: [],
+		podcasts: [
+			{
+				title: 'Interview with Shaun, Co-Founder of DigixDAO',
+				url: 'https://www.listennotes.com/podcasts/nuggets-news/interview-with-shaun-co-b2Z1HqYXNEn/',
+				date: '02/07/2018'
+			},
+			{
+				title: 'Stablecoin Using Gold_ - What is DigixDAO',
+				url: 'https://www.listennotes.com/podcasts/decentralized/stablecoin-using-gold_-what-m4qWidleUpa/',
+				date: '28/05/2018'
+			},
+			{
+				title: '5 Shaun Djie (Digix Co-Founder) - Tokenizing Gold on the Ethereum Blockchain, DigixDAO and DGX',
+				url: 'https://www.listennotes.com/podcasts/silver-bullion-tv/5-shaun-djie-digix-co-NeswHpuUo3m/',
+				date: '25/04/2018'
+			}
+		],
 		title: 'DigixDAO',
 		subtitle: '',
 		audits: [
@@ -1108,12 +1170,7 @@ export default [
 			youtube: 'https://www.youtube.com/digixglobal',
 			discord: 'CCDBJJC',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: [
 			{
 				title: "Whitepaper",
@@ -1150,15 +1207,18 @@ export default [
 		articles: [
 			{
 				title: `RECDAO Curator explained`,
-				url: `https://www.reddit.com/r/ethtrader/comments/89o4ju/recdao_curator_explained/`
+				url: `https://www.reddit.com/r/ethtrader/comments/89o4ju/recdao_curator_explained/`,
+				date: '01/04/2018'
 			},
 			{
 				title: `RecDAO: When decentralisation isn't the answer`,
-				url: `https://flatoutcrypto.com/home/recdao`
+				url: `https://flatoutcrypto.com/home/recdao`,
+				date: '05/04/2018'
 			},
 			{
 				title: `Prediction markets for content curation DAOs`,
-				url: `https://ethresear.ch/t/prediction-markets-for-content-curation-daos/1312`
+				url: `https://ethresear.ch/t/prediction-markets-for-content-curation-daos/1312`,
+				date: '01/03/2018'
 			}
 		],
 		documents: []
@@ -1191,12 +1251,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -1224,14 +1279,31 @@ export default [
 		articles: [
 			{
 				title: `Kyodo — “You decide your own level of involvement”`,
-				url: `https://medium.com/decentfund/kyodo-you-decide-your-own-level-of-involvement-385515ef03a7`
+				url: `https://medium.com/decentfund/kyodo-you-decide-your-own-level-of-involvement-385515ef03a7`,
+				date: '29/06/2018'
 			}
 		],
 		documents: []
 	},
 	{
 		id: 24,
-		podcasts: [],
+		podcasts: [
+			{
+				title: 'Luis Cuende: Aragon – Decentralized Governance and the Fight for Freedom',
+				url: 'https://www.listennotes.com/podcasts/epicenter-learn/luis-cuende-aragon-xMThUBvrnoK/',
+				date: '24/05/2018'
+			},
+			{
+				title: 'How Aragon Manages DAOs with Luis Cuende',
+				url: 'https://www.listennotes.com/podcasts/software/how-aragon-manages-daos-with-TSxo8iO6eL3/',
+				date: '08/03/2018'
+			},
+			{
+				title: 'The Blockcrunch - Can Crypto Change How We Run Organizations? - Luis Cuende (Aragon)',
+				url: 'https://www.listennotes.com/podcasts/the-lets-talk/the-blockcrunch-can-crypto-45n-m28ip7U/',
+				date: '20/05/2019'
+			}
+		],
 		title: 'Aragon Network',
 		subtitle: 'Freedom to organize',
 		mailingList: 'https://one.us15.list-manage.com/subscribe?u=a590aa3843a54b079d48e6e18&id=e81a44c4bd',
@@ -1266,12 +1338,7 @@ export default [
 			rocketchat: 'https://aragon.chat/home',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: [
 			{
 				title: 'Whitepaper',
@@ -1307,12 +1374,7 @@ export default [
 			youtube: 'https://www.youtube.com/channel/UCODiU_-FWhr4SVOoBlm-qaQ',
 			discourse: 'https://forum.aragon.org/'
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: [
 			{
 				title: "Whitepaper",
@@ -1333,14 +1395,7 @@ export default [
 		blockchain: 'Offchain',
 		framework: 'Custom',
 		contracts: [],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -1352,7 +1407,8 @@ export default [
 		articles: [
 			{
 				title: `How RewardDAO Works`,
-				url: `https://medium.com/giveth/how-rewarddao-works-aka-what-are-points-7388f70269a`
+				url: `https://medium.com/giveth/how-rewarddao-works-aka-what-are-points-7388f70269a`,
+				date: '01/02/2018'
 			}
 		],
 		documents: []
@@ -1370,14 +1426,7 @@ export default [
 		blockchain: 'Offchain',
 		framework: 'Custom',
 		contracts: [],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -1389,14 +1438,21 @@ export default [
 		articles: [
 			{
 				title: `The Unicorn DAC, a non-hierarchical decentralized governance experiment`,
-				url: `https://medium.com/giveth/the-unicorndac-a-non-hierarchical-decentralized-governance-experiment-8dfbe6e98d19`
+				url: `https://medium.com/giveth/the-unicorndac-a-non-hierarchical-decentralized-governance-experiment-8dfbe6e98d19`,
+				date: '30/11/2018'
 			}
 		],
 		documents: []
 	},
 	{
 		id: 28,
-		podcasts: [],
+		podcasts: [
+			{
+				title: 'Web3 Summit Decentralize NOW! #1 - Griff Green of Giveth.io - Decentralizing Charity',
+				url: 'https://www.listennotes.com/podcasts/decentralize-all/web3-summit-decentralize-now-U3xsf9_KjMR/',
+				date: '26/11/2018'
+			}
+		],
 		title: 'Giveth DAC',
 		subtitle: '',
 		status: '',
@@ -1406,26 +1462,8 @@ export default [
 		contractProof: ``,
 		blockchain: 'Offchain',
 		framework: 'Custom',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -1434,12 +1472,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -1464,12 +1497,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -1496,14 +1524,7 @@ export default [
 				description: 'Holds funds'
 			}
 		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		audits: [],
 		social: {
 			github: '',
 			twitter: 'TrojanDAO',
@@ -1512,12 +1533,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -1549,12 +1565,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -1569,26 +1580,8 @@ export default [
 		contractProof: ``,
 		blockchain: 'Ethereum',
 		framework: 'Aragon OS',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -1597,12 +1590,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -1617,26 +1605,8 @@ export default [
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -1645,12 +1615,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -1675,12 +1640,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -1695,26 +1655,8 @@ export default [
 		contractProof: ``,
 		blockchain: 'Ethereum',
 		framework: 'Custom',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -1723,12 +1665,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -1743,26 +1680,8 @@ export default [
 		contractProof: ``,
 		blockchain: 'Ethereum',
 		framework: 'Custom',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: 'https://github.com/Betoken/',
 			twitter: 'betokenfund',
@@ -1771,12 +1690,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: [
 			{
 				title: "Whitepaper",
@@ -1800,26 +1714,8 @@ export default [
 		contractProof: ``,
 		blockchain: 'Ethereum',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: 'PersonalTokens',
@@ -1829,12 +1725,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -1849,26 +1740,8 @@ export default [
 		contractProof: ``,
 		blockchain: 'Offchain',
 		framework: 'Custom',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -1877,12 +1750,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -1897,26 +1765,8 @@ export default [
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -1928,7 +1778,8 @@ export default [
 		articles: [
 			{
 				title: `bkDAO: Self-Funding Brooklyn’s Civic Orgs`,
-				url: `https://medium.com/@orishim/bkdao-self-funding-brooklyns-civic-orgs-7d57a164254f`
+				url: `https://medium.com/@orishim/bkdao-self-funding-brooklyns-civic-orgs-7d57a164254f`,
+				date: '07/04/2019'
 			}
 		],
 		documents: []
@@ -1945,26 +1796,8 @@ export default [
 		contractProof: `https://twitter.com/MatanField/status/1132536859349921792`,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -1973,12 +1806,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: [
 			{
 				title: 'How to MemeDAO',
@@ -1998,26 +1826,8 @@ export default [
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -2026,12 +1836,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -2046,26 +1851,8 @@ export default [
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: 'https://github.com/bitfwdcommunity/Blockathon-DAO',
 			twitter: 'bitfwdxyz',
@@ -2077,7 +1864,8 @@ export default [
 		articles: [
 			{
 				title: `bitfwd and DAOstack partnership announcement!`,
-				url: `https://medium.com/bitfwd/bitfwd-and-daostack-partnership-announcement-b5d605ba314e`
+				url: `https://medium.com/bitfwd/bitfwd-and-daostack-partnership-announcement-b5d605ba314e`,
+				date: '02/06/2019'
 			}
 		],
 		documents: []
@@ -2088,32 +1876,14 @@ export default [
 		title: 'The DMO',
 		subtitle: 'Decentralized Marketing Organization',
 		status: '',
-		image: '',
+		image: 'placeholder.jpg',
 		description: '',
 		website: ``,
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -2122,12 +1892,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -2136,32 +1901,14 @@ export default [
 		title: 'General Store DAO',
 		subtitle: '',
 		status: '',
-		image: '',
+		image: 'placeholder.jpg',
 		description: '',
-		website: ``,
+		website: `https://www.thegeneralstore.me/`,
 		contractProof: ``,
-		blockchain: '-',
-		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		blockchain: 'Ethereum',
+		framework: 'DAOStack',
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -2170,12 +1917,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -2184,32 +1926,14 @@ export default [
 		title: 'Research DAO',
 		subtitle: '',
 		status: '',
-		image: '',
+		image: 'placeholder.jpg',
 		description: '',
 		website: ``,
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -2218,12 +1942,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -2232,32 +1951,14 @@ export default [
 		title: 'GrammarDAO',
 		subtitle: '',
 		status: '',
-		image: '',
+		image: 'placeholder.jpg',
 		description: '',
 		website: ``,
 		contractProof: ``,
 		blockchain: 'Ethereum',
 		framework: 'DAOStack',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -2266,12 +1967,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -2280,32 +1976,14 @@ export default [
 		title: 'WorkersDAO',
 		subtitle: '',
 		status: '',
-		image: '',
+		image: 'workers_dao.png',
 		description: '',
-		website: ``,
+		website: `https://sites.google.com/view/workers-dao/idea`,
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -2314,12 +1992,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -2334,26 +2007,8 @@ export default [
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -2365,7 +2020,8 @@ export default [
 		articles: [
 			{
 				title: `Aragon Greta DAO`,
-				url: `https://forum.aragon.org/t/aragon-greta-dao/613/9`
+				url: `https://forum.aragon.org/t/aragon-greta-dao/613/9`,
+				date: '24/02/2019'
 			}
 		],
 		documents: []
@@ -2376,46 +2032,33 @@ export default [
 		title: 'Because of the Internet DAO',
 		subtitle: '',
 		status: '',
-		image: '',
+		image: 'rude_world.jpg',
 		description: '',
-		website: ``,
+		website: `https://www.rude.world/boti-dao`,
+		dapp: 'https://mainnet.aragon.org/#/botidao/0x697a9f521536258fe255eb780bddda1e225b5177',
 		contractProof: ``,
-		blockchain: '-',
-		framework: '-',
+		blockchain: 'Ethereum',
+		framework: 'Aragon',
 		contracts: [
 			{
-				name: '',
-				address: ``,
-				description: ``
+				name: 'BODI Token',
+				address: `0xd9a94ae88eed1683347f85fc90770354d7ec7867`,
+				description: `Token for the DAO`
 			},
 			{
-				name: '',
-				address: ``,
-				description: ''
+
 			}
 		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		audits: [],
 		social: {
 			github: '',
-			twitter: '',
-			medium: '',
+			twitter: 'RUDE_content',
+			medium: 'https://medium.com/rudimental',
 			telegram: '',
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -2486,15 +2129,20 @@ export default [
 				title: 'BlockChannel Episode 25: Building Digital Communities, with District0x',
 				url: 'https://thebitcoinpodcast.com/bc25/',
 				date: '14/07/2017'
+			},
+			{
+				title: 'Crypto - District0x Founder, Joe Urgo on building a network of decentralized markets and communities.mp3',
+				url: 'https://www.listennotes.com/podcasts/the-global-startup/crypto-district0x-founder-39zRoLys7Hw/',
+				date: '13/02/2018'
+			},
+			{
+				title: 'P.J. Leimgruber of District0x',
+				url: 'https://www.listennotes.com/podcasts/talking/pj-leimgruber-of-district0x-9UpGtlZKyWD/',
+				date: '19/08/2018'
 			}
 		],
 		mailingList: 'https://sourcerers.us14.list-manage.com/subscribe?u=6531cd004e712d76e07f04ca9&id=104ce689d2',
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: [
 			{
 				title: 'Whitepaper',
@@ -2557,7 +2205,8 @@ export default [
 		articles: [
 			{
 				title: `Introducing Meme Factory`,
-				url: `https://blog.district0x.io/introducing-meme-factory-4aba7925dcdd`
+				url: `https://blog.district0x.io/introducing-meme-factory-4aba7925dcdd`,
+				date: '17/05/2019'
 			}
 		],
 		faucets: [
@@ -2651,7 +2300,8 @@ export default [
 		articles: [
 			{
 				title: `Name Bazaar - What is it?`,
-				url: `https://steemit.com/namebazaar/@mojorisin/name-bazaar-what-is-it`
+				url: `https://steemit.com/namebazaar/@mojorisin/name-bazaar-what-is-it`,
+				date: '27/07/2017'
 			}
 		],
 		documents: [
@@ -2665,7 +2315,7 @@ export default [
 		id: 53,
 		podcasts: [],
 		title: 'Kipos',
-		subtitle: '',
+		subtitle: 'Cooperative Housing Tool Box',
 		status: '',
 		image: 'placeholder.jpg',
 		description: '',
@@ -2673,26 +2323,8 @@ export default [
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -2701,12 +2333,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: [
 			{
 				title: 'Aragon Nest Proposal: Kipos',
@@ -2726,26 +2353,8 @@ export default [
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '1HiveOrg',
@@ -2774,26 +2383,8 @@ export default [
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: 'https://github.com/BlankDAO',
 			twitter: 'blankdao_org',
@@ -2804,12 +2395,7 @@ export default [
 			bitcointalk: 'https://bitcointalk.org/index.php?topic=5111294',
 			riot: 'https://riot.im/app/#/room/#BlankDAO:matrix.org'
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: [
 			{
 				title: "Whitepaper",
@@ -2829,26 +2415,8 @@ export default [
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: 'AragonOneTeam',
@@ -2857,12 +2425,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -2877,26 +2440,8 @@ export default [
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -2905,17 +2450,28 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
 		id: 58,
-		podcasts: [],
+		podcasts: [
+			{
+				title: '032: Ocean Protocol – The Future of Data, AI and Blockchain with Trent McConaghy',
+				url: 'https://www.listennotes.com/podcasts/blockchain/032-ocean-protocol-the-nVhWbpyF637/',
+				date: '20/06/2018'
+			},
+			{
+				title: 'Ep. 67 – The Data Economy – Insights from Ocean Protocol',
+				url: 'https://www.listennotes.com/podcasts/insureblocks/ep-67-the-data-economy-DIxK4m9h16q/',
+				date: '22/07/2019'
+			},
+			{
+				title: 'Ocean Protocol - AI Data and Services on the Blockchain',
+				url: 'https://www.listennotes.com/podcasts/ost-live/ocean-protocol-ai-data-and-WzEbYqgBFtI/',
+				date: '17/10/2018'
+			}
+		],
 		title: 'Ocean Protocol',
 		subtitle: '',
 		status: '',
@@ -2925,26 +2481,8 @@ export default [
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: 'oceanprotocol',
@@ -2953,17 +2491,23 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
 		id: 59,
-		podcasts: [],
+		podcasts: [
+			{
+				title: 'Bloque 32 – LegalBlock, con Albi Rodríguez Jaramillo',
+				url: 'https://www.listennotes.com/podcasts/descentralizados/bloque-32-legalblock-con-5cHNqk2eOog/',
+				date: '29/01/2019'
+			},
+			{
+				title: 'Los Abogados Adoptando el Blockchain',
+				url: 'https://www.listennotes.com/podcasts/cryptogal-gu%C3%ADa/los-abogados-adoptando-el-s02zMvVwfyX/',
+				date: '05/10/2018'
+			}
+		],
 		title: 'LegalBlock',
 		subtitle: 'A Decentralized-driven Legal Community Practicing Collective Wisdom',
 		status: '',
@@ -2973,26 +2517,8 @@ export default [
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: 'legal_block',
@@ -3017,26 +2543,8 @@ export default [
 		contractProof: ``,
 		blockchain: 'Ethereum',
 		framework: 'd0xINFRA',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: 'https://github.com/district0x/ethlance',
 			twitter: 'ethlance',
@@ -3045,12 +2553,7 @@ export default [
 			reddit: 'district0x',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: [
 				{
 					title: 'district0x Whitepaper',
@@ -3070,26 +2573,8 @@ export default [
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: 'ethstatus',
@@ -3098,12 +2583,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -3118,26 +2598,8 @@ export default [
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: 'SpaceDecentral',
@@ -3146,17 +2608,23 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
 		id: 63,
-		podcasts: [],
+		podcasts: [
+			{
+				title: 'How Melon Could Make Asset Management Easier',
+				url: 'https://unchainedpodcast.com/how-melon-could-make-asset-management-easier/',
+				date: '05/03/2019'
+			},
+			{
+				title: 'Unleashing Melon into the wild with Jenna Zenk',
+				url: 'https://www.zeroknowledge.fm/64',
+				date: '13/02/2019'
+			}
+		],
 		title: 'Melon',
 		subtitle: '',
 		status: '',
@@ -3166,26 +2634,8 @@ export default [
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: 'https://github.com/melonproject/protocol',
 			twitter: 'melonprotocol',
@@ -3197,7 +2647,8 @@ export default [
 		articles: [
 			{
 				title: `Melon will run its decentralized governance on Aragon`,
-				url: `https://medium.com/melonprotocol/melon-will-run-its-decentralized-governance-on-aragon-9f7935693720`
+				url: `https://medium.com/melonprotocol/melon-will-run-its-decentralized-governance-on-aragon-9f7935693720`,
+				date: '08/02/2019'
 			}
 		],
 		documents: []
@@ -3214,26 +2665,8 @@ export default [
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -3242,12 +2675,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -3263,26 +2691,8 @@ export default [
 		blockchain: '-',
 		framework: '-',
 		dapp: 'https://mainnet.aragon.org/#/openesq/',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: 'OpenESQ',
@@ -3291,12 +2701,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: [],
 		email: 'info@openesq.tech',
 		team: [
@@ -3326,26 +2731,8 @@ export default [
 		contractProof: ``,
 		blockchain: 'Ethereum',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: 'PoolTogether_',
@@ -3354,12 +2741,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -3374,26 +2756,8 @@ export default [
 		contractProof: ``,
 		blockchain: 'Ethereum',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -3402,12 +2766,7 @@ export default [
 			reddit: '',
 			discord: '6aGhs6v',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -3422,18 +2781,7 @@ export default [
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
+		contracts: [],
 		audits: [
 			{
 				auditor: '',
@@ -3450,12 +2798,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -3470,26 +2813,8 @@ export default [
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: '',
@@ -3498,12 +2823,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -3518,26 +2838,8 @@ export default [
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: 'autarklabs',
@@ -3546,12 +2848,7 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
@@ -3566,26 +2863,8 @@ export default [
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: 'AragonBlackTeam',
@@ -3594,18 +2873,24 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 
 	{
 		id: 72,
-		podcasts: [],
+		podcasts: [
+			{
+				title: '#22 – AdChain',
+				url: 'https://podtail.com/en/podcast/bitcoin-blockchain-and-crypto-podcast/-22-adchain/',
+				date: '16/02/2018'
+			},
+			{
+				title: '#18 Mike Goldin, AdChain: Token-Curated Registries, An Emerging Cryptoeconomic Primitive (S1 Ep5)',
+				url: 'https://player.fm/series/grey-mirror-mit-media-labs-digital-currency-initiative-on-technology-society-and-ethics/18-mike-goldin-adchain-token-curated-registries-an-emerging-cryptoeconomic-primitive',
+				date: '27/07/2017'
+			}
+		],
 		title: 'Adchain',
 		subtitle: '',
 		tags: ['TCR'],
@@ -3616,26 +2901,8 @@ export default [
 		contractProof: ``,
 		blockchain: 'Ethereum',
 		framework: 'Custom',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
-		audits: [
-			{
-				auditor: '',
-				auditorWebsite: '',
-				auditUrl: '',
-				auditDate: ""
-			}
-		],
+		contracts: [],
+		audits: [],
 		social: {
 			github: '',
 			twitter: 'ad_chain',
@@ -3644,16 +2911,11 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
-			{
-				title: ``,
-				url: ``
-			}
-		],
+		articles: [],
 		documents: []
 	},
 	{
-		id: 0,
+		id: 73,
 		podcasts: [],
 		title: 'KoalaDAO',
 		subtitle: '',
@@ -3664,18 +2926,7 @@ export default [
 		contractProof: ``,
 		blockchain: '-',
 		framework: '-',
-		contracts: [
-			{
-				name: '',
-				address: ``,
-				description: ``
-			},
-			{
-				name: '',
-				address: ``,
-				description: ''
-			}
-		],
+		contracts: [],
 		audits: [
 			{
 				auditor: '',
@@ -3692,12 +2943,51 @@ export default [
 			reddit: '',
 			discord: '',
 		},
-		articles: [
+		articles: [],
+		documents: []
+	},
+	{
+		id: 74,
+		podcasts: [],
+		title: 'Consoc.io',
+		subtitle: 'Union of Societies for Peace and Solidarity',
+		status: '',
+		image: 'consocio.jpg',
+		description: '',
+		website: `https://consoc.io/`,
+		contractProof: ``,
+		blockchain: '-',
+		framework: '-',
+		mail: 'info@consoc.io',
+		contracts: [
 			{
-				title: ``,
-				url: ``
+				name: '',
+				address: ``,
+				description: ``
+			},
+			{
+				name: '',
+				address: ``,
+				description: ''
 			}
 		],
+		audits: [
+			{
+				auditor: '',
+				auditorWebsite: '',
+				auditUrl: '',
+				auditDate: ""
+			}
+		],
+		social: {
+			github: '',
+			twitter: '',
+			medium: '',
+			telegram: '',
+			reddit: '',
+			discord: '',
+		},
+		articles: [],
 		documents: []
 	},
 ]
